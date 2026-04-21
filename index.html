@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIA Training — Entraînement au Brevet d'Initiation Aéronautique</title>
+  <meta name="description" content="Entraînez-vous au BIA avec les annales depuis 2015. QCM par thème, mode révision, corrections pédagogiques.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a class="logo" href="index.html" aria-label="BIA Training — Accueil">
+      <span class="logo-icon" aria-hidden="true">✈️</span>
+      BIA <span>Training</span>
+    </a>
+    <nav class="header-nav" aria-label="Navigation principale">
+      <a href="index.html" class="btn-nav">🏠 Accueil</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page-main" id="main-content">
+
+  <section class="hero" aria-labelledby="hero-title">
+    <h1 id="hero-title">Préparez votre <span>BIA</span></h1>
+    <p>Entraînez-vous avec les annales officielles depuis 2015. Choisissez un thème et commencez un quiz de 20 questions ou révisez l'ensemble des questions.</p>
+  </section>
+
+  <h2 class="section-title">📚 Choisissez un thème</h2>
+
+  <div class="themes-grid" id="themes-grid" role="list" aria-label="Thèmes disponibles">
+    <div class="empty-state" id="loading-state">
+      <div class="icon" aria-hidden="true">⏳</div>
+      <p>Chargement des questions…</p>
+    </div>
+  </div>
+
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <p>BIA Training — Données issues des annales officielles · <a href="https://annales-bia.fr/" target="_blank" rel="noopener">annales-bia.fr</a></p>
+</footer>
+
+<script src="data/questions.js"></script>
+<script src="js/data.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
