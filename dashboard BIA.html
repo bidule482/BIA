@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIA Monitor — Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script>
+    tailwind.config = { darkMode: 'class' }
+  </script>
+  <style>
+    * { box-sizing: border-box; }
+
+    /* Status dot */
+    .status-dot {
+      width: 13px; height: 13px;
+      border-radius: 50%;
+      display: inline-block;
+      flex-shrink: 0;
+    }
+    .status-dot.up {
+      background: #16a34a;
+      box-shadow: 0 0 0 0 rgba(22,163,74,0.5);
+      animation: pulse-green 2s infinite;
+    }
+    .status-dot.down {
+      background: #dc2626;
+      box-shadow: 0 0 0 0 rgba(220,38,38,0.5);
+      animation: pulse-red 2s infinite;
+    }
+    .status-dot.checking {
+      background: #d97706;
+      animation: blink 1s ease-in-out infinite;
+    }
+
+    @keyframes pulse-green {
+      0%   { box-shadow: 0 0 0 0 rgba(22,163,74,0.5); }
+      70%  { box-shadow: 0 0 0 10px rgba(22,163,74,0); }
+      100% { box-shadow: 0 0 0 0 rgba(22,163,74,0); }
+    }
+    @keyframes pulse-red {
+      0%   { box-shadow: 0 0 0 0 rgba(220,38,38,0.5); }
+      70%  { box-shadow: 0 0 0 10px rgba(220,38,38,0); }
+      100% { box-shadow: 0 0 0 0 rgba(220,38,38,0); }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+    .spinning { animation: spin 1s linear infinite; display: inline-block; }
+
+    /* Skeleton loader */
+    .skeleton {
+      background: linear-gradient(90deg, #1f2937 25%, #374151 50%, #1f2937 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+      border-radius: 6px;
+    }
+    html:not(.dark) .skeleton {
+      background: linear-gradient(90deg, #e5e7eb 25%, #f3f4f6 50%, #e5e7eb 75%);
+      background-size: 200% 100%;
+    }
+    @keyframes shimmer {
+      0%   { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+
+    /* SVG gauges */
+    .gauge-circle { transition: stroke-dashoffset 0.8s cubic-bezier(0.4,0,0.2,1); }
+
+    /* Card hover */
+    .card { transition: border-color 0.2s; }
+    .card:hover { border-color: rgba(59,130,246,0.4); }
+
+    /* Stat tile */
+    .stat-tile {
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      text-align: center;
+      padding: 0.625rem;
+      border-radius: 0.75rem;
+    }
+
+    /* Print */
+    @media print {
+      .no-print { display: none !important; }
+      html, body { background: white !important; color: black !important; }
+      .card {
+        border: 1px solid #d1d5db !important;
+        background: white !important;
+        break-inside: avoid;
+        margin-bottom: 1rem;
+      }
+      .card * { color: black !important; }
+      main { padding: 0 !important; }
+      #print-header { display: block !important; }
+    }
+    #print-header { display: none; }
+  </style>
+</head>
+
+<body class="bg-gray-950 dark:bg-gray-950 text-gray-100 min-h-screen transition-colors duration-300">
+
+  <!-- ══════════════════════ HEADER ══════════════════════ -->
+  <header class="bg-gray-900 border-b border-gray-800 sticky top-0 z-20 no-print shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex flex-wrap items-center gap-3">
+
+      <!-- Title -->
+      <div class="flex-1 min-w-0">
+        <h1 class="text-lg font-bold text-white flex items-center gap-2">
+          <span class="text-xl">🛩️</span>
+          BIA Monitor
+        </h1>
+        <p class="text-xs text-gray-500 truncate mt-0.5">
+          <a href="https://bidule482.github.io/BIA/" target="_blank"
+             class="hover:text-blue-400 transition-colors">bidule482.github.io/BIA</a>
+          &nbsp;·&nbsp;
+          <a href="https://github.com/bidule482/BIA" target="_blank"
+             class="hover:text-blue-400 transition-colors">github.com/bidule482/BIA</a>
+        </p>
+      </div>
+
+      <!-- Last refresh -->
+      <div class="text-xs text-gray-500 hidden sm:block">
+        Actualisé :&nbsp;<span id="last-refresh" class="text-gray-300">—</span>
+      </div>
+
+      <!-- Buttons -->
+      <div class="flex items-center gap-2">
+        <button onclick="refreshAll()"
+          class="no-print flex items-center gap-1.5 px-3 py-1.5 bg-blue-600 hover:bg-blue-500 active:bg-blue-700 text-white rounded-lg text-sm font-medium transition-colors">
+          <span id="refresh-icon">🔄</span> Tout rafraîchir
+        </button>
+        <button onclick="window.print()" title="Exporter en PDF"
+          class="no-print px-2.5 py-1.5 bg-gray-700 hover:bg-gray-600 text-white rounded-lg text-sm transition-colors">
+          🖨️
+        </button>
+        <button onclick="toggleDark()" id="dark-btn" title="Changer le thème"
+          class="no-print px-2.5 py-1.5 bg-gray-700 hover:bg-gray-600 text-white rounded-lg text-sm transition-colors">
+          ☀️
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Print-only header -->
+  <div id="print-header" class="p-6 pb-2">
+    <h1 class="text-2xl font-bold">BIA Monitor — Dashboard</h1>
+    <p class="text-sm text-gray-500">Généré le <span id="print-date"></span></p>
+    <p class="text-sm text-gray-500">
+      Site : https://bidule482.github.io/BIA/ &nbsp;·&nbsp;
+      Dépôt : https://github.com/bidule482/BIA
+    </p>
+  </div>
+
+  <!-- ══════════════════════ MAIN ══════════════════════ -->
+  <main class="max-w-7xl mx-auto px-4 py-6">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+      <!-- ── Card 1 : Statut du site ── -->
+      <div class="card bg-gray-900 rounded-2xl p-6 border border-gray-800">
+        <div class="flex items-center justify-between mb-5">
+          <h2 class="text-base font-semibold text-white flex items-center gap-2">
+            <span>🌐</span> Statut du site
+          </h2>
+          <button onclick="checkStatus()"
+            class="no-print text-xs px-2.5 py-1 bg-gray-700 hover:bg-gray-600 rounded-lg transition-colors text-gray-300">
+            Vérifier
+          </button>
+        </div>
+
+        <!-- Status row -->
+        <div class="flex items-center gap-4 mb-3">
+          <div class="flex items-center gap-2.5">
+            <span class="status-dot checking" id="status-dot"></span>
+            <span class="text-2xl font-bold text-yellow-400" id="status-text">Vérification…</span>
+          </div>
+          <div class="ml-auto text-right">
+            <div class="text-3xl font-mono font-bold text-blue-400" id="response-time">—</div>
+            <div class="text-xs text-gray-500">ms</div>
+          </div>
+        </div>
+
+        <div class="text-xs text-gray-500 mb-5" id="status-timestamp">
+          Dernier check : —
+        </div>
+
+        <!-- Sparkline -->
+        <div>
+          <div class="flex items-center justify-between mb-1.5">
+            <span class="text-xs text-gray-500">Temps de réponse — 10 dernières mesures</span>
+            <span class="text-xs text-gray-600" id="sparkline-avg">moy. —</span>
+          </div>
+          <div style="height:70px; position:relative;">
+            <canvas id="sparkline-chart"></canvas>
+          </div>
+          <div class="text-xs text-gray-600 mt-1 text-right" id="sparkline-hint">
+            Les données sont conservées pendant cette session.
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Card 2 : PageSpeed Insights ── -->
+      <div class="card bg-gray-900 rounded-2xl p-6 border border-gray-800">
+        <div class="flex items-center justify-between mb-5">
+          <h2 class="text-base font-semibold text-white flex items-center gap-2">
+            <span>⚡</span> Performance (PageSpeed)
+          </h2>
+          <div class="no-print flex bg-gray-800 rounded-lg p-0.5 gap-0.5">
+            <button id="btn-mobile" onclick="switchPSI('mobile')"
+              class="px-2.5 py-1 text-xs rounded-md bg-blue-600 text-white transition-colors font-medium">
+              📱 Mobile
+            </button>
+            <button id="btn-desktop" onclick="switchPSI('desktop')"
+              class="px-2.5 py-1 text-xs rounded-md text-gray-400 hover:text-white transition-colors">
+              🖥️ Desktop
+            </button>
+          </div>
+        </div>
+
+        <!-- PSI content (replaced by JS) -->
+        <div id="psi-content">
+          <div class="grid grid-cols-4 gap-3 mb-4">
+            <div class="flex flex-col items-center gap-2">
+              <div class="skeleton rounded-full" style="width:72px;height:72px;"></div>
+              <div class="skeleton h-3 w-14"></div>
+            </div>
+            <div class="flex flex-col items-center gap-2">
+              <div class="skeleton rounded-full" style="width:72px;height:72px;"></div>
+              <div class="skeleton h-3 w-14"></div>
+            </div>
+            <div class="flex flex-col items-center gap-2">
+              <div class="skeleton rounded-full" style="width:72px;height:72px;"></div>
+              <div class="skeleton h-3 w-14"></div>
+            </div>
+            <div class="flex flex-col items-center gap-2">
+              <div class="skeleton rounded-full" style="width:72px;height:72px;"></div>
+              <div class="skeleton h-3 w-14"></div>
+            </div>
+          </div>
+          <div class="skeleton h-28 w-full rounded-xl"></div>
+        </div>
+      </div>
+
+      <!-- ── Card 3 : Activité GitHub ── -->
+      <div class="card bg-gray-900 rounded-2xl p-6 border border-gray-800">
+        <div class="flex items-center justify-between mb-5">
+          <h2 class="text-base font-semibold text-white flex items-center gap-2">
+            <span>🐙</span> Activité GitHub
+          </h2>
+          <a href="https://github.com/bidule482/BIA" target="_blank"
+             class="text-xs text-blue-400 hover:text-blue-300 transition-colors">
+            Voir le dépôt →
+          </a>
+        </div>
+
+        <!-- Repo stats tiles -->
+        <div id="repo-stats" class="grid grid-cols-4 gap-2 mb-4">
+          <div class="skeleton h-14 rounded-xl"></div>
+          <div class="skeleton h-14 rounded-xl"></div>
+          <div class="skeleton h-14 rounded-xl"></div>
+          <div class="skeleton h-14 rounded-xl"></div>
+        </div>
+
+        <!-- Last deploy -->
+        <div id="deploy-status" class="mb-4">
+          <div class="skeleton h-10 rounded-xl"></div>
+        </div>
+
+        <!-- Commits -->
+        <div>
+          <h3 class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">
+            Derniers commits
+          </h3>
+          <div id="commits-list" class="space-y-1.5">
+            <div class="skeleton h-10 rounded-lg"></div>
+            <div class="skeleton h-10 rounded-lg"></div>
+            <div class="skeleton h-10 rounded-lg"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Card 4 : Trafic & Visiteurs ── -->
+      <div class="card bg-gray-900 rounded-2xl p-6 border border-gray-800">
+        <div class="flex items-center justify-between mb-5">
+          <h2 class="text-base font-semibold text-white flex items-center gap-2">
+            <span>📊</span> Trafic &amp; Visiteurs
+          </h2>
+        </div>
+
+        <!-- Hits counter -->
+        <div class="p-4 bg-gray-800 rounded-xl mb-4">
+          <div class="text-xs text-gray-500 mb-2 font-medium">Compteur de vues cumulées (hits.sh)</div>
+          <div class="flex items-center gap-3 mb-2">
+            <img
+              src="https://hits.sh/bidule482.github.io/BIA.svg?style=flat-square&color=4ade80&labelColor=1f2937&label=vues"
+              alt="Compteur de vues"
+              class="h-6"
+              onerror="this.style.display='none';document.getElementById('hits-error').style.display='flex';"
+            />
+            <span id="hits-error" style="display:none"
+              class="text-xs text-red-400 items-center gap-1">
+              ❌ Compteur temporairement indisponible
+            </span>
+          </div>
+          <p class="text-xs text-gray-500 leading-relaxed">
+            ⓘ Ce badge compte les vues du <em>dashboard</em>. Pour compter les visites du site,
+            intégrez ce badge dans <code class="text-xs bg-gray-700 px-1 py-0.5 rounded text-gray-300">index.html</code> :
+            <br>
+            <code class="text-xs text-blue-400 break-all">
+              &lt;img src="https://hits.sh/bidule482.github.io/BIA.svg" style="display:none"/&gt;
+            </code>
+          </p>
+        </div>
+
+        <!-- Analytics detection -->
+        <div id="analytics-section" class="mb-4">
+          <div class="skeleton h-24 rounded-xl"></div>
+        </div>
+
+        <!-- GitHub note -->
+        <div class="p-3 bg-gray-800/60 rounded-xl border border-gray-700/50">
+          <div class="text-xs text-gray-500 mb-1">📈 Note — Statistiques natives GitHub Pages</div>
+          <p class="text-xs text-gray-400 leading-relaxed">
+            GitHub Pages ne fournit pas d'API de trafic publique.
+            Pour des données précises, ajoutez
+            <a href="https://plausible.io" target="_blank" class="text-blue-400 hover:underline">Plausible</a>
+            ou
+            <a href="https://umami.is" target="_blank" class="text-blue-400 hover:underline">Umami</a>
+            à votre site (RGPD-friendly, sans cookies).
+          </p>
+        </div>
+      </div>
+
+    </div><!-- /grid -->
+  </main>
+
+  <!-- ══════════════════════ SCRIPT ══════════════════════ -->
+  <script>
+  // ─────────────────────── STATE ───────────────────────
+  let responseHistory = [];
+  try {
+    responseHistory = JSON.parse(sessionStorage.getItem('bia_resp_hist') || '[]');
+  } catch(_) {}
+
+  let psiCache = {};
+  let currentStrategy = 'mobile';
+  let sparkChart = null;
+  let isDark = true;
+  let isRefreshing = false;
+
+  // ─────────────────────── UTILS ───────────────────────
+  function fmtDate(d) {
+    return new Date(d).toLocaleString('fr-FR', {
+      day: '2-digit', month: '2-digit', year: 'numeric',
+      hour: '2-digit', minute: '2-digit', second: '2-digit'
+    });
+  }
+
+  function relTime(dateStr) {
+    const diff = Date.now() - new Date(dateStr).getTime();
+    const m = Math.floor(diff / 60000);
+    const h = Math.floor(m / 60);
+    const d = Math.floor(h / 24);
+    if (d > 0)  return `il y a ${d} jour${d > 1 ? 's' : ''}`;
+    if (h > 0)  return `il y a ${h}h`;
+    if (m > 0)  return `il y a ${m} min`;
+    return 'à l\'instant';
+  }
+
+  function scoreColor(s) {
+    if (s >= 90) return '#16a34a';
+    if (s >= 50) return '#d97706';
+    return '#dc2626';
+  }
+
+  function scoreLabel(s) {
+    if (s >= 90) return 'Excellent';
+    if (s >= 50) return 'Moyen';
+    return 'Faible';
+  }
+
+  function sizeLabel(kb) {
+    return kb >= 1024 ? (kb / 1024).toFixed(1) + ' Mo' : kb + ' Ko';
+  }
+
+  function escHtml(s) {
+    return String(s)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // ─────────────────────── SVG GAUGE ───────────────────────
+  function makeGauge(score, label) {
+    const r = 30, cx = 40, cy = 40;
+    const circ = 2 * Math.PI * r;
+    const offset = circ - (score / 100) * circ;
+    const color  = scoreColor(score);
+    const num    = Math.round(score);
+
+    return `
+      <div class="flex flex-col items-center gap-1.5">
+        <svg width="76" height="76" viewBox="0 0 80 80">
+          <circle cx="${cx}" cy="${cy}" r="${r}" fill="none"
+            stroke="#374151" stroke-width="7"/>
+          <circle cx="${cx}" cy="${cy}" r="${r}" fill="none"
+            stroke="${color}" stroke-width="7"
+            stroke-dasharray="${circ.toFixed(2)}"
+            stroke-dashoffset="${offset.toFixed(2)}"
+            stroke-linecap="round"
+            transform="rotate(-90 ${cx} ${cy})"
+            class="gauge-circle"/>
+          <text x="${cx}" y="${cy + 6}" text-anchor="middle"
+            font-size="15" font-weight="700" fill="${color}"
+            font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">${num}</text>
+        </svg>
+        <span class="text-xs text-gray-400 text-center leading-tight">${label}</span>
+      </div>`;
+  }
+
+  // ─────────────────────── CWV ROW ───────────────────────
+  function cwvRow(label, rawVal, unit, thresholds) {
+    if (rawVal === null || rawVal === undefined || isNaN(rawVal)) {
+      return `
+        <div class="flex justify-between items-center py-1.5 border-b border-gray-800 last:border-0">
+          <span class="text-xs text-gray-400">${label}</span>
+          <span class="text-xs text-gray-600">N/A</span>
+        </div>`;
+    }
+
+    const val = parseFloat(rawVal);
+    let cls = 'text-green-400';
+    if (thresholds) {
+      if (val > thresholds.bad)  cls = 'text-red-400';
+      else if (val > thresholds.good) cls = 'text-yellow-400';
+    }
+
+    let display;
+    if (unit === 'ms')      display = Math.round(val) + ' ms';
+    else if (unit === 's')  display = val.toFixed(2) + ' s';
+    else                    display = val.toFixed(3);  // CLS
+
+    return `
+      <div class="flex justify-between items-center py-1.5 border-b border-gray-800 last:border-0">
+        <span class="text-xs text-gray-400">${label}</span>
+        <span class="text-xs font-mono font-semibold ${cls}">${display}</span>
+      </div>`;
+  }
+
+  // ─────────────────────── SPARKLINE ───────────────────────
+  function initSparkline() {
+    const ctx = document.getElementById('sparkline-chart').getContext('2d');
+    const data = responseHistory.slice(-10);
+
+    sparkChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: data.map(() => ''),
+        datasets: [{
+          data: data.map(r => r.ms),
+          borderColor: '#3b82f6',
+          backgroundColor: 'rgba(59,130,246,0.12)',
+          borderWidth: 2,
+          pointRadius: data.map((_, i) => i === data.length - 1 ? 4 : 2),
+          pointBackgroundColor: data.map(r => r.error ? '#dc2626' : '#3b82f6'),
+          tension: 0.4,
+          fill: true
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: { duration: 400 },
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              title: (items) => {
+                const idx = items[0].dataIndex;
+                const offset = Math.max(0, responseHistory.length - 10);
+                return responseHistory[offset + idx]?.time || '';
+              },
+              label: (ctx) => ctx.raw !== null ? `${ctx.raw} ms` : 'Erreur'
+            }
+          }
+        },
+        scales: {
+          x: { display: false },
+          y: {
+            display: true,
+            grid: { color: 'rgba(75,85,99,0.25)' },
+            ticks: {
+              color: '#6b7280',
+              font: { size: 10 },
+              maxTicksLimit: 3,
+              callback: v => v + ' ms'
+            },
+            beginAtZero: false
+          }
+        }
+      }
+    });
+  }
+
+  function updateSparkline() {
+    if (!sparkChart) return;
+    const data = responseHistory.slice(-10);
+    sparkChart.data.labels = data.map(() => '');
+    sparkChart.data.datasets[0].data = data.map(r => r.ms);
+    sparkChart.data.datasets[0].pointBackgroundColor = data.map(r => r.error ? '#dc2626' : '#3b82f6');
+    sparkChart.data.datasets[0].pointRadius = data.map((_, i) => i === data.length - 1 ? 4 : 2);
+    sparkChart.update();
+
+    const validData = data.filter(r => r.ms !== null);
+    if (validData.length > 0) {
+      const avg = Math.round(validData.reduce((s, r) => s + r.ms, 0) / validData.length);
+      document.getElementById('sparkline-avg').textContent = `moy. ${avg} ms`;
+    }
+  }
+
+  // ─────────────────────── SITE STATUS ───────────────────────
+  async function checkStatus() {
+    const dot  = document.getElementById('status-dot');
+    const text = document.getElementById('status-text');
+    const rtel = document.getElementById('response-time');
+    const tsel = document.getElementById('status-timestamp');
+
+    dot.className = 'status-dot checking';
+    text.textContent = 'Vérification…';
+    text.className = 'text-2xl font-bold text-yellow-400';
+    rtel.textContent = '…';
+
+    const t0 = performance.now();
+    try {
+      await fetch('https://bidule482.github.io/BIA/', {
+        mode: 'no-cors',
+        cache: 'no-store'
+      });
+      const ms = Math.round(performance.now() - t0);
+
+      dot.className = 'status-dot up';
+      text.textContent = 'EN LIGNE';
+      text.className = 'text-2xl font-bold text-green-400';
+
+      const rtColor = ms < 500 ? 'text-green-400' : ms < 1500 ? 'text-yellow-400' : 'text-red-400';
+      rtel.textContent = ms;
+      rtel.className = `text-3xl font-mono font-bold ${rtColor}`;
+
+      responseHistory.push({ ms, time: fmtDate(new Date()) });
+    } catch(e) {
+      const ms = Math.round(performance.now() - t0);
+      dot.className = 'status-dot down';
+      text.textContent = 'HORS LIGNE';
+      text.className = 'text-2xl font-bold text-red-400';
+      rtel.textContent = '—';
+      rtel.className = 'text-3xl font-mono font-bold text-red-400';
+
+      responseHistory.push({ ms: null, time: fmtDate(new Date()), error: true });
+    }
+
+    if (responseHistory.length > 50) responseHistory = responseHistory.slice(-50);
+    try { sessionStorage.setItem('bia_resp_hist', JSON.stringify(responseHistory)); } catch(_) {}
+
+    tsel.textContent = 'Dernier check : ' + fmtDate(new Date());
+    updateSparkline();
+  }
+
+  // ─────────────────────── PAGESPEED ───────────────────────
+  async function fetchPSI(strategy) {
+    const now = Date.now();
+    if (psiCache[strategy] && (now - psiCache[strategy].ts) < 5 * 60 * 1000) {
+      return { data: psiCache[strategy].data, cached: true };
+    }
+    const url = `https://www.googleapis.com/pagespeedonline/v5/runPagespeed`
+      + `?url=https://bidule482.github.io/BIA/&strategy=${strategy}`;
+    const res = await fetch(url);
+    if (!res.ok) {
+      const errData = await res.json().catch(() => ({}));
+      throw new Error(errData?.error?.message || `Erreur HTTP ${res.status}`);
+    }
+    const data = await res.json();
+    psiCache[strategy] = { data, ts: now };
+    return { data, cached: false };
+  }
+
+  async function loadPSI(strategy) {
+    const el = document.getElementById('psi-content');
+
+    el.innerHTML = `
+      <div class="grid grid-cols-4 gap-3 mb-4">
+        ${Array(4).fill(0).map(() => `
+          <div class="flex flex-col items-center gap-2">
+            <div class="skeleton rounded-full" style="width:72px;height:72px;"></div>
+            <div class="skeleton h-3 w-14"></div>
+          </div>`).join('')}
+      </div>
+      <div class="skeleton h-28 w-full rounded-xl"></div>`;
+
+    try {
+      const { data, cached } = await fetchPSI(strategy);
+      const cats   = data.lighthouseResult?.categories || {};
+      const audits = data.lighthouseResult?.audits     || {};
+
+      const perf = Math.round((cats['performance']?.score    || 0) * 100);
+      const a11y = Math.round((cats['accessibility']?.score  || 0) * 100);
+      const bp   = Math.round((cats['best-practices']?.score || 0) * 100);
+      const seo  = Math.round((cats['seo']?.score            || 0) * 100);
+
+      // Core Web Vitals raw values
+      const lcpMs  = audits['largest-contentful-paint']?.numericValue;
+      const cls_   = audits['cumulative-layout-shift']?.numericValue;
+      const fcpMs  = audits['first-contentful-paint']?.numericValue;
+      const ttfbMs = audits['server-response-time']?.numericValue;
+      const tbtMs  = audits['total-blocking-time']?.numericValue;
+
+      el.innerHTML = `
+        <div class="grid grid-cols-4 gap-2 mb-4">
+          ${makeGauge(perf, 'Performance')}
+          ${makeGauge(a11y, 'Accessib.')}
+          ${makeGauge(bp,   'Pratiques')}
+          ${makeGauge(seo,  'SEO')}
+        </div>
+        <div class="bg-gray-800 rounded-xl p-3 mb-2">
+          <div class="text-xs text-gray-500 font-semibold mb-1.5 uppercase tracking-wide">
+            Core Web Vitals
+          </div>
+          ${cwvRow('LCP',  lcpMs  != null ? lcpMs/1000  : null, 's',  {good:2.5, bad:4.0})}
+          ${cwvRow('FCP',  fcpMs  != null ? fcpMs/1000  : null, 's',  {good:1.8, bad:3.0})}
+          ${cwvRow('CLS',  cls_   != null ? cls_        : null, '',   {good:0.1, bad:0.25})}
+          ${cwvRow('TTFB', ttfbMs != null ? ttfbMs/1000 : null, 's',  {good:0.8, bad:1.8})}
+          ${cwvRow('TBT',  tbtMs  != null ? tbtMs       : null, 'ms', {good:200, bad:600})}
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="text-xs ${cached ? 'text-gray-600' : 'text-transparent'}">
+            ℹ️ Résultat en cache (valide 5 min)
+          </span>
+          <a href="https://pagespeed.web.dev/analysis?url=https://bidule482.github.io/BIA/"
+             target="_blank"
+             class="text-xs text-blue-500 hover:underline">
+            Rapport complet →
+          </a>
+        </div>`;
+
+    } catch(e) {
+      el.innerHTML = `
+        <div class="flex gap-3 p-4 bg-red-950/40 rounded-xl border border-red-900">
+          <span class="text-xl flex-shrink-0">❌</span>
+          <div>
+            <div class="text-sm font-semibold text-red-400 mb-0.5">Erreur PageSpeed Insights</div>
+            <div class="text-xs text-red-500">${escHtml(e.message)}</div>
+            <div class="text-xs text-gray-500 mt-1.5">
+              L'API Google est gratuite pour un usage modéré. En cas de dépassement du quota,
+              attendez quelques minutes avant de réessayer.
+            </div>
+          </div>
+        </div>`;
+    }
+  }
+
+  function switchPSI(strategy) {
+    currentStrategy = strategy;
+    const mobile  = document.getElementById('btn-mobile');
+    const desktop = document.getElementById('btn-desktop');
+    mobile.className  = `px-2.5 py-1 text-xs rounded-md transition-colors font-medium `
+      + (strategy === 'mobile' ? 'bg-blue-600 text-white' : 'text-gray-400 hover:text-white');
+    desktop.className = `px-2.5 py-1 text-xs rounded-md transition-colors font-medium `
+      + (strategy === 'desktop' ? 'bg-blue-600 text-white' : 'text-gray-400 hover:text-white');
+    loadPSI(strategy);
+  }
+
+  // ─────────────────────── GITHUB ───────────────────────
+  async function loadGitHub() {
+    const base = 'https://api.github.com/repos/bidule482/BIA';
+
+    const [repoR, commitsR, runsR, issuesR] = await Promise.allSettled([
+      fetch(base,                                                     { headers: ghHeaders() }),
+      fetch(`${base}/commits?per_page=5`,                            { headers: ghHeaders() }),
+      fetch(`${base}/actions/runs?per_page=1`,                       { headers: ghHeaders() }),
+      fetch(`${base}/issues?state=open&per_page=100`,                { headers: ghHeaders() })
+    ]);
+
+    // ── Repo stats ──
+    const statsEl = document.getElementById('repo-stats');
+    if (repoR.status === 'fulfilled' && repoR.value.ok) {
+      const r = await repoR.value.json();
+      statsEl.innerHTML = `
+        <div class="stat-tile bg-gray-800 rounded-xl">
+          <div class="text-lg">⭐</div>
+          <div class="text-base font-bold text-white">${r.stargazers_count}</div>
+          <div class="text-xs text-gray-500">Étoiles</div>
+        </div>
+        <div class="stat-tile bg-gray-800 rounded-xl">
+          <div class="text-lg">🍴</div>
+          <div class="text-base font-bold text-white">${r.forks_count}</div>
+          <div class="text-xs text-gray-500">Forks</div>
+        </div>
+        <div class="stat-tile bg-gray-800 rounded-xl">
+          <div class="text-lg">💻</div>
+          <div class="text-base font-bold text-white truncate w-full text-center" title="${escHtml(r.language||'—')}">
+            ${escHtml(r.language || '—')}
+          </div>
+          <div class="text-xs text-gray-500">Langage</div>
+        </div>
+        <div class="stat-tile bg-gray-800 rounded-xl">
+          <div class="text-lg">💾</div>
+          <div class="text-base font-bold text-white">${sizeLabel(r.size)}</div>
+          <div class="text-xs text-gray-500">Taille</div>
+        </div>`;
+    } else {
+      const code = repoR.status === 'fulfilled' ? repoR.value.status : '?';
+      statsEl.innerHTML = `
+        <div class="col-span-4 text-xs text-red-400 bg-red-950/30 p-3 rounded-xl border border-red-900">
+          ❌ Stats du dépôt indisponibles (HTTP ${code})
+          ${code == 403 ? '— Limite API atteinte (60 req/h sans token).' : ''}
+        </div>`;
+    }
+
+    // ── Deploy status ──
+    const deployEl = document.getElementById('deploy-status');
+    if (runsR.status === 'fulfilled' && runsR.value.ok) {
+      const runs = await runsR.value.json();
+      const run  = runs.workflow_runs?.[0];
+      if (run) {
+        const conc = run.conclusion || run.status;
+        const map = {
+          success:     { icon: '✅', cls: 'text-green-400',  label: 'Déploiement réussi' },
+          failure:     { icon: '❌', cls: 'text-red-400',    label: 'Déploiement échoué' },
+          in_progress: { icon: '🔄', cls: 'text-yellow-400', label: 'Déploiement en cours' },
+          cancelled:   { icon: '⛔', cls: 'text-gray-400',   label: 'Déploiement annulé' },
+          skipped:     { icon: '⏭️', cls: 'text-gray-400',   label: 'Ignoré' },
+          queued:      { icon: '⏳', cls: 'text-gray-400',   label: 'En attente' },
+        };
+        const s = map[conc] || { icon: '❓', cls: 'text-gray-400', label: conc };
+        deployEl.innerHTML = `
+          <div class="flex items-center gap-2.5 p-2.5 bg-gray-800 rounded-xl">
+            <span class="text-xl">${s.icon}</span>
+            <div class="flex-1 min-w-0">
+              <div class="text-xs font-semibold ${s.cls}">${s.label}</div>
+              <div class="text-xs text-gray-500 truncate">${escHtml(run.name || '')} · ${relTime(run.updated_at)}</div>
+            </div>
+            <a href="${run.html_url}" target="_blank"
+               class="text-xs text-blue-400 hover:text-blue-300 transition-colors flex-shrink-0">
+              Voir →
+            </a>
+          </div>`;
+      } else {
+        deployEl.innerHTML = `
+          <div class="text-xs text-gray-500 p-2.5 bg-gray-800 rounded-xl">
+            Aucun workflow GitHub Actions trouvé.
+          </div>`;
+      }
+    } else {
+      deployEl.innerHTML = `
+        <div class="text-xs text-yellow-600 p-2.5 bg-gray-800 rounded-xl">
+          ⚠️ Déploiements GitHub Actions non accessibles
+          (Actions désactivées ou non configurées sur ce dépôt).
+        </div>`;
+    }
+
+    // ── Commits ──
+    const commEl = document.getElementById('commits-list');
+    if (commitsR.status === 'fulfilled' && commitsR.value.ok) {
+      const commits = await commitsR.value.json();
+      if (!Array.isArray(commits) || commits.length === 0) {
+        commEl.innerHTML = `<div class="text-xs text-gray-500">Aucun commit trouvé.</div>`;
+      } else {
+        commEl.innerHTML = commits.map(c => {
+          const msg    = escHtml((c.commit.message || '').split('\n')[0].slice(0, 80));
+          const author = escHtml(c.commit.author?.name || 'Inconnu');
+          const date   = relTime(c.commit.author?.date || c.commit.committer?.date);
+          const sha    = (c.sha || '').slice(0, 7);
+          return `
+            <a href="${c.html_url}" target="_blank"
+               class="flex items-start gap-2.5 p-2 bg-gray-800 hover:bg-gray-750 rounded-lg transition-colors group">
+              <span class="font-mono text-xs text-blue-400 mt-0.5 flex-shrink-0">${sha}</span>
+              <div class="min-w-0 flex-1">
+                <div class="text-xs text-gray-200 truncate group-hover:text-white">${msg}</div>
+                <div class="text-xs text-gray-500">${author} · ${date}</div>
+              </div>
+            </a>`;
+        }).join('');
+      }
+    } else {
+      const code = commitsR.status === 'fulfilled' ? commitsR.value.status : '?';
+      commEl.innerHTML = `
+        <div class="text-xs text-red-400">
+          ❌ Commits indisponibles (HTTP ${code}).
+          ${code == 403 ? 'Limite API atteinte (60 req/h).' : ''}
+        </div>`;
+    }
+  }
+
+  function ghHeaders() {
+    // Ajoutez votre token ici pour passer à 5000 req/h
+    // Exemple : return { Authorization: 'Bearer ghp_votre_token' };
+    return {};
+  }
+
+  // ─────────────────────── ANALYTICS ───────────────────────
+  async function checkAnalytics() {
+    const el = document.getElementById('analytics-section');
+
+    try {
+      const res  = await fetch('https://bidule482.github.io/BIA/', { cache: 'no-store' });
+      const html = await res.text();
+
+      const detected = [];
+      if (/gtag\s*\(|google-analytics\.com|GA_MEASUREMENT_ID|G-[A-Z0-9]+|UA-\d/.test(html))
+        detected.push({ name: 'Google Analytics', icon: '📊', color: 'text-blue-400' });
+      if (html.includes('plausible'))
+        detected.push({ name: 'Plausible Analytics', icon: '📈', color: 'text-green-400' });
+      if (html.includes('umami'))
+        detected.push({ name: 'Umami Analytics', icon: '📉', color: 'text-purple-400' });
+      if (html.includes('fathom'))
+        detected.push({ name: 'Fathom Analytics', icon: '📊', color: 'text-teal-400' });
+      if (/matomo|piwik/.test(html))
+        detected.push({ name: 'Matomo', icon: '📊', color: 'text-orange-400' });
+
+      if (detected.length > 0) {
+        el.innerHTML = `
+          <div class="p-3 bg-green-950/30 rounded-xl border border-green-900">
+            <div class="text-xs font-semibold text-green-400 mb-2">✅ Analytics détectée${detected.length > 1 ? 's' : ''}</div>
+            <div class="space-y-1">
+              ${detected.map(d => `
+                <div class="text-xs ${d.cls} text-gray-300">${d.icon} ${d.name}</div>`).join('')}
+            </div>
+          </div>`;
+      } else {
+        el.innerHTML = `
+          <div class="p-3 bg-yellow-950/30 rounded-xl border border-yellow-900">
+            <div class="text-xs font-semibold text-yellow-400 mb-1.5">⚠️ Aucune analytics détectée</div>
+            <p class="text-xs text-gray-400 mb-2.5 leading-relaxed">
+              Aucun outil de mesure d'audience n'a été trouvé dans le code du site.
+              Ajoutez l'un de ces outils RGPD-friendly (sans cookies) :
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <a href="https://plausible.io/docs/plausible-script" target="_blank"
+                 class="text-xs px-2.5 py-1 bg-blue-950/60 border border-blue-800 text-blue-400 rounded-lg hover:bg-blue-950">
+                📈 Plausible
+              </a>
+              <a href="https://umami.is/docs/getting-started" target="_blank"
+                 class="text-xs px-2.5 py-1 bg-purple-950/60 border border-purple-800 text-purple-400 rounded-lg hover:bg-purple-950">
+                📉 Umami
+              </a>
+              <a href="https://usefathom.com/docs" target="_blank"
+                 class="text-xs px-2.5 py-1 bg-gray-700 border border-gray-600 text-gray-300 rounded-lg hover:bg-gray-600">
+                📊 Fathom
+              </a>
+            </div>
+          </div>`;
+      }
+    } catch(e) {
+      el.innerHTML = `
+        <div class="p-3 bg-gray-800 rounded-xl border border-gray-700">
+          <div class="text-xs font-semibold text-gray-400 mb-1">🔒 Détection indisponible depuis ce contexte</div>
+          <p class="text-xs text-gray-500 leading-relaxed">
+            La vérification des analytics requiert que le dashboard soit hébergé sur GitHub Pages
+            (même domaine). En mode local (<code class="bg-gray-700 px-0.5 rounded">file://</code>),
+            les restrictions CORS empêchent la lecture du HTML du site.
+          </p>
+        </div>`;
+    }
+  }
+
+  // ─────────────────────── DARK MODE ───────────────────────
+  function toggleDark() {
+    isDark = !isDark;
+    document.documentElement.classList.toggle('dark', isDark);
+    document.getElementById('dark-btn').textContent = isDark ? '☀️' : '🌙';
+    // Update skeleton colors (they use dark-based gradients)
+    updateSkeletonTheme();
+  }
+
+  function updateSkeletonTheme() {
+    // Tailwind handles it via `.dark .skeleton` selector
+  }
+
+  // ─────────────────────── GLOBAL REFRESH ───────────────────────
+  async function refreshAll() {
+    if (isRefreshing) return;
+    isRefreshing = true;
+
+    const icon = document.getElementById('refresh-icon');
+    icon.classList.add('spinning');
+    document.getElementById('last-refresh').textContent = '…';
+
+    await Promise.allSettled([
+      checkStatus(),
+      loadPSI(currentStrategy),
+      loadGitHub(),
+      checkAnalytics()
+    ]);
+
+    const now = fmtDate(new Date());
+    document.getElementById('last-refresh').textContent = now;
+    document.getElementById('print-date').textContent   = now;
+    icon.classList.remove('spinning');
+    isRefreshing = false;
+  }
+
+  // ─────────────────────── INIT ───────────────────────
+  document.addEventListener('DOMContentLoaded', () => {
+    initSparkline();
+    refreshAll();
+  });
+  </script>
+</body>
+</html>
