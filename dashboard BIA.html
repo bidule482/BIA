@@ -654,8 +654,10 @@
             <div class="text-sm font-semibold text-red-400 mb-0.5">Erreur PageSpeed Insights</div>
             <div class="text-xs text-red-500">${escHtml(e.message)}</div>
             <div class="text-xs text-gray-500 mt-1.5">
-              L'API Google est gratuite pour un usage modéré. En cas de dépassement du quota,
-              attendez quelques minutes avant de réessayer.
+              Le quota gratuit de l'API Google PageSpeed se réinitialise chaque jour à minuit (heure du Pacifique).
+              Réessayez demain, ou créez une clé API gratuite sur
+              <a href="https://console.cloud.google.com/" target="_blank" class="text-blue-400 hover:underline">Google Cloud Console</a>
+              pour un quota plus élevé.
             </div>
           </div>
         </div>`;
@@ -812,6 +814,8 @@
       const detected = [];
       if (/gtag\s*\(|google-analytics\.com|GA_MEASUREMENT_ID|G-[A-Z0-9]+|UA-\d/.test(html))
         detected.push({ name: 'Google Analytics', icon: '📊', color: 'text-blue-400' });
+      if (html.includes('goatcounter'))
+        detected.push({ name: 'GoatCounter', icon: '🐐', color: 'text-green-400' });
       if (html.includes('plausible'))
         detected.push({ name: 'Plausible Analytics', icon: '📈', color: 'text-green-400' });
       if (html.includes('umami'))
