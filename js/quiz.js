@@ -154,7 +154,7 @@ function renderResults() {
                 Votre réponse : <strong>${given}${q.choices[given] ? " — " + escHtml(q.choices[given]) : ""}</strong><br>
                 ${!ok ? `Bonne réponse : <strong style="color:var(--success)">${q.answer} — ${escHtml(q.choices[q.answer] || "")}</strong>` : ""}
               </p>
-              ${q.explanation ? `<p class="detail-explanation">💡 ${escHtml(q.explanation)}</p>` : ""}
+              ${q.explanation ? `<p class="detail-explanation">💡 ${renderExplanationHtml(q.explanation)}</p>` : ""}
             </div>
           </li>`;
         }).join("")}
@@ -207,4 +207,23 @@ function escHtml(str) {
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
+}
+
+function renderExplanationHtml(str) {
+  if (!str) return "";
+  const imgUrlRe = /(https?:\/\/[^\s)]+?\.(?:jpg|jpeg|png|gif|svg|webp))/gi;
+  const otherUrlRe = /(https?:\/\/[^\s)]+)/gi;
+  const placeholders = [];
+  let work = String(str).replace(imgUrlRe, (m) => {
+    placeholders.push(`<br><img src="${m}" alt="Illustration explication" loading="lazy" style="max-width:100%;max-height:240px;margin-top:.5rem;border-radius:6px;border:1px solid #e5e7eb">`);
+    return ` IMG${placeholders.length - 1} `;
+  });
+  work = work.replace(otherUrlRe, (m) => {
+    placeholders.push(`<a href="${m}" target="_blank" rel="noopener">${m}</a>`);
+    return ` LNK${placeholders.length - 1} `;
+  });
+  let out = escHtml(work);
+  out = out.replace(/ IMG(\d+) /g, (_, i) => placeholders[parseInt(i, 10)]);
+  out = out.replace(/ LNK(\d+) /g, (_, i) => placeholders[parseInt(i, 10)]);
+  return out;
 }

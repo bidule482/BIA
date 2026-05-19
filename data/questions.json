@@ -341,7 +341,7 @@
       "theme": "aerodynamique",
       "year": 2015,
       "question": "Sur la figure 1, le point A est appelé :",
-      "image": null,
+      "image": "data/images/amv2015-q1.gif",
       "choices": {
         "A": "bord de fuite",
         "B": "foyer",
@@ -533,7 +533,7 @@
       "theme": "aerodynamique",
       "year": 2015,
       "question": "Sur la polaire présentée en figure 2, le point C correspond à :",
-      "image": null,
+      "image": "data/images/amv2015-q13.gif",
       "choices": {
         "A": "la traînée minimale",
         "B": "la finesse maximale",
@@ -2533,7 +2533,7 @@
       "theme": "aerodynamique",
       "year": 2016,
       "question": "Sur la polaire représentée en figure 1, le point D représente :",
-      "image": null,
+      "image": "data/images/amv2016-q18.gif",
       "choices": {
         "A": "la traînée minimale",
         "B": "la finesse maximale",
@@ -4501,7 +4501,7 @@
       "theme": "aeronefs",
       "year": 2017,
       "question": "Pour effectuer une rotation autour de l'axe Z (voir la figure 1 de la question précédente) il faut actionner : ⚠️",
-      "image": null,
+      "image": "data/images/cda2017-q1.gif",
       "choices": {
         "A": "les ailerons",
         "B": "la gouverne de profondeur",
@@ -4517,7 +4517,7 @@
       "theme": "aeronefs",
       "year": 2017,
       "question": "La figure 1 représente un avion : ⚠️",
-      "image": null,
+      "image": "data/images/cda2017-q1.gif",
       "choices": {
         "A": "à aile haute, train classique",
         "B": "à aile médiane, train tricycle",
@@ -7685,7 +7685,7 @@
       "theme": "meteorologie",
       "year": 2019,
       "question": "Le phénomène observé est :",
-      "image": null,
+      "image": "data/images/mto2019-q1.gif",
       "choices": {
         "A": "la gelée blanche",
         "B": "la rosée",
@@ -7701,7 +7701,7 @@
       "theme": "meteorologie",
       "year": 2019,
       "question": "Il est possible de conclure que, au cours de cette nuit, au voisinage du sol :",
-      "image": null,
+      "image": "data/images/mto2019-q2.gif",
       "choices": {
         "A": "le taux d'humidité relative a atteint 100%",
         "B": "la température est passée en dessous de 0 °C",
@@ -7717,7 +7717,7 @@
       "theme": "meteorologie",
       "year": 2019,
       "question": "Cette nuit, de la vapeur d'eau a subi un changement d'état qui se nomme :",
-      "image": null,
+      "image": "data/images/mto2019-q3.gif",
       "choices": {
         "A": "cristallisation",
         "B": "évaporation",
@@ -7733,7 +7733,7 @@
       "theme": "meteorologie",
       "year": 2019,
       "question": "D’une manière générale, lorsque le ballon sonde poursuit son ascension dans la troposphère :",
-      "image": null,
+      "image": "data/images/mto2019-q4.gif",
       "choices": {
         "A": "la pression et la température vont diminuer et la densité de l’air va augmenter",
         "B": "la pression, la température et la densité de l’air vont diminuer",
@@ -7749,7 +7749,7 @@
       "theme": "meteorologie",
       "year": 2019,
       "question": "A nos latitudes, le ballon sonde qui a pris la photo se trouve :",
-      "image": null,
+      "image": "data/images/mto2019-q5.gif",
       "choices": {
         "A": "dans la stratosphère",
         "B": "dans la troposphère",
@@ -7765,7 +7765,7 @@
       "theme": "meteorologie",
       "year": 2019,
       "question": "Dans les conditions de l’atmosphère standard, 1000 m au-dessus du ballon (à 5000 m), il faut s’attendre à :",
-      "image": null,
+      "image": "data/images/mto2019-q6.gif",
       "choices": {
         "A": "une température de l’ordre de -7 °C",
         "B": "une température de l’ordre de +6 °C",
@@ -7781,7 +7781,7 @@
       "theme": "meteorologie",
       "year": 2019,
       "question": "A 4000 m, le capteur du ballon sonde relève une température de -1°C. Nous en concluons que l’atmosphère à 4000 m est :",
-      "image": null,
+      "image": "data/images/mto2019-q7.gif",
       "choices": {
         "A": "plus froide que l’atmosphère standard",
         "B": "conforme à l’atmosphère standard",
@@ -7813,7 +7813,7 @@
       "theme": "meteorologie",
       "year": 2019,
       "question": "Un front froid :",
-      "image": null,
+      "image": "data/images/mto2019-q9.gif",
       "choices": {
         "A": "avance plus vite qu’un front chaud",
         "B": "avance à la même vitesse qu’un front chaud",
@@ -7877,7 +7877,7 @@
       "theme": "meteorologie",
       "year": 2019,
       "question": "A l’aide de la carte ci-dessus, il est possible d’affirmer qu’il y a sur la Normandie :",
-      "image": null,
+      "image": "data/images/mto2019-q12.gif",
       "choices": {
         "A": "un anticyclone",
         "B": "un thalweg",
@@ -7893,7 +7893,7 @@
       "theme": "meteorologie",
       "year": 2019,
       "question": "Les courbes fermées représentent : ⚠️",
-      "image": null,
+      "image": "data/images/mto2019-q14.gif",
       "choices": {
         "A": "les lignes d’égale température",
         "B": "les lignes d’égale pression",
@@ -7909,7 +7909,7 @@
       "theme": "meteorologie",
       "year": 2019,
       "question": "L’anticyclone est situé dans la zone : ⚠️",
-      "image": null,
+      "image": "data/images/mto2019-q15.gif",
       "choices": {
         "A": "1",
         "B": "3",
@@ -7925,7 +7925,7 @@
       "theme": "meteorologie",
       "year": 2019,
       "question": "Sur la carte des isobares, la dépression est caractérisée par : ⚠️",
-      "image": null,
+      "image": "data/images/mto2019-q16.gif",
       "choices": {
         "A": "des isobares fermées dont les valeurs de pression augmentent du centre vers l’extérieur",
         "B": "des isobares espacées et mal organisées",
@@ -7941,7 +7941,7 @@
       "theme": "meteorologie",
       "year": 2019,
       "question": "Lorsque les isobares sont très serrées : ⚠️",
-      "image": null,
+      "image": "data/images/mto2019-q17.gif",
       "choices": {
         "A": "les vents sont de faible intensité",
         "B": "les vents sont de forte intensité",
@@ -7957,7 +7957,7 @@
       "theme": "meteorologie",
       "year": 2019,
       "question": "Le pilote qui va de 1 vers 2 aura : ⚠️",
-      "image": null,
+      "image": "data/images/mto2019-q18.gif",
       "choices": {
         "A": "du vent de face",
         "B": "du vent de dos",
@@ -8389,7 +8389,7 @@
       "theme": "aeronefs",
       "year": 2019,
       "question": "Sur le schéma précédent, le piston descend du point mort haut vers le point mort bas. Le temps moteur correspondant est : ⚠️",
-      "image": null,
+      "image": "data/images/cda2019-q4.gif",
       "choices": {
         "A": "l’admission",
         "B": "la compression",
@@ -9285,7 +9285,7 @@
       "theme": "anglais",
       "year": 2019,
       "question": "En anglais, le terme employé pour désigner le train d’atterrissage est : ⚠️",
-      "image": null,
+      "image": "data/images/ang2019-q1.gif",
       "choices": {
         "A": "landing system",
         "B": "landing wheels",
@@ -9301,7 +9301,7 @@
       "theme": "anglais",
       "year": 2019,
       "question": "Le terme anglais employé pour désigner la gouverne de direction est : ⚠️",
-      "image": null,
+      "image": "data/images/ang2019-q2.gif",
       "choices": {
         "A": "ailerons",
         "B": "flaps",
@@ -9317,7 +9317,7 @@
       "theme": "anglais",
       "year": 2019,
       "question": "Le terme anglais employé pour désigner la gouverne de profondeur est : ⚠️",
-      "image": null,
+      "image": "data/images/ang2019-q3.gif",
       "choices": {
         "A": "ailerons",
         "B": "flaps",
@@ -9333,7 +9333,7 @@
       "theme": "anglais",
       "year": 2019,
       "question": "En anglais, le terme \" leading edge \" désigne : ⚠️",
-      "image": null,
+      "image": "data/images/ang2019-q4.gif",
       "choices": {
         "A": "le bord d'attaque de l'aile",
         "B": "le bord de fuite de l'aile",
@@ -9605,7 +9605,7 @@
       "theme": "meteorologie",
       "year": 2020,
       "question": "Le phénomène observé est :",
-      "image": null,
+      "image": "data/images/mto2020-q1.gif",
       "choices": {
         "A": "la gelée blanche",
         "B": "la rosée",
@@ -9621,7 +9621,7 @@
       "theme": "meteorologie",
       "year": 2020,
       "question": "Il est possible de conclure que, au cours de cette nuit, au voisinage du sol :",
-      "image": null,
+      "image": "data/images/mto2020-q2.gif",
       "choices": {
         "A": "le taux d'humidité relative a atteint 100%",
         "B": "la température est passée en dessous de 0°C",
@@ -9637,7 +9637,7 @@
       "theme": "meteorologie",
       "year": 2020,
       "question": "Cette nuit, de la vapeur d'eau a subi un changement d'état qui se nomme :",
-      "image": null,
+      "image": "data/images/mto2020-q3.gif",
       "choices": {
         "A": "cristallisation",
         "B": "évaporation",
@@ -10597,7 +10597,7 @@
       "theme": "navigation",
       "year": 2020,
       "question": "Le contrôleur aérien en charge de la visite dans la tour vous présente la carte VAC de l’aéroport (doc. N°1), cette carte correspond aux procédures de décollage et d’atterrissage :",
-      "image": null,
+      "image": "data/images/nrs2020-q3.gif",
       "choices": {
         "A": "à vue",
         "B": "aux instruments",
@@ -10613,7 +10613,7 @@
       "theme": "navigation",
       "year": 2020,
       "question": "Souhaitant vous questionner sur vos connaissances, le contrôleur aérien vous demande à quoi correspond l’indication VAR 2°E figurant dans le coin en haut à droite de la carte VAC (doc. N°1), vous répondez :",
-      "image": null,
+      "image": "data/images/nrs2020-q4.gif",
       "choices": {
         "A": "la déviation magnétique",
         "B": "la déclinaison magnétique",
@@ -10629,7 +10629,7 @@
       "theme": "navigation",
       "year": 2020,
       "question": "Sur la carte VAC, vous pouvez identifier les coordonnées en latitude et longitude de l’aéroport, la latitude de 43° 39’ et 55’’ N est relevée par rapport :",
-      "image": null,
+      "image": "data/images/nrs2020-q4.gif",
       "choices": {
         "A": "au méridien de Greenwich",
         "B": "à l’équateur",
@@ -10645,7 +10645,7 @@
       "theme": "navigation",
       "year": 2020,
       "question": "Le code OACI de l’aéroport de Nice-Côte d’Azur est indiqué sur la carte VAC (doc. N°1), il s’agit de LFMN. L’OACI est un organisme chargé d’établir le cadre réglementaire de la sécurité de l’aviation civile :",
-      "image": null,
+      "image": "data/images/nrs2020-q6.gif",
       "choices": {
         "A": "uniquement au niveau de la France",
         "B": "sous la responsabilité du ministère des transports",
@@ -11525,7 +11525,7 @@
       "theme": "meteorologie",
       "year": 2021,
       "question": "La zone 1 sur la carte en illustration correspond à :",
-      "image": null,
+      "image": "data/images/mto2021-q1.gif",
       "choices": {
         "A": "un anticyclone",
         "B": "un col",
@@ -11541,7 +11541,7 @@
       "theme": "meteorologie",
       "year": 2021,
       "question": "Dans le secteur de la zone 2 sur la carte en illustration on peut dire que :",
-      "image": null,
+      "image": "data/images/mto2021-q2.gif",
       "choices": {
         "A": "le gradient horizontal de pression est faible",
         "B": "les vents sont du Nord-Est",
@@ -11557,7 +11557,7 @@
       "theme": "meteorologie",
       "year": 2021,
       "question": "Le secteur de la zone 3 sur la carte en illustration correspond à :",
-      "image": null,
+      "image": "data/images/mto2021-q3.gif",
       "choices": {
         "A": "une traîne de Sud-Ouest",
         "B": "les vents viennent du Nord-Est",
@@ -11573,7 +11573,7 @@
       "theme": "meteorologie",
       "year": 2021,
       "question": "On peut dire que la zone 4 est :",
-      "image": null,
+      "image": "data/images/mto2021-q4.gif",
       "choices": {
         "A": "très certainement nuageuse",
         "B": "une zone de vent fort",
@@ -12261,7 +12261,7 @@
       "theme": "aeronefs",
       "year": 2021,
       "question": "Sur cet avion, l’empennage est dit :",
-      "image": null,
+      "image": "data/images/cda2021-q3.gif",
       "choices": {
         "A": "canard",
         "B": "papillon",
@@ -12309,7 +12309,7 @@
       "theme": "aeronefs",
       "year": 2021,
       "question": "Cet avion est biplace. En examinant la photo 2, quelle est la configuration des places des pilotes ?",
-      "image": null,
+      "image": "data/images/cda2021-q3.gif",
       "choices": {
         "A": "en côte à côte",
         "B": "en tandem",
@@ -12341,7 +12341,7 @@
       "theme": "aeronefs",
       "year": 2021,
       "question": "Sur le schéma, en vue de dessus, quelle désignation est correcte ?",
-      "image": null,
+      "image": "data/images/cda2021-q3.gif",
       "choices": {
         "A": "A = bord d’attaque et B= bord de fuite",
         "B": "A = bord d’attaque et C = bord de fuite",
@@ -12373,7 +12373,7 @@
       "theme": "aeronefs",
       "year": 2021,
       "question": "Sur la photo 1, la flèche indique, en vol normal :",
-      "image": null,
+      "image": "data/images/cda2021-q3.gif",
       "choices": {
         "A": "extrados, siège d’une dépression en vol",
         "B": "intrados, siège d’une surpression en vol",
@@ -12501,7 +12501,7 @@
       "theme": "aeronefs",
       "year": 2021,
       "question": "Sur la photo 3, comment s’appellent les dispositifs indiqués par les flèches blanches ?",
-      "image": null,
+      "image": "data/images/cda2021-q11.gif",
       "choices": {
         "A": "les aérofreins",
         "B": "les ailerons",
@@ -12613,7 +12613,7 @@
       "theme": "navigation",
       "year": 2021,
       "question": "A quelles catégories appartiennent ces deux ULM ?",
-      "image": null,
+      "image": "data/images/nrs2021-q3.gif",
       "choices": {
         "A": "1 : Avion – 2 : Autogyre",
         "B": "1 : Avion – 2 : Hélicoptère",
@@ -12629,7 +12629,7 @@
       "theme": "navigation",
       "year": 2021,
       "question": "Les appareils faisant route opposée. Compte tenu des calages et altitudes affichées, la collision est :",
-      "image": null,
+      "image": "data/images/nrs2021-q4.gif",
       "choices": {
         "A": "impossible, 2 est forcément plus haut que 1",
         "B": "impossible, 1 est forcément plus haut que 2",
@@ -12645,7 +12645,7 @@
       "theme": "navigation",
       "year": 2021,
       "question": "Pour afficher leur altitude par rapport au niveau moyen de la mer, les pilotes doivent afficher sur leur altimètre un calage :",
-      "image": null,
+      "image": "data/images/nrs2021-q5.gif",
       "choices": {
         "A": "QNH",
         "B": "QFE",
@@ -12661,7 +12661,7 @@
       "theme": "navigation",
       "year": 2021,
       "question": "Le contrôleur transmet le QNH de 1000 hPa par radio aux deux pilotes qui règlent leurs altimètres à cette valeur. Ceux-ci affichent alors :",
-      "image": null,
+      "image": "data/images/nrs2021-q6.gif",
       "choices": {
         "A": "1300 ft chacun",
         "B": "1000 ft chacun",
@@ -12677,7 +12677,7 @@
       "theme": "navigation",
       "year": 2021,
       "question": "Compte tenu des règles de priorité, quelle manœuvre doivent réaliser chaque pilote pour éviter un accident ?",
-      "image": null,
+      "image": "data/images/nrs2021-q7.gif",
       "choices": {
         "A": "chacun vire à gauche",
         "B": "chacun vire à droite",
@@ -12693,7 +12693,7 @@
       "theme": "navigation",
       "year": 2021,
       "question": "Le calage de 1000 hPa étant affiché sur les deux appareils, 1 se rapproche d’une masse d’air froide tandis que 2 se rapproche d’une masse d’air chaude. A altitude indiquée constante, comment va évoluer l’altitude réelle des deux appareils ?",
-      "image": null,
+      "image": "data/images/nrs2021-q8.gif",
       "choices": {
         "A": "l’altitude réelle de 1 diminue et l’altitude réelle de 2 augmente",
         "B": "l’altitude réelle de 1 augmente et l’altitude réelle de 2 diminue",
@@ -12757,7 +12757,7 @@
       "theme": "navigation",
       "year": 2021,
       "question": "En arrivant à la verticale de BriareChatillon, en tenant compte de la carte VAC ci-contre et de votre préparation de vol sachant qu’il y a un vent du nord : ⚠️",
-      "image": null,
+      "image": "data/images/nrs2021-q8.gif",
       "choices": {
         "A": "vous intégrez le circuit de piste main droite pour une finale en piste 13",
         "B": "vous intégrez le circuit de piste main droite pour une finale en piste 31",
@@ -12869,7 +12869,7 @@
       "theme": "navigation",
       "year": 2021,
       "question": "Sur la carte VAC d'un aérodrome, il est écrit \"Ouvert à la CAP\". Cela signifie : ⚠️",
-      "image": null,
+      "image": "data/images/nrs2021-q8.gif",
       "choices": {
         "A": "que seuls les avions équipés d'un conservateur de cap sont autorisés",
         "B": "que l'aérodrome est ouvert à la Circulation Aérienne Publique",
@@ -13685,7 +13685,7 @@
       "theme": "meteorologie",
       "year": 2022,
       "question": "Sur la carte TEMSI, on peut lire une validité au 14/10/2019 15 UTC. Sachant que le 14 octobre 2019, la France était en « heure d’été », à quelle heure légale correspond cette prévision ?",
-      "image": null,
+      "image": "data/images/mto2022-q4.gif",
       "choices": {
         "A": "13h",
         "B": "14h",
@@ -13701,7 +13701,7 @@
       "theme": "meteorologie",
       "year": 2022,
       "question": "Les fronts visibles sur la carte TEMSI sont des fronts :",
-      "image": null,
+      "image": "data/images/mto2022-q5.gif",
       "choices": {
         "A": "occlus",
         "B": "froids",
@@ -13717,7 +13717,7 @@
       "theme": "meteorologie",
       "year": 2022,
       "question": "Compte tenu des observations des précipitations et des impacts de foudre, on peut conclure que l’atmosphère au niveau du front étudié est :",
-      "image": null,
+      "image": "data/images/mto2022-q6.gif",
       "choices": {
         "A": "chaude",
         "B": "stable",
@@ -13733,7 +13733,7 @@
       "theme": "meteorologie",
       "year": 2022,
       "question": "Au niveau du front étudié, on peut dire que :",
-      "image": null,
+      "image": "data/images/mto2022-q7.gif",
       "choices": {
         "A": "de l’air chaud passe au-dessus de l’air froid qui le précède",
         "B": "de l’air froid passe au-dessus de l’air chaud qui le précède",
@@ -13749,7 +13749,7 @@
       "theme": "meteorologie",
       "year": 2022,
       "question": "Les orages observés se produisent :",
-      "image": null,
+      "image": "data/images/mto2022-q8.gif",
       "choices": {
         "A": "dans la zone chaude",
         "B": "dans la traine, dite active",
@@ -13989,7 +13989,7 @@
       "theme": "aerodynamique",
       "year": 2022,
       "question": "En vol plané à une hauteur d’un mètre, celui-ci parcourt une distance de 5 mètres avant de tomber à terre, le sol étant horizontal. Que vaut sa finesse lors de ce vol plané ?",
-      "image": null,
+      "image": "data/images/amv2022-q1.gif",
       "choices": {
         "A": "0,5",
         "B": "1",
@@ -14005,7 +14005,7 @@
       "theme": "aerodynamique",
       "year": 2022,
       "question": "Quel est l’ordre de grandeur des finesses des avions et planeurs actuels ?",
-      "image": null,
+      "image": "data/images/amv2022-q2.gif",
       "choices": {
         "A": "1 à 70",
         "B": "30 à 40",
@@ -14021,7 +14021,7 @@
       "theme": "aerodynamique",
       "year": 2022,
       "question": "L’avion ayant eu une tendance à piquer rapidement, on décide d’ajouter un peu de poids à l’arrière en scotchant une pièce le plus en arrière possible. Cela a pour effet :",
-      "image": null,
+      "image": "data/images/amv2022-q3.gif",
       "choices": {
         "A": "d’avancer son centre de gravité, rendant son équilibre autour de l’axe de tangage moins stable",
         "B": "de reculer son centre de gravité, rendant son équilibre autour de l’axe de tangage moins stable",
@@ -14037,7 +14037,7 @@
       "theme": "aerodynamique",
       "year": 2022,
       "question": "On souhaite développer un avion en papier ayant d’excellentes performances de plané. Pour cela, on fait appel à un laboratoire possédant une soufflerie. L’objectif des mesures réalisées est :",
-      "image": null,
+      "image": "data/images/amv2022-q4.gif",
       "choices": {
         "A": "de déterminer la portance maximale",
         "B": "d’obtenir une polaire",
@@ -14149,7 +14149,7 @@
       "theme": "aerodynamique",
       "year": 2022,
       "question": "Le schéma ci-dessus représente :",
-      "image": null,
+      "image": "data/images/amv2022-q11.gif",
       "choices": {
         "A": "une soufflerie de type Eiffel où 1 désigne le collecteur et 3 désigne la veine d’essai",
         "B": "une soufflerie de type Eiffel où 2 désigne la veine d’essai et 3 le diffuseur",
@@ -14517,7 +14517,7 @@
       "theme": "aeronefs",
       "year": 2022,
       "question": "Comment se nomme le profil d’aile ci-dessus ?",
-      "image": null,
+      "image": "data/images/cda2022-q12.gif",
       "choices": {
         "A": "auto stable",
         "B": "double courbure",
@@ -14565,7 +14565,7 @@
       "theme": "aeronefs",
       "year": 2022,
       "question": "Cette machine est équipée :",
-      "image": null,
+      "image": "data/images/cda2022-q15.gif",
       "choices": {
         "A": "d’un train classique et d’ailes hautes",
         "B": "d’un train tricycle et d’ailes hautes",
@@ -14581,7 +14581,7 @@
       "theme": "aeronefs",
       "year": 2022,
       "question": "L’équipement du tableau de bord est un :",
-      "image": null,
+      "image": "data/images/cda2022-q16.gif",
       "choices": {
         "A": "EFIS",
         "B": "horizon artificiel",
@@ -14597,7 +14597,7 @@
       "theme": "aeronefs",
       "year": 2022,
       "question": "Sur l’instrument proposé, l’avion est en :",
-      "image": null,
+      "image": "data/images/cda2022-q17.gif",
       "choices": {
         "A": "inclinaison à gauche et assiette à piquer",
         "B": "inclinaison à gauche et assiette à cabrer",
@@ -14613,7 +14613,7 @@
       "theme": "aeronefs",
       "year": 2022,
       "question": "Jean Delemontez disait \"Ce qui n'existe pas, ne pèse rien, ne coûte rien, et ne tombe jamais en panne ! » Mais pour un ULM biplace de classe 3, quelle est la nouvelle limite autorisée sans équipement additionnel ?",
-      "image": null,
+      "image": "data/images/cda2022-q18.gif",
       "choices": {
         "A": "masse maxi 330 kg",
         "B": "il n'y a pas de limite",
@@ -14837,7 +14837,7 @@
       "theme": "navigation",
       "year": 2022,
       "question": "Vous mesurez sur la carte une route vraie de 124°, la déclinaison magnétique est de 1° E, la route magnétique :",
-      "image": null,
+      "image": "data/images/nrs2022-q10.gif",
       "choices": {
         "A": "n’est pas prévisible car la déclinaison magnétique est très différente entre LFOZ et LFEI",
         "B": "est d’environ 123°",
@@ -14853,7 +14853,7 @@
       "theme": "navigation",
       "year": 2022,
       "question": "La préparation du vol comprend l’étude des données météorologiques. Laquelle n’en fait pas partie :",
-      "image": null,
+      "image": "data/images/nrs2022-q11.gif",
       "choices": {
         "A": "METAR",
         "B": "NOTAM",
@@ -14869,7 +14869,7 @@
       "theme": "navigation",
       "year": 2022,
       "question": "Votre navigation est au cap théorique 134°, les bulletins météorologiques annoncent une prévision de vent du nord pour 20 kt :",
-      "image": null,
+      "image": "data/images/nrs2022-q12.gif",
       "choices": {
         "A": "cela n'a aucune incidence sur votre navigation",
         "B": "le vent risque de vous obliger à diminuer votre cap pour le contrer",
@@ -14885,7 +14885,7 @@
       "theme": "navigation",
       "year": 2022,
       "question": "En effectuant le tracé de votre navigation sur la carte, vous constatez que vous traversez la zone P 24, vous décidez :",
-      "image": null,
+      "image": "data/images/nrs2022-q13.gif",
       "choices": {
         "A": "de suivre le tracé théorique car l'avantage de l'avion c'est de se déplacer en ligne droite",
         "B": "d'éviter la zone rouge P 24 car cette zone est réservée aux parachutistes",
@@ -14901,7 +14901,7 @@
       "theme": "navigation",
       "year": 2022,
       "question": "Sur quelle longitude approximative se trouve la zone P 24 :",
-      "image": null,
+      "image": "data/images/nrs2022-q14.gif",
       "choices": {
         "A": "47,5° S",
         "B": "2,5° W",
@@ -14917,7 +14917,7 @@
       "theme": "navigation",
       "year": 2022,
       "question": "La cause d’accident la moins fréquente en aéronautique est :",
-      "image": null,
+      "image": "data/images/nrs2022-q15.gif",
       "choices": {
         "A": "le pilote",
         "B": "la météo",
@@ -14933,7 +14933,7 @@
       "theme": "navigation",
       "year": 2022,
       "question": "Quelle est la distance à vol d’oiseau entre les terrains LFOZ et LFEI ?",
-      "image": null,
+      "image": "data/images/nrs2022-q16.gif",
       "choices": {
         "A": "10 nm",
         "B": "20 nm",
@@ -18917,7 +18917,7 @@
       "theme": "navigation",
       "year": 2024,
       "question": "Souhaitant vous questionner sur vos connaissances, le contrôleur aérien vous demande à quoi correspond l'indication VAR 2°E figurant dans le coin en haut à droite de la carte VAC (doc. N°1 ci-dessous). Vous répondez :",
-      "image": null,
+      "image": "data/images/nrs2024-q19.gif",
       "choices": {
         "A": "la déviation magnétique",
         "B": "la déclinaison magnétique",
