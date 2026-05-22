@@ -22410,7 +22410,7 @@
       "theme": "aeronefs",
       "year": 2026,
       "question": "Cet avion est biplace. En examinant la photo, quelle est la configuration des places des pilotes ?",
-      "image": "data/images/cda2026-q14.png",
+      "image": "data/images/cda2026-q14.png?v=2",
       "choices": {
         "A": "côte à côte",
         "B": "en tandem",
@@ -22461,7 +22461,7 @@
       "theme": "aeronefs",
       "year": 2026,
       "question": "Cet avion est propulsé par 2 turboréacteurs, lesquels sont chacun constitués de :",
-      "image": null,
+      "image": "data/images/cda2026-q17.png",
       "choices": {
         "A": "tuyère et bielle",
         "B": "turbine et vilebrequin",
@@ -22495,7 +22495,7 @@
       "theme": "aeronefs",
       "year": 2026,
       "question": "Cette machine est équipée :",
-      "image": "data/images/cda2026-q19.png",
+      "image": "data/images/cda2026-q19.png?v=2",
       "choices": {
         "A": "d'un train classique et d'ailes hautes",
         "B": "d'un train tricycle et d'ailes hautes",
@@ -23158,7 +23158,7 @@
       "theme": "histoire",
       "year": 2026,
       "question": "Entre quelles années s'est déroulé le tour du monde de Solar Impulse ?",
-      "image": "data/images/his2026-q18.png",
+      "image": "data/images/his2026-q18.png?v=2",
       "choices": {
         "A": "Entre 2015 et 2016",
         "B": "Entre 2005 et 2006",
