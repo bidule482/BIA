@@ -21503,6 +21503,2046 @@
       "answer": "B",
       "explanation": "Explication non rédigée...",
       "expl_id": 3951
+    },
+    {
+      "id": "mto-2026-01",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "Le nuage figurant sur la photographie ci-contre est un :",
+      "image": "data/images/mto2026-q1.png",
+      "choices": {
+        "A": "cirrus",
+        "B": "nimbostratus",
+        "C": "stratus",
+        "D": "cumulus"
+      },
+      "answer": "D",
+      "explanation": "La photo montre un nuage à développement vertical, en forme de boule ou de chou-fleur, aux contours bien définis. C’est la signature visuelle caractéristique du cumulus. Ce nuage se forme par convection thermique, lorsque l’air chaud monte depuis le sol et se refroidit jusqu’au point de rosée. En bas couches, il est signe de beau temps instable. À ne pas confondre avec le cumulonimbus, qui est un cumulus ayant atteint un développement vertical extrême avec une enclume au sommet.\n\nPiège fréquent : Le cirrus et le stratus sont des nuages stratiformes (en couches), sans relief vertical. Si la photo montre un nuage en boule, la réponse est forcément dans la famille « cumuli ».\n\nÀ retenir : Cumulus = développement vertical, contours nets, aspect en boule. Stratus = couche horizontale, ciel gris uniforme.",
+      "expl_id": 3952,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-02",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "Au niveau d'un front chaud :",
+      "image": null,
+      "choices": {
+        "A": "l'air froid repousse l'air chaud devant lui et passe au-dessus",
+        "B": "l'air froid repousse l'air chaud devant lui et passe au-dessous",
+        "C": "l'air chaud repousse l'air froid devant lui et passe au-dessus",
+        "D": "l'air chaud repousse l'air froid devant lui et passe au-dessous"
+      },
+      "answer": "D",
+      "explanation": "Un front chaud correspond à l’avancée d’une masse d’air chaud qui se substitue à une masse d’air froid. L’air chaud, plus léger, ne peut pas enfoncer l’air froid : il monte au-dessus en formant une surface inclinée. Cette ascension progressive produit une succession de nuages caractéristique : cirrus en altitude (à 500-600 km avant le front), puis altostratus, puis nimbostratus qui donnent des pluies continues au passage du front.\n\nPiège fréquent : On confond souvent front chaud et front froid. Au front froid, c’est l’inverse : l’air froid s’engouffre sous l’air chaud et le soulève brutalement, produisant des nuages convectifs (cumulonimbus) et des averses violentes et brèves.\n\nÀ retenir : Front chaud = air chaud passe au-dessus de l’air froid = pluies longues et continues. Front froid = air froid s’engouffre sous l’air chaud = averses courtes et violentes.",
+      "expl_id": 3953,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-03",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "La grêle est généralement associée à :",
+      "image": null,
+      "choices": {
+        "A": "un nimbostratus",
+        "B": "un altocumulus lenticulaire",
+        "C": "un cumulonimbus",
+        "D": "un cirrocumulus"
+      },
+      "answer": "C",
+      "explanation": "La grêle se forme exclusivement dans les cumulonimbus, ces nuages convectifs à très fort développement vertical (jusqu’à la tropopause). Des courants ascendants puissants maintiennent les gouttelettes d’eau en suspension, qui gèlent et s’accumulent en couches successives de glace. Quand le glaçon devient trop lourd, il tombe. La grêle est donc un indicateur direct de la présence d’un cumulonimbus dans les environs. En aviation, c’est un risque majeur à éviter absolument.\n\nPiège fréquent : Le nimbostratus donne de la pluie prolongée, jamais de grêle. L’altocumulus lenticulaire signale des turbulences en montagne mais pas de précipitations.\n\nÀ retenir : Cumulonimbus = danger pour l’aviation. Il concentre tous les risques : grêle, foudre, turbulences sévères, cisaillement de vent, givrage intense.",
+      "expl_id": 3954,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-04",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "La couche atmosphérique la plus basse est :",
+      "image": null,
+      "choices": {
+        "A": "la thermosphère",
+        "B": "la troposphère",
+        "C": "la stratosphère",
+        "D": "la planisphère"
+      },
+      "answer": "B",
+      "explanation": "L’atmosphère est divisée en plusieurs couches. La troposphère est la couche la plus proche du sol : elle s’étend du niveau de la mer jusqu’à environ 11 km d’altitude (tropopause). C’est là que se déroulent tous les phénomènes météorologiques et que se pratique l’essentiel de l’aviation. La température y diminue avec l’altitude d’environ 6,5 °C par km. Au-dessus vient la stratosphère, puis la mésosphère, puis la thermosphère.\n\nPiège fréquent : La « planisphère » n’est pas une couche atmosphérique – c’est une représentation cartographique. Éliminer cette option d’emblée.\n\nÀ retenir : De bas en haut : troposphère (0-11 km), stratosphère (11-50 km), mésosphère (50-80 km), thermosphère (au-delà). La météo se passe dans la troposphère.",
+      "expl_id": 3955,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-05",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "On parle de brouillard lorsque la visibilité horizontale est inférieure à :",
+      "image": null,
+      "choices": {
+        "A": "1 km",
+        "B": "3 km",
+        "C": "5 km",
+        "D": "10 km"
+      },
+      "answer": "A",
+      "explanation": "Par définition météorologique officielle, le brouillard correspond à une visibilité horizontale inférieure à 1 km au sol. Entre 1 et 5 km, on parle de brume. Ce seuil est fondamental en aviation : en dessous de 1 km de visibilité, la plupart des opérations en VFR (vol à vue) sont impossibles.\n\nPiège fréquent : Attention à ne pas confondre les seuils : brouillard < 1 km, brume entre 1 et 5 km. Les valeurs 3, 5 et 10 km ne correspondent à aucune définition officielle de ces phénomènes.\n\nÀ retenir : Brouillard = visibilité < 1 km. Brume = visibilité entre 1 et 5 km.",
+      "expl_id": 3956,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-06",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "Les nuages sont classés en deux grandes catégories :",
+      "image": null,
+      "choices": {
+        "A": "les positifs et les négatifs",
+        "B": "les moutonneux et les filiformes",
+        "C": "les stratiformes et les cumuliformes",
+        "D": "les catabatiques et les adiabatiques"
+      },
+      "answer": "C",
+      "explanation": "On distingue deux grandes familles de nuages selon leur mode de formation. Les nuages stratiformes (stratus, altostratus, cirrostratus, nimbostratus) se forment par refroidissement progressif d’une masse d’air et donnent des couches horizontales continues. Les nuages cumuliformes (cumulus, cumulonimbus, altocumulus, cirrocumulus) se forment par convection thermique et présentent un développement vertical marqué.\n\nPiège fréquent : Les termes « catabatiques » et « adiabatiques » désignent des processus thermiques et des vents, pas des catégories de nuages.\n\nÀ retenir : Stratiformes = couches horizontales. Cumuliformes = développement vertical. Cette distinction se retrouve dans le préfixe « strato- » (étalé) et « cumulo- » (empilé).",
+      "expl_id": 3957,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-07",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "Quand le point de rosée et la température deviennent identiques, il faut s'attendre à :",
+      "image": null,
+      "choices": {
+        "A": "de la pluie",
+        "B": "de la neige",
+        "C": "du brouillard",
+        "D": "de la grêle"
+      },
+      "answer": "C",
+      "explanation": "Quand la température (T) atteint la température du point de rosée (Td), l’air est saturé en vapeur d’eau. La vapeur d’eau se condense alors en gouttelettes microscopiques qui forment du brouillard si cela se produit au sol, ou un nuage si cela se produit en altitude. La différence T – Td est donc un indicateur précieux : plus elle est faible, plus le risque de brouillard ou de nuage est imminent.\n\nPiège fréquent : La pluie ou la neige nécessitent d’autres conditions (nuage déjà formé, altitude suffisante). Ici, la condensation se produit au niveau du sol, ce qui donne du brouillard, pas de la pluie.\n\nÀ retenir : T = Td au sol → brouillard. T = Td en altitude → nuage.",
+      "expl_id": 3958,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-08",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "Dans l'atmosphère standard, la pression au niveau de la mer est :",
+      "image": null,
+      "choices": {
+        "A": "1000 hPa",
+        "B": "recalculée périodiquement par Météo France",
+        "C": "1013,25 hPa",
+        "D": "1000 hPa par convention internationale pour faciliter les calculs"
+      },
+      "answer": "C",
+      "explanation": "L’Atmosphère Standard Internationale (ISA) est un modèle de référence utilisé en aviation pour calibrer les instruments et calculer les performances. Elle définit des conditions de référence précises au niveau de la mer : pression = 1 013,25 hPa, température = 15 °C, densité = 1,225 kg/m³. Ces valeurs sont conventionnelles et permettent des comparaisons homogènes entre aéronefs et aérodromes.\n\nPiège fréquent : 1 000 hPa est une valeur « ronde » facile à retenir mais fausse. La valeur exacte ISA est bien 1 013,25 hPa. Certains instruments utilisent cette référence (QNE = calage altimètre à 1 013,25 hPa).\n\nÀ retenir : ISA au niveau de la mer : 1 013,25 hPa, 15 °C. Gradient thermique standard : -6,5 °C/km (ou environ -2 °C/1 000 ft).",
+      "expl_id": 3959,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-09",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "Le type de nuage qui peut indiquer la présence de turbulences sévères est :",
+      "image": null,
+      "choices": {
+        "A": "l'altocumulus lenticulaire",
+        "B": "le stratus",
+        "C": "le cirrus",
+        "D": "l'altostratus"
+      },
+      "answer": "A",
+      "explanation": "L’altocumulus lenticulaire (ou lenticulus) est un nuage en forme de lentille ou de soucoupe volante, stationnaire malgré le vent. Il se forme au sommet des ondes orographiques (ondes de relief) générées quand un vent fort souffle perpendiculairement à une chaîne de montagnes. Sa présence signale des ondes de relief et des turbulences sévères dans les basses couches sous le vent. Les pilotes de planeur le recherchent pour monter dans les ascendances, mais les pilotes d’avion à moteur le contournent.\n\nPiège fréquent : Le stratus est associé aux brouillards et pluies fines, pas aux turbulences. Le cirrus indique une perturbation en approche, pas des turbulences locales immédiates.\n\nÀ retenir : Altocumulus lenticulaire = ondes de relief = turbulences sévères possibles, surtout en régions montagneuses.",
+      "expl_id": 3960,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-10",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "Sur la carte des isobares, la dépression est caractérisée par :",
+      "image": null,
+      "choices": {
+        "A": "des isobares fermées dont les valeurs de pression augmentent du centre vers l'extérieur",
+        "B": "des isobares espacées et mal organisées",
+        "C": "un dôme de hautes pressions",
+        "D": "des isobares fermées dont les valeurs de pression augmentent vers l'intérieur"
+      },
+      "answer": "A",
+      "explanation": "Une dépression est une zone de basse pression. Sur une carte météo, elle se représente par des isobares fermées concentriques, dont les valeurs augmentent du centre (pression minimale) vers la périphérie. C’est exactement l’inverse d’un anticyclone, où la pression est maximale au centre. Les dépressions sont associées aux perturbations, pluies et vents (le vent tourne dans le sens antihoraire dans l’hémisphère nord autour des dépressions).\n\nPiège fréquent : L’option D dit « valeurs de pression augmentent vers l’intérieur » – c’est la définition de l’anticyclone. Bien distinguer les deux.\n\nÀ retenir : Dépression = pression minimale au centre, isobares fermées, pression croissante vers l’extérieur. Anticyclone = inverse.",
+      "expl_id": 3961,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-11",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "Lorsque les isobares sont très serrées :",
+      "image": null,
+      "choices": {
+        "A": "les vents sont de faible intensité",
+        "B": "les vents sont de forte intensité",
+        "C": "les vents sont perpendiculaires aux isobares",
+        "D": "l'intensité des vents est indépendante de la position relative des isobares"
+      },
+      "answer": "B",
+      "explanation": "Le vent est généré par le gradient de pression horizontal : la différence de pression entre deux zones. Plus les isobares sont rapprochées sur une carte, plus ce gradient est fort, et plus le vent souffle fort. C’est le même principe qu’un tuyau : plus la différence de pression aux deux extrémités est grande, plus le débit est élevé. Des isobares très espacées indiquent un faible gradient et donc des vents calmes.\n\nPiège fréquent : Les isobares serrés n’indiquent pas la direction du vent (qui est quasi perpendiculaire aux isobares, légèrement dévié par la force de Coriolis), seulement son intensité.\n\nÀ retenir : Isobares serrés = fort gradient de pression = vents forts. Isobares espacés = faible gradient = vents faibles ou nuls.",
+      "expl_id": 3962,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-12",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "Le phénomène météorologique observé sur la photo ci-dessous est :",
+      "image": "data/images/mto2026-q12.png",
+      "choices": {
+        "A": "du brouillard",
+        "B": "un orage",
+        "C": "un front chaud",
+        "D": "la convection"
+      },
+      "answer": "A",
+      "explanation": "La photo montre un avion au sol avec une visibilité très réduite horizontalement – on distingue à peine la silhouette de l’appareil dans une atmosphère gris-blanc uniforme et dense. C’est le signe visuel caractéristique du brouillard : couche nuageuse basse au contact du sol, réduisant la visibilité en dessous de 1 km. Un orage ou un front chaud ne se présenterait pas sous cette apparence uniforme au sol.\n\nPiège fréquent : La convection donne un ciel variable avec des cumulus bien visibles, pas une nappe blanche uniforme. Le brouillard se reconnaît à l’homogénéité de la réduction de visibilité.\n\nÀ retenir : Brouillard = nappe blanche uniforme au sol, visibilité réduite en dessous de 1 km, avion au sol difficile à voir à courte distance.",
+      "expl_id": 3963,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-13",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "La brise de pente montante se forme en région :",
+      "image": null,
+      "choices": {
+        "A": "côtière et de jour",
+        "B": "côtière et de nuit",
+        "C": "montagneuse et de nuit",
+        "D": "montagneuse et de jour"
+      },
+      "answer": "D",
+      "explanation": "La brise anabatique (ou brise de pente montante) se forme le matin et en journée, quand le soleil chauffe les versants. L’air en contact avec le versant se réchauffe plus vite que l’air libre à la même altitude, devient plus léger et remonte le long de la pente. Ce phénomène est typique des régions montagneuses par temps ensoleillé. La nuit, le phénomène s’inverse (brise catabatique descendante) : les versants se refroidissent, l’air dense descend vers les vallées.\n\nPiège fréquent : Les brises côtières (mer/terre) suivent un principe similaire mais sont liées à la différence de température entre la mer et les terres, pas à la topographie montagneuse. Ne pas confondre brise de pente (montagne) et brise de mer (côte).\n\nÀ retenir : Brise anabatique (montante) = montagne + jour. Brise catabatique (descendante) = montagne + nuit.",
+      "expl_id": 3964,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-14",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "Une information sur une carte stipule l'ISO 0 °C au FL80. Vous devez voler au FL60. En considérant le gradient standard, quelle est la bonne affirmation ?",
+      "image": null,
+      "choices": {
+        "A": "Le vol se fera à +4 °C",
+        "B": "Le vol se fera à -4 °C",
+        "C": "Le vol se fera à +2 °C",
+        "D": "Le vol se fera à -2 °C"
+      },
+      "answer": "A",
+      "explanation": "Le FL (Flight Level) s’exprime en centaines de pieds. FL80 = 8 000 ft et FL60 = 6 000 ft. La différence d’altitude est de 8 000 – 6 000 = 2 000 ft. Le gradient thermique standard en ISA est d’environ 2 °C pour 1 000 ft. Donc 2 000 ft de différence donnent + 4 °C. Puisque l’ISO 0 °C est à FL80 et que FL60 est en dessous (altitude plus basse = air plus chaud), la température au FL60 est : 0 + 4 = +4 °C.\n\nPiège fréquent : Bien retenir que descendre en altitude signifie trouver une température plus chaude (gradient positif vers le bas). L’erreur classique est de calculer dans le mauvais sens. Ici, FL60 est sous FL80, donc plus chaud que l’ISO 0 °C.\n\nÀ retenir : Gradient standard ≈ 2 °C / 1 000 ft. Pour calculer la température à une altitude : T = T_référence ± (différence d’altitude en milliers de ft × 2 °C).",
+      "expl_id": 3965,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-15",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "Lorsque la pluie est en surfusion, quelle est la plus faible température qu'elle puisse atteindre parmi les propositions suivantes ?",
+      "image": null,
+      "choices": {
+        "A": "-10 °C",
+        "B": "5 °C",
+        "C": "10 °C",
+        "D": "100 °C"
+      },
+      "answer": "A",
+      "explanation": "La pluie en surfusion (ou pluie surfondue) est constituée de gouttelettes d’eau liquide maintenues à l’état liquide malgré des températures légèrement négatives. Ce phénomène est possible jusqu’à environ -10 °C (voire un peu plus bas dans certains cas). En dessous de ce seuil, l’eau se transforme en cristaux de glace. La pluie surfondue est extrêmement dangereuse en aviation car elle se congèle instantanément au contact d’une surface froide (aile, fuselage), provoquant un givrage sévère.\n\nPiège fréquent : Les valeurs +5 °C, +10 °C et +100 °C n’ont aucun sens dans ce contexte. À +5 °C, l’eau ne peut pas être en surfusion (elle est normalement liquide). La surfusion implique une température négative.\n\nÀ retenir : Pluie en surfusion possible jusqu’à environ -10 °C. Risque majeur de givrage pour l’aéronef en vol.",
+      "expl_id": 3966,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-16",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "Lorsque le vent est fort au sol :",
+      "image": null,
+      "choices": {
+        "A": "il y a peu de turbulences dans les basses couches de l'atmosphère",
+        "B": "le ciel va systématiquement se dégager",
+        "C": "il est nul en altitude",
+        "D": "des turbulences dues aux imperfections du sol et aux obstacles se développent en basses couches"
+      },
+      "answer": "D",
+      "explanation": "Un vent fort au sol génère des turbulences mécaniques dans les basses couches. L’air s’écoule sur un sol irrégulier (reliefs, bâtiments, arbres, hangars), ce qui crée des tourbillons et des remous. Ces turbulences sont particulièrement sensibles à l’approche et à l’atterrissage, quand l’avion vole lentement près du sol. Plus le vent est fort et plus le terrain est accidenté, plus les turbulences mécaniques sont intenses.\n\nPiège fréquent : Un vent fort ne dégagerait pas le ciel (le vent peut très bien souffler sous une couverture nuageuse). Et contrairement à une idée reçue, le vent fort au sol ne garantit pas un vent nul en altitude.\n\nÀ retenir : Vent fort au sol = turbulences mécaniques dans les basses couches, dues aux obstacles et irrégularités du terrain.",
+      "expl_id": 3967,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-17",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "Parmi ces nuages, quel est celui que l'on rencontre dans une atmosphère instable ?",
+      "image": null,
+      "choices": {
+        "A": "Cirrostratus",
+        "B": "Altostratus",
+        "C": "Stratus",
+        "D": "Cumulonimbus"
+      },
+      "answer": "D",
+      "explanation": "L’atmosphère instable favorise les mouvements verticaux de l’air : une particule d’air qui s’élève devient plus légère que l’air environnant et continue à monter. Ce phénomène donne naissance aux nuages convectifs, dont le plus spectaculaire est le cumulonimbus. Les nuages stratiformes (cirrostratus, altostratus, stratus) se forment dans une atmosphère stable où l’air se déplace principalement horizontalement.\n\nPiège fréquent : Cirrostratus, altostratus et stratus sont tous des nuages stratiformes, caractéristiques d’une atmosphère stable. Seul le cumulonimbus (et dans une moindre mesure le cumulus) signale l’instabilité atmosphérique.\n\nÀ retenir : Atmosphère instable → nuages cumuliformes (cumulus, cumulonimbus). Atmosphère stable → nuages stratiformes (stratus, altostratus, cirrostratus).",
+      "expl_id": 3968,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-18",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "Le halo visible sur cette photo :",
+      "image": "data/images/mto2026-q18.png",
+      "choices": {
+        "A": "est un phénomène lumineux dans les cirrostratus",
+        "B": "est un phénomène météorologique parasite dangereux sur une verrière par ciel clair",
+        "C": "apparaît quand on est dos au soleil face à un rideau de pluie",
+        "D": "apparaît dans une perturbation nuageuse instable"
+      },
+      "answer": "A",
+      "explanation": "Le halo est un anneau lumineux de 22° (ou 46°) qui se forme autour du soleil ou de la lune. Il est produit par la réfraction et la diffraction de la lumière dans les cristaux de glace hexagonaux des cirrostratus. Sa présence est un indicateur météorologique fiable de l’approche d’une perturbation avec dégradation du temps dans les 12 à 24 heures. L’arc-en-ciel, lui, se forme en présence de gouttes d’eau et s’observe dos au soleil.\n\nPiège fréquent : Le halo est un phénomène optique bénin – il n’est pas dangereux pour le pilote mais il annonce une dégradation météorologique. Ne pas confondre avec l’éblouissement par le soleil (phénomène dangereux, différent).\n\nÀ retenir : Halo = cristaux de glace dans les cirrostratus = perturbation en approche. « Halo le matin, pluie pour demain. »",
+      "expl_id": 3969,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-19",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "La condensation :",
+      "image": null,
+      "choices": {
+        "A": "est la formation de gouttelettes d'eau par refroidissement et saturation",
+        "B": "est une densification de l'air par compression dans les anticyclones",
+        "C": "est la formation d'eau sur la structure de l'avion par réchauffement adiabatique",
+        "D": "ne présente aucun risque particulier en atmosphère standard"
+      },
+      "answer": "A",
+      "explanation": "La condensation est le passage de la vapeur d’eau à l’état liquide. Elle se produit quand l’air se refroidit jusqu’à atteindre le point de rosée (saturation à 100 % d’humidité relative). Les gouttelettes d’eau se forment alors autour de noyaux de condensation (particules fines en suspension). La condensation est le mécanisme à l’origine des nuages, du brouillard, de la rosée et du givre.\n\nPiège fréquent : La condensation n’est pas la « compression de l’air dans les anticyclones » – c’est un phénomène thermique, pas mécanique. Et elle ne concerne pas la structure de l’avion par réchauffement.\n\nÀ retenir : Condensation = vapeur d’eau → liquide, par refroidissement. Évaporation = phénomène inverse (liquide → vapeur).",
+      "expl_id": 3970,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "mto-2026-20",
+      "theme": "meteorologie",
+      "year": 2026,
+      "question": "Le givrage cellule :",
+      "image": null,
+      "choices": {
+        "A": "ne présente aucun danger",
+        "B": "se produit lors d'un vol en air saturé à températures négatives",
+        "C": "est dû au dépôt de givre sur les ailes sous averses de grêle dans les cumulonimbus",
+        "D": "est un phénomène qui renforce la rigidité de la structure en zones de turbulence"
+      },
+      "answer": "B",
+      "explanation": "Le givrage de cellule est le dépôt de glace sur la structure de l’avion (ailes, empennage, fuselage) en vol. Il se produit quand l’avion traverse de l’air saturé (nuages, pluie en surfusion) à une température négative ou légèrement positive en surface de l’aile. Les gouttelettes d’eau surfondue se congèlent au contact de la surface froide. Le givrage modifie le profil de l’aile, réduit la portance, augmente la traînée et le poids – c’est un danger majeur en aviation.\n\nPiège fréquent : Le givrage n’est pas sans danger et ne renforce pas la structure – bien au contraire. Il dégrade les performances aérodynamiques et peut conduire au décrochage.\n\nÀ retenir : Givrage cellule = air saturé + température négative en vol. Effets : augmentation du poids, modification du profil, réduction de portance, augmentation de traînée.",
+      "expl_id": 3971,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-01",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "Lorsqu'une aile approche l'incidence de décrochage, l'écoulement des filets d'air :",
+      "image": null,
+      "choices": {
+        "A": "décolle de l'extrados au bord d'attaque et reste laminaire au bord de fuite",
+        "B": "décolle de l'intrados",
+        "C": "reste laminaire sur tout le profil",
+        "D": "décolle de l'extrados"
+      },
+      "answer": "D",
+      "explanation": "À mesure que l’angle d’incidence augmente, l’écoulement de l’air sur l’extrados devient de plus en plus difficile à maintenir. À l’approche du décrochage, les filets d’air « décollent » de la surface de l’extrados, en commençant par le bord de fuite vers le bord d’attaque. Cet écoulement décollé provoque une chute brutale de la portance et une augmentation de la traînée. L’intrados, lui, reste relativement épargné.\n\nPiège fréquent : L’écoulement ne décolle pas de l’intrados – c’est l’extrados qui est le siège de la dépression et qui est sensible à l’incidence. L’intrados est en surpression et son écoulement reste attaché plus longtemps.\n\nÀ retenir : Décrochage = écoulement décollé sur l’extrados, de l’arrière vers l’avant. Remède : réduire l’incidence (mettre le nez en bas).",
+      "expl_id": 3972,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-02",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "Un planeur dont la finesse maximale est de 40 vole en ligne droite à sa vitesse de finesse maximale dans une masse d'air calme. En parcourant 20 km, combien d'altitude va-t-il perdre ?",
+      "image": null,
+      "choices": {
+        "A": "250 m",
+        "B": "500 m",
+        "C": "1 000 m",
+        "D": "2 000 m"
+      },
+      "answer": "B",
+      "explanation": "La finesse est le rapport entre la distance horizontale parcourue et l’altitude perdue : finesse = distance / perte d’altitude. Avec une finesse de 40 et une distance de 20 km = 20 000 m, le calcul donne : perte d’altitude = distance / finesse = 20 000 / 40 = 500 m. Autrement dit, le planeur perd 1 mètre d’altitude tous les 40 mètres parcourus horizontalement.\n\nPiège fréquent : Ne pas oublier de convertir les km en m avant de diviser. 20 km = 20 000 m, pas 20. 20 000 / 40 = 500 m, et non pas 0,5 m.\n\nÀ retenir : Formule : perte d’altitude = distance parcourue / finesse. Finesse maximale correspond à la meilleure efficacité aérodynamique de l’aéronef.",
+      "expl_id": 3973,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-03",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "En vol en palier stabilisé :",
+      "image": null,
+      "choices": {
+        "A": "la portance équilibre le poids",
+        "B": "la portance équilibre la traînée",
+        "C": "la portance équilibre la résultante aérodynamique",
+        "D": "la traînée équilibre le poids"
+      },
+      "answer": "A",
+      "explanation": "En vol en palier stabilisé, l’avion n’accélère pas et ne monte ni ne descend. Les forces sont donc en équilibre deux à deux : la portance (verticale, vers le haut) équilibre le poids (vertical, vers le bas), et la poussée équilibre la traînée (horizontalement). Dire que la portance équilibre la traînée serait faux car ce ne sont pas des forces de même direction.\n\nPiège fréquent : En virage, la portance doit être supérieure au poids pour maintenir l’altitude (le facteur de charge augmente). En palier stabilisé droit, portance = poids exactement.\n\nÀ retenir : Palier stabilisé : portance = poids, poussée = traînée. Quatre forces, deux équilibres.",
+      "expl_id": 3974,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-04",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "La portance est toujours :",
+      "image": null,
+      "choices": {
+        "A": "de direction perpendiculaire au vent relatif",
+        "B": "de direction perpendiculaire au poids",
+        "C": "de direction parallèle au vent relatif",
+        "D": "de direction parallèle au poids"
+      },
+      "answer": "A",
+      "explanation": "Par définition, la portance est la composante de la force aérodynamique totale perpendiculaire au vent relatif (direction d’arrivée de l’air). Elle est toujours perpendiculaire au vent relatif, quelle que soit l’attitude de l’avion. En vol en palier, le vent relatif est horizontal, donc la portance est verticale. En virage incliné, le vent relatif reste horizontal, la portance penche avec l’avion – c’est pourquoi l’avion perd de l’altitude si le pilote ne compense pas.\n\nPiège fréquent : « Perpendiculaire au poids » serait vrai seulement en palier horizontal. « Perpendiculaire au vent relatif » est vrai en toutes circonstances – c’est la définition exacte.\n\nÀ retenir : Portance ⊥ vent relatif (toujours). Traînée ∥ vent relatif (toujours, direction opposée).",
+      "expl_id": 3975,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-05",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "L'angle de calage d'une aile est compris entre :",
+      "image": null,
+      "choices": {
+        "A": "la corde de profil de l'aile et l'axe longitudinal de l'avion",
+        "B": "la corde de profil de l'aile et le vent relatif",
+        "C": "la corde de l'aile et l'horizontale",
+        "D": "le bord d'attaque et l'axe longitudinal de l'avion"
+      },
+      "answer": "A",
+      "explanation": "L’angle de calage est l’angle fixe, déterminé à la construction, entre la corde de profil de l’aile et l’axe longitudinal de l’avion (axe du fuselage). Cet angle est positif sur la plupart des avions (l’aile est légèrement inclinée vers le haut par rapport au fuselage) afin que l’avion génère de la portance même lorsque le fuselage est à l’horizontal. À ne pas confondre avec l’angle d’incidence, qui est variable et dépend de l’attitude de l’avion en vol.\n\nPiège fréquent : Angle de calage ≠ angle d’incidence. L’angle de calage est fixe (construit dans l’aile). L’angle d’incidence est l’angle entre la corde de profil et le vent relatif, et change selon l’attitude de vol.\n\nÀ retenir : Angle de calage = entre corde de profil et axe longitudinal de l’avion. Fixe à la construction.",
+      "expl_id": 3976,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-06",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "L'angle de pente est :",
+      "image": null,
+      "choices": {
+        "A": "l'angle entre la corde de l'aile et l'axe longitudinal de l'avion",
+        "B": "l'angle entre la corde de profil de l'aile et le vent relatif",
+        "C": "l'angle entre l'horizon artificiel et le pilote",
+        "D": "l'angle entre l'horizontale et la trajectoire réelle de l'avion"
+      },
+      "answer": "D",
+      "explanation": "L’angle de pente (ou angle de trajectoire) est l’angle formé entre la trajectoire réelle de l’avion dans l’espace et le plan horizontal. Il est positif en montée et négatif en descente. C’est cet angle qui détermine le taux de montée ou de descente pour une vitesse donnée. Il est différent de l’assiette (angle entre le fuselage et l’horizontal), car un avion peut avoir une assiette cabrée en descente si sa vitesse est élevée.\n\nPiège fréquent : Ne pas confondre angle de pente (trajectoire) et assiette longitudinale (attitude du fuselage). En vol plané par exemple, l’assiette peut sembler à cabrer alors que la trajectoire est bien en descente.\n\nÀ retenir : Angle de pente = angle entre la trajectoire réelle et l’horizontale. Assiette = angle entre le fuselage et l’horizontale.",
+      "expl_id": 3977,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-07",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "Lorsque le pilote tire fortement sur le manche, le facteur de charge :",
+      "image": null,
+      "choices": {
+        "A": "augmente",
+        "B": "diminue",
+        "C": "reste constant",
+        "D": "devient nul"
+      },
+      "answer": "A",
+      "explanation": "Tirer sur le manche augmente l’incidence de l’aile, ce qui augmente le coefficient de portance (Cz). Pour maintenir la trajectoire (ou la courber vers le haut), la portance doit être supérieure au poids. Le facteur de charge n est défini par n = portance / poids. Quand la portance dépasse le poids, n > 1. Plus on tire sur le manche, plus n augmente. En virage incliné à 60°, n = 2 (les passagers subissent le double de leur poids).\n\nPiège fréquent : Le facteur de charge n’est pas lié à la vitesse directement mais à l’incidence. On peut augmenter le facteur de charge à basse vitesse en tirant brusquement sur le manche (risque de décrochage à facteur de charge élevé).\n\nÀ retenir : Tirer sur le manche → incidence ↑ → portance ↑ → facteur de charge ↑. En palier stabilisé non viré : n = 1.",
+      "expl_id": 3978,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-08",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "En aérodynamique, l'origine de la sustentation résulte de l'apparition :",
+      "image": null,
+      "choices": {
+        "A": "d'une surpression à l'extrados et d'une dépression à l'intrados",
+        "B": "d'une surpression à l'intrados et d'une dépression à l'extrados",
+        "C": "d'une dépression à l'extrados et à l'intrados",
+        "D": "d'une surpression à l'extrados et à l'intrados"
+      },
+      "answer": "B",
+      "explanation": "La portance (sustentation) résulte d’une différence de pression entre les deux faces de l’aile. La forme du profil fait que l’air s’écoule plus vite sur l’extrados (face supérieure courbée) que sur l’intrados. Selon le théorème de Bernoulli, une vitesse plus élevée correspond à une pression plus faible : il en résulte une dépression sur l’extrados et une surpression sur l’intrados. Cette différence de pression crée une force résultante vers le haut : la portance. La dépression extrados contribue pour environ 2/3 de la portance totale.\n\nPiège fréquent : L’option « surpression à l’extrados et dépression à l’intrados » est exactement l’inverse – c’est l’erreur classique à ne pas commettre au BIA.\n\nÀ retenir : Extrados = dépression (aspiration vers le haut). Intrados = surpression (poussée vers le haut). Les deux contribuent à la portance.",
+      "expl_id": 3979,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-09",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "Le pilotage d'une sonde spatiale nécessite :",
+      "image": null,
+      "choices": {
+        "A": "une poussée ponctuelle et l'exploitation de l'attraction des astres",
+        "B": "une poussée permanente et l'exploitation de l'attraction des astres",
+        "C": "uniquement l'attraction des astres",
+        "D": "uniquement une poussée permanente"
+      },
+      "answer": "A",
+      "explanation": "Contrairement à un avion qui maintient une poussée continue, une sonde spatiale fonctionne dans le vide avec des ressources en ergols très limitées. Elle utilise des poussées ponctuelles (brèves allumages des moteurs) pour corriger sa trajectoire, et exploite la gravité des planètes pour accélérer ou dévier sa trajectoire sans consommer de carburant (assistances gravitationnelles ou « fronde gravitationnelle »). Les missions Voyager, Cassini ou New Horizons ont toutes utilisé ces manoeuvres d’assistance gravitationnelle.\n\nPiège fréquent : Une poussée « permanente » serait impossible – une sonde a une quantité de carburant très limitée. Le vol spatial interplanétaire repose essentiellement sur l’inertie et la gravité.\n\nÀ retenir : Sonde spatiale = poussées ponctuelles pour corrections + assistance gravitationnelle pour économiser le carburant.",
+      "expl_id": 3980,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-10",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "La base de lancement spatial de Kourou est située proche de l'équateur pour profiter :",
+      "image": null,
+      "choices": {
+        "A": "d'une plus grande vitesse due à la rotation de la Terre",
+        "B": "d'un climat tempéré",
+        "C": "d'une pression atmosphérique faible",
+        "D": "d'un espace aérien réservé à cet usage"
+      },
+      "answer": "A",
+      "explanation": "La Terre tourne sur elle-même à environ 1 670 km/h à l’équateur (contre 0 au pôle). Un lanceur parti de Kourou (Guyane française, à 5° de latitude nord) bénéficie gratuitement de cette vitesse initiale, qui s’ajoute à celle fournie par les moteurs. Pour une fusée lancée vers l’est (dans le sens de rotation de la Terre), l’économie de carburant est significative. C’est l’avantage majeur des bases équatoriales comme Kourou pour les lancements vers l’orbite géostationnaire.\n\nPiège fréquent : La pression atmosphérique à Kourou n’est pas particulièrement faible (on est au niveau de la mer). L’avantage est exclusivement lié à la vitesse de rotation terrestre.\n\nÀ retenir : Plus on s’approche de l’équateur, plus la vitesse de rotation terrestre est grande ≈ 460 m/s à l’équateur. C’est un « bonus » de vitesse pour les lanceurs.",
+      "expl_id": 3981,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-11",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "Lorsqu'un aéronef est centré avant :",
+      "image": null,
+      "choices": {
+        "A": "sa stabilité augmente",
+        "B": "sa maniabilité augmente",
+        "C": "sa maniabilité et sa stabilité ne sont pas modifiées",
+        "D": "sa stabilité diminue"
+      },
+      "answer": "A",
+      "explanation": "Le centrage est la position du centre de gravité (CG) par rapport au foyer aérodynamique. Un centrage avant (CG en avant du foyer) crée un couple cabreur naturel qui tend à ramener le nez vers le bas – c’est le principe de la stabilité longitudinale. L’avion revient spontanément à son assiette d’équilibre en cas de perturbation. En revanche, un centrage avant rend l’avion moins maniable (il faut tirer davantage sur le manche pour cabrer).\n\nPiège fréquent : Stabilité et maniabilité sont inversement liées. Centrage avant = plus stable, moins maniable. Centrage arrière = moins stable, plus maniable (risque de décrochage ou perte de contrôle si le CG dépasse la limite arrière).\n\nÀ retenir : CG avant → stabilité ↑, maniabilité ↓. CG arrière → stabilité ↓, maniabilité ↑.",
+      "expl_id": 3982,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-12",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "Voler à la vitesse de finesse maximale permet de :",
+      "image": null,
+      "choices": {
+        "A": "rester en l'air le plus longtemps possible",
+        "B": "voler le plus vite possible",
+        "C": "parcourir la plus grande distance possible",
+        "D": "décoller le plus court possible"
+      },
+      "answer": "C",
+      "explanation": "La vitesse de finesse maximale est la vitesse pour laquelle le rapport portance/traînée (Cz/Cx) est maximal – c’est-à-dire la vitesse pour laquelle l’avion perd le moins d’altitude par mètre parcouru. En cas de panne moteur, c’est la vitesse qu’on cherche pour atteindre l’atterrissage le plus loin possible. Pour rester en l’air le plus longtemps, on utilise la vitesse de traînée minimale (différente).\n\nPiège fréquent : « Rester en l’air le plus longtemps » correspond à la vitesse de taux de descente minimum (ou vitesse de finesse en plané), qui est différente de la vitesse de finesse maximale. Les deux optimisent des paramètres différents.\n\nÀ retenir : Finesse max = meilleur rapport Cz/Cx = plus grande distance parcourue pour une perte d’altitude donnée.",
+      "expl_id": 3983,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-13",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "La traînée induite est une conséquence de :",
+      "image": null,
+      "choices": {
+        "A": "l'interaction du fuselage et de l'aile",
+        "B": "la rotation de l'hélice",
+        "C": "la différence de pression entre l'intrados et l'extrados",
+        "D": "l'usage d'un train fixe"
+      },
+      "answer": "C",
+      "explanation": "La traînée induite est directement liée à la production de portance. La différence de pression entre l’intrados (surpression) et l’extrados (dépression) provoque un contournement de l’air des zones de haute pression vers les zones de basse pression en bout d’aile. Ce phénomène crée des tourbillons marginaux en extrémité d’aile, qui dévient légèrement le vent relatif et produisent une composante de traînée. Cette traînée est d’autant plus forte que la portance est élevée (grande incidence) et que l’allongement de l’aile est faible.\n\nPiège fréquent : La traînée induite n’est pas due au fuselage (c’est la traînée de forme) ni à la rotation de l’hélice (c’est la traînée de l’hélice). Elle est spécifiquement une conséquence de la portance.\n\nÀ retenir : Traînée induite = conséquence de la portance = tourbillons marginaux en bout d’aile. Elle diminue quand l’allongement de l’aile augmente.",
+      "expl_id": 3984,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-14",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "Le facteur de charge est défini comme le rapport :",
+      "image": null,
+      "choices": {
+        "A": "poids / traînée",
+        "B": "portance / traînée",
+        "C": "traînée / poids",
+        "D": "portance / poids"
+      },
+      "answer": "D",
+      "explanation": "Le facteur de charge (noté n) est défini par : n = portance / poids. En vol en palier, n = 1. En virage incliné à 60°, n = 2. En voltige, n peut atteindre +6 à -3. Ce facteur représente le « nombre de g » ressenti par les occupants et par la structure. La réglementation fixe des limites de facteur de charge pour chaque catégorie d’aéronef (généralement +3,8g pour un avion de tourisme en catégorie normale).\n\nPiège fréquent : « Poids / portance » est l’inverse. « Portance / traînée » est la finesse. Bien mémoriser : n = portance / poids.\n\nÀ retenir : Facteur de charge n = portance / poids. Palier droit = 1g. Virage 60° = 2g. Voltige = jusqu’à 6g ou plus.",
+      "expl_id": 3985,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-15",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "Le déplacement horizontal d'une montgolfière en vol se fait :",
+      "image": null,
+      "choices": {
+        "A": "au gré des vents",
+        "B": "grâce à la différence de température entre l'intérieur et l'extérieur de l'enveloppe",
+        "C": "grâce à la poussée d'Archimède",
+        "D": "en agissant sur la soupape qui bouche le sommet de l'enveloppe"
+      },
+      "answer": "A",
+      "explanation": "Une montgolfière est un aérostat à air chaud qui ne dispose d’aucun système de propulsion ou de gouverne directionnelle. Elle peut uniquement contrôler son altitude (en chauffant l’air pour monter, ou en laissant l’air refroidir pour descendre). Son déplacement horizontal est entièrement dépendant de la direction et de la vitesse du vent. Le pilote peut choisir son cap en cherchant des couches de vent différentes à différentes altitudes, mais ne peut pas « voler contre le vent ».\n\nPiège fréquent : La poussée d’Archimède concerne l’aptitude à flotter (poussée verticale), pas le déplacement horizontal. Elle n’explique pas la trajectoire horizontale.\n\nÀ retenir : Montgolfière = pas de gouverne directionnelle. Déplacement horizontal = uniquement au gré des vents. Contrôle possible de l’altitude seulement.",
+      "expl_id": 3986,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-16",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "Le poids d'un satellite tournant autour d'un astre est :",
+      "image": null,
+      "choices": {
+        "A": "compensé par sa force de portance",
+        "B": "compensé par la force centrifuge",
+        "C": "compensé uniquement par ses moteurs-fusées",
+        "D": "nul car il est en apesanteur"
+      },
+      "answer": "B",
+      "explanation": "Un satellite en orbite est soumis à la gravité (son « poids » l’attire vers la planète) mais sa vitesse orbitale génère une force centrifuge (ou plus exactement une accélération centripète fournie par la gravité) qui compense exactement cette attraction. C’est pour cela que les astronautes en orbite sont en apesanteur : ils « tombent » continuellement vers la Terre mais leur vitesse les fait « rater » la Terre en permanence. On parle aussi de « chute libre permanente ».\n\nPiège fréquent : Un satellite en orbite n’est pas « nul de poids » – il subit toujours la gravité. Il est en état d’apesanteur parce que la gravité et la force centrifuge s’équilibrent, pas parce qu’il n’y a plus de gravité.\n\nÀ retenir : Satellite en orbite : gravité = force centrifuge. Résultat : apesanteur (chute libre permanente).",
+      "expl_id": 3987,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-17",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "Parmi les éléments suivants, celui qui a une influence majeure sur la position du centre de gravité est :",
+      "image": null,
+      "choices": {
+        "A": "la trajectoire (palier, montée, descente)",
+        "B": "la vitesse",
+        "C": "le niveau de carburant dans les réservoirs et la répartition des passagers",
+        "D": "l'inclinaison"
+      },
+      "answer": "C",
+      "explanation": "Le centre de gravité (CG) est la résultante de toutes les masses de l’aéronef. Les éléments à masse variable pendant le vol sont les principaux facteurs qui font bouger le CG : le carburant (qui se consomme et dont les réservoirs peuvent être à des emplacements différents) et la répartition des passagers et du fret selon les sièges. La trajectoire, la vitesse et l’inclinaison sont des paramètres de vol qui ne modifient pas la position du CG.\n\nPiège fréquent : La trajectoire (palier, montée, descente) ne change pas la masse ni sa répartition dans l’avion – elle ne déplace donc pas le centre de gravité.\n\nÀ retenir : CG influencé par : masse et position du carburant, répartition des passagers/bagages/fret. Le devis de masse et centrage s’effectue avant chaque vol.",
+      "expl_id": 3988,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-18",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "Sur la polaire ci-dessous ont été définis plusieurs points. Quel est le point correspondant à la finesse maximale ?",
+      "image": "data/images/amv2026-q18.png",
+      "choices": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "answer": "B",
+      "explanation": "La polaire est une courbe Cz en fonction de Cx qui représente les performances aérodynamiques d’un profil. La finesse maximale correspond au point où le rapport Cz/Cx est le plus grand. Graphiquement, c’est le point de tangence d’une droite partant de l’origine (0,0) du repère jusqu’à la courbe polaire. Ce point de tangence est le point B sur le graphique proposé. Il correspond à la meilleure efficacité aérodynamique.\n\nPiège fréquent : Le point le plus haut de la polaire (Cz maximum) correspond à la vitesse de décrochage, pas à la finesse maximale. La finesse max est le point de tangence de la droite issue de l’origine.\n\nÀ retenir : Sur la polaire, finesse max = point de tangence d’une droite issue de l’origine (0,0) sur la courbe. C’est la pente maximale du vecteur origine-point.",
+      "expl_id": 3989,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-19",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "Certains avions sont équipés d'aérofreins qui ont pour conséquence de modifier les coefficients Cx (traînée) et Cz (portance). Préciser leurs effets :",
+      "image": null,
+      "choices": {
+        "A": "augmenter le Cx et le Cz",
+        "B": "diminuer le Cx et le Cz",
+        "C": "augmenter le Cx et diminuer le Cz",
+        "D": "diminuer le Cx et augmenter le Cz"
+      },
+      "answer": "C",
+      "explanation": "Les aérofreins (ou spoilers) sont des volets déployables sur l’extrados de l’aile. Leur action est double : en perturbant l’écoulement sur l’extrados, ils augmentent la traînée (Cx ↑) – c’est l’effet recherché pour freiner – et diminuent la portance (Cz ↓) – ce qui permet également de plaquer l’avion au sol à l’atterrissage (déportance). On les utilise principalement à l’atterrissage, en approche pour contrôler la pente, et en descente rapide pour limiter la vitesse.\n\nPiège fréquent : Les volets hypersustentateurs (flaps) font l’inverse en termes de portance : ils augmentent Cz (et aussi Cx). Les aérofreins, eux, réduisent Cz en perturbant l’extrados.\n\nÀ retenir : Aérofreins / spoilers : Cx ↑ (freinage) + Cz ↓ (déportance). Volets (flaps) : Cz ↑ + Cx ↑ (hypersustentation).",
+      "expl_id": 3990,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "amv-2026-20",
+      "theme": "aerodynamique",
+      "year": 2026,
+      "question": "Pour réduire la traînée induite d'une aile, on peut :",
+      "image": null,
+      "choices": {
+        "A": "augmenter l'allongement de l'aile",
+        "B": "diminuer l'allongement de l'aile",
+        "C": "augmenter la corde et diminuer l'envergure",
+        "D": "supprimer les winglets"
+      },
+      "answer": "A",
+      "explanation": "L’allongement (ou ratio d’aspect) d’une aile est le rapport envergure²/surface. Une aile à grand allongement (longue et étroite, comme un planeur) génère moins de tourbillons marginaux en bout d’aile car le flux d’air autour de l’extrémité est plus faible. La traînée induite est inversement proportionnelle au carré de l’allongement. C’est pourquoi les planeurs ont des ailes très longues (allongement > 30), tandis que les chasseurs ont des ailes courtes et ont une traînée induite élevée à basse vitesse.\n\nPiège fréquent : Diminuer l’allongement (aile courte et large) augmente la traînée induite. Supprimer les winglets (qui existent précisément pour réduire la traînée induite) l’augmenterait aussi.\n\nÀ retenir : Traînée induite ↓ quand allongement ↑. Winglets = dispositifs en bout d’aile qui augmentent l’allongement effectif sans allonger l’aile physiquement.",
+      "expl_id": 3991,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-01",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "Tout appareil capable de s'élever et de circuler dans l'espace aérien :",
+      "image": null,
+      "choices": {
+        "A": "est un aéronef",
+        "B": "est un aérostat",
+        "C": "possède obligatoirement un moteur",
+        "D": "est piloté depuis l'intérieur de son cockpit"
+      },
+      "answer": "A",
+      "explanation": "Un aéronef est défini en droit aérien comme tout appareil capable de s’élever dans l’atmosphère. Cette définition est très large : elle inclut les avions, les hélicoptères, les planeurs, les ballons, les dirigeables, les ULM, les drones… Un « aérostat » est un sous-ensemble de l’aéronef (ballons, dirigeables) qui utilise la poussée d’Archimède. Un avion n’est pas forcément motorisé (le planeur est un aéronef non motorisé). La définition ne mentionne pas de moteur ni de cockpit.\n\nPiège fréquent : « Aérostat » est plus restrictif qu’aéronef – c’est uniquement les appareils plus légers que l’air. « Aéronef » est le terme générique le plus large.\n\nÀ retenir : Aéronef = tout appareil qui peut voler (définition très large). Avion ⊂ Aéronef. Hélicoptère ⊂ Aéronef. Ballon ⊂ Aéronef.",
+      "expl_id": 3992,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-02",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "Un turbopropulseur :",
+      "image": null,
+      "choices": {
+        "A": "est un pulsoréacteur équipé d'un réducteur et d'une hélice",
+        "B": "est un statoréacteur équipé d'un réducteur et d'une hélice",
+        "C": "est un moteur thermique équipé d'un turbocompresseur",
+        "D": "est un turboréacteur équipé d'un réducteur et d'une hélice"
+      },
+      "answer": "D",
+      "explanation": "Le turbopropulseur est une variante du turboréacteur dans laquelle la turbine entraîne non seulement le compresseur mais aussi une hélice via un réducteur (la turbine tourne très vite, l’hélice doit tourner plus lentement pour être efficace). L’hélice fournit l’essentiel de la poussée. Ce type de moteur est efficace à basse et moyenne altitude et basse vitesse (moins de Mach 0,7). On le retrouve sur des avions régionaux comme l’ATR ou le Bombardier Q400, ainsi que sur des avions militaires de transport comme le Transall ou l’Hercules C-130.\n\nPiège fréquent : Un pulsoréacteur est un moteur à réaction sans parties mobiles (utilisé sur les V1). Un statoréacteur fonctionne à très haute vitesse (supersonique). Le turbopropulseur est bien dans la famille « turbo » mais avec hélice.\n\nÀ retenir : Turbopropulseur = turboréacteur + réducteur + hélice. Avantage : efficace à basse vitesse. Inconvénient : limité en vitesse (hélice).",
+      "expl_id": 3993,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-03",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "Le petit pas de l'hélice est utilisé pour :",
+      "image": null,
+      "choices": {
+        "A": "l'atterrissage uniquement",
+        "B": "le décollage uniquement",
+        "C": "le décollage et l'atterrissage",
+        "D": "le vol de croisière"
+      },
+      "answer": "C",
+      "explanation": "Sur une hélice à pas variable, l’angle des pales peut être modifié en vol. Le petit pas correspond à un angle de pale faible : les pales « mordent » peu d’air à chaque tour mais le moteur peut tourner à haut régime, ce qui développe une forte puissance et un fort couple – idéal pour le décollage et l’atterrissage où la vitesse est basse. En croisière, on passe au grand pas: les pales sont plus inclinées, elles « prennent » plus d’air à chaque tour mais à régime plus bas, ce qui est plus économique.\n\nPiège fréquent : Ne pas inverser petit pas et grand pas. Petit pas = décollage/atterrissage (basse vitesse, fort couple). Grand pas = croisière (haute vitesse, économie).\n\nÀ retenir : Petit pas hélice = décollage et atterrissage. Grand pas hélice = croisière. Analogy : comme les vitesses d’une voiture (1ère et 2ème pour démarrer, 5ème sur autoroute).",
+      "expl_id": 3994,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-04",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "Pour indiquer l'altitude, l'altimètre utilise :",
+      "image": null,
+      "choices": {
+        "A": "la différence entre la pression totale et la pression dynamique",
+        "B": "la pression totale",
+        "C": "la pression dynamique",
+        "D": "la pression statique"
+      },
+      "answer": "D",
+      "explanation": "L’altimètre mesure la pression atmosphérique statique (la pression de l’air au repos autour de l’avion) et la traduit en altitude grâce à la loi de décroissance de la pression avec l’altitude. Plus on monte, plus la pression statique diminue. L’altimètre compare la pression statique actuelle à une pression de référence réglée par le pilote (QNH pour l’altitude par rapport au niveau de la mer, QFE par rapport à l’aérodrome, ou 1 013,25 hPa pour les flight levels). La pression dynamique (liée à la vitesse) est utilisée par l’anémomètre, pas l’altimètre.\n\nPiège fréquent : L’altimètre utilise uniquement la pression statique. La pression totale = pression statique + pression dynamique – c’est la somme mesurée par le tube de Pitot, utilisée par l’anémomètre.\n\nÀ retenir : Altimètre → pression statique uniquement. Anémomètre → pression totale (pitot) moins pression statique = pression dynamique.",
+      "expl_id": 3995,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-05",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "Les cadres :",
+      "image": null,
+      "choices": {
+        "A": "ont dans le fuselage le même rôle que les nervures dans les ailes",
+        "B": "sont situés en bout d'aile pour réduire la traînée induite",
+        "C": "sont les pièces maîtresses du fuselage qui supportent les efforts de flexion",
+        "D": "sont toujours montés par paire pour augmenter leur solidité"
+      },
+      "answer": "A",
+      "explanation": "La structure d’un aéronef repose sur des éléments longitudinaux (longerons dans l’aile, longerons dans le fuselage) et des éléments transversaux. Dans l’aile, les éléments transversaux s’appellent des nervures : ils donnent au profil sa forme et reprennent les efforts de flexion. Dans le fuselage, les éléments transversaux s’appellent des cadres et jouent exactement le même rôle structural – ils donnent sa forme circulaire ou ovale au fuselage et reprennent les efforts.\n\nPiège fréquent : Les cadres ne sont pas en bout d’aile – c’est la position des winglets ou des extrémités d’aile. Les nervures ne supportent pas les efforts de flexion seules – les longerons jouent aussi un rôle majeur.\n\nÀ retenir : Aile : longerons (longitudinaux) + nervures (transversaux). Fuselage : lisses (longitudinaux) + cadres (transversaux).",
+      "expl_id": 3996,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-06",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "Dans un empennage en T :",
+      "image": null,
+      "choices": {
+        "A": "la gouverne de direction se situe au bas de l'empennage vertical",
+        "B": "la gouverne de profondeur est actionnée par le palonnier",
+        "C": "la gouverne de direction permet la rotation autour de l'axe de tangage",
+        "D": "la gouverne de profondeur se situe en haut de l'empennage vertical"
+      },
+      "answer": "D",
+      "explanation": "Dans un empennage en T (ou « T-tail »), l’empennage horizontal avec ses gouvernes de profondeur est positionné au sommet de l’empennage vertical, formant un T. Cette configuration est visible sur des avions comme le DC-9, le Boeing 727 ou l’Airbus A320 (à comparer avec l’empennage conventionnel bas). Avantage : l’empennage horizontal est dans un air plus propre, hors du souffle de l’aile. Inconvénient : risque de « deep stall » (décrochage profond) car les gouvernes peuvent se retrouver masquées par le sillage de l’aile en cas de fort décrochage.\n\nPiège fréquent : La gouverne de direction (dérive) est toujours dans l’empennage vertical. Dans un T-tail, c’est la gouverne de profondeur qui monte en haut du plan vertical, pas la gouverne de direction.\n\nÀ retenir : Empennage en T = gouverne de profondeur en haut de la dérive. Lettre « T » = empennage horizontal sur le dessus de l’empennage vertical.",
+      "expl_id": 3997,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-07",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "Sur un circuit hydraulique :",
+      "image": null,
+      "choices": {
+        "A": "on utilise de l'eau sous basse pression à une température supérieure à 0 °C",
+        "B": "il est difficilement utilisable sur avion du fait de sa compressibilité",
+        "C": "il n'est utilisé qu'au-delà de 0 °C pour actionner les freins et les vérins des trains escamotables",
+        "D": "le fluide est utilisé sous pression pour actionner des commandes"
+      },
+      "answer": "D",
+      "explanation": "Les circuits hydrauliques des avions utilisent un fluide incompressible (huile minérale ou synthétique spéciale aviation) mis sous très haute pression (typiquement 140 à 350 bars) pour actionner les gouvernes, les trains d’atterrissage, les freins, les volets, etc. L’eau ne peut pas être utilisée dans un circuit hydraulique d’aviation car elle gèle à 0 °C et est corrosive. Les huiles minérales restent fluides à très basse température et résistent aux contraintes du vol en altitude.\n\nPiège fréquent : L’eau n’est pas utilisable dans un circuit hydraulique avion (gel à 0 °C, corrosion). Le fluide hydraulique aviation est une huile spéciale (Skydrol ou huile minérale), pas de l’eau.\n\nÀ retenir : Circuit hydraulique = fluide sous haute pression pour actionner les commandes de vol, trains, freins. Fluide = huile spéciale, jamais de l’eau.",
+      "expl_id": 3998,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-08",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "L'hélice à pas variable :",
+      "image": null,
+      "choices": {
+        "A": "s'utilise avec un grand pas au décollage et un petit pas en croisière",
+        "B": "diminue la vitesse de décrochage lorsque le moteur est réduit",
+        "C": "ne peut s'utiliser que sur des avions multimoteurs",
+        "D": "permet de raccourcir la distance de décollage tout en gardant de bonnes performances en croisière"
+      },
+      "answer": "D",
+      "explanation": "C’est le principal avantage de l’hélice à pas variable : elle peut s’adapter à toutes les phases de vol. Au décollage (petit pas), elle développe une puissance maximale et raccourcit la distance de décollage. En croisière (grand pas), elle offre un meilleur rendement et réduit la consommation. Une hélice à pas fixe serait un compromis imparfait – soit optimisée pour le décollage (grand régime, mauvais rendement croisière), soit pour la croisière (mauvais décollage).\n\nPiège fréquent : L’hélice à pas variable ne « s’utilise » pas avec un grand pas au décollage – c’est l’inverse. Et elle ne diminue pas la vitesse de décrochage – ce sont les volets qui jouent ce rôle.\n\nÀ retenir : Hélice à pas variable = meilleur des deux mondes : décollage court ET bonne croisière. Fonctionne comme une boîte de vitesses automatique pour l’hélice.",
+      "expl_id": 3999,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-09",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "La présence d'un réchauffage de carburateur est nécessaire pour :",
+      "image": null,
+      "choices": {
+        "A": "pallier la formation de glace dans le venturi",
+        "B": "échauffer le mélange avant d'entrer dans les cylindres, et donc améliorer sa combustion",
+        "C": "améliorer son fonctionnement à froid",
+        "D": "démarrer le moteur"
+      },
+      "answer": "A",
+      "explanation": "Dans un carburateur à venturi, l’accélération de l’air et la vaporisation du carburant provoquent un refroidissement local pouvant atteindre -20 °C. Même par temps doux (jusqu’à +25 °C extérieur), de la glace peut se former dans le venturi et obstruer progressivement l’admission d’air, réduisant la puissance du moteur ou pouvant aller jusqu’à l’arrêt. Le réchauffage de carburateur envoie de l’air chaud récupéré sur l’échappement dans le carburateur pour prévenir ou éliminer cette glace. C’est un dispositif de sécurité vital sur les avions à pistons.\n\nPiège fréquent : Le réchauffage de carburateur n’améliore pas la combustion ni le fonctionnement à froid en général – son rôle est spécifiquement de prévenir le givrage dans le venturi du carburateur. Son utilisation peut d’ailleurs légèrement réduire la puissance (air moins dense).\n\nÀ retenir : Réchauffage carburateur = prévenir/éliminer la glace dans le venturi. Possible même par temps positif (dès 0 °C à +25 °C avec humidité).",
+      "expl_id": 4000,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-10",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "En aéromodélisme, un avion d'apprentissage « deux axes » est pilotable sur les axes de :",
+      "image": null,
+      "choices": {
+        "A": "roulis et lacet",
+        "B": "roulis uniquement",
+        "C": "tangage et roulis",
+        "D": "tangage et lacet"
+      },
+      "answer": "D",
+      "explanation": "Un avion d’apprentissage « deux axes » contrôle le tangage (axe transversal, gouverne de profondeur – monte/descend) et le lacet (axe vertical, gouverne de direction – tourne à gauche/droite). Le roulis (axe longitudinal, ailerons – inclinaison latérale) n’est pas contrôlable directement. Ces avions sont plus simples à piloter pour les débutants, car l’inclinaison est naturellement stabilisée par le dièdre de l’aile. La plupart des avions réels nécessitent trois axes (tangage + roulis + lacet).\n\nPiège fréquent : « Roulis et lacet » – le roulis est l’axe longitudinal (inclinaison latérale, ailerons). Il n’est pas contrôlé sur un modèle deux axes. C’est le tangage et le lacet qui sont les deux axes utilisés.\n\nÀ retenir : 3 axes de l’avion : tangage (profondeur), roulis (ailerons), lacet (direction). Deux axes = tangage + lacet. Trois axes = tangage + roulis + lacet.",
+      "expl_id": 4001,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-11",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "Un avion possède des réservoirs de carburant en bout d'ailes. Lorsqu'il est au sol, le remplissage de ces réservoirs a pour conséquence :",
+      "image": null,
+      "choices": {
+        "A": "une traction de l'extrados et de l'intrados",
+        "B": "une compression de l'extrados et une traction de l'intrados",
+        "C": "une compression de l'intrados et de l'extrados",
+        "D": "une traction de l'intrados et une compression de l'extrados"
+      },
+      "answer": "D",
+      "explanation": "Au sol, l’aile est soutenue par le fuselage à sa base et soumise à la gravité sur toute sa longueur. Les réservoirs en bout d’aile (winglets tanks ou tip tanks) ajoutent une masse en extrémité qui fait « s’affaisser » l’aile vers le bas. Ce fléchissement crée des contraintes mécaniques : la face supérieure de l’aile (extrados) est en traction (étirée), et la face inférieure (intrados) est en compression. En vol, c’est l’inverse – la portance soulève les extrémités d’aile et l’extrados se retrouve en compression.\n\nPiège fréquent : La situation est exactement inversée en vol (portance qui soulève l’aile) et au sol (poids qui fait s’affaisser l’aile). La question parle de l’avion au sol – donc traction extrados, compression intrados.\n\nÀ retenir : Au sol, masse en bout d’aile → aile fléchit vers le bas → extrados en traction, intrados en compression. En vol, portance → aile fléchit vers le haut → inverse.",
+      "expl_id": 4002,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-12",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "Un train classique est constitué de :",
+      "image": null,
+      "choices": {
+        "A": "un train principal et une roulette de queue",
+        "B": "un train principal et une roulette de nez",
+        "C": "un train monotrace et deux balancines",
+        "D": "un balancier avant et deux roulettes arrière"
+      },
+      "answer": "A",
+      "explanation": "Le train classique (ou « conventionnel », parfois appelé « train en tricycle inversé ») comprend deux roues principales positionnées en avant du centre de gravité, et une petite roulette (ou béquille) à l’arrière sous la queue de l’avion. Ce type de train était standard jusqu’aux années 1950 (Spitfire, DC-3). Le train tricycle (moderne) inverse la configuration : deux roues principales derrière le CG et une roulette de nez à l’avant.\n\nPiège fréquent : Train classique ≠ train tricycle. Le train classique a la roulette à l’arrière (queue). Le train tricycle a la roulette à l’avant (nez). Le train tricycle est le standard moderne.\n\nÀ retenir : Train classique = deux roues avant le CG + roulette de queue. Train tricycle = deux roues derrière le CG + roulette de nez.",
+      "expl_id": 4003,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-13",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "Quel est le principal défi technique pour le développement des avions électriques à batterie ?",
+      "image": null,
+      "choices": {
+        "A": "le manque de pilotes formés pour les piloter",
+        "B": "leur incapacité à voler à haute altitude",
+        "C": "l'absence de réglementation pour leur certification",
+        "D": "la capacité énergétique des batteries actuelles, qui limite l'autonomie et la charge utile"
+      },
+      "answer": "D",
+      "explanation": "La principale limite des avions électriques est la densité énergétique des batteries actuelles. Le kérosène contient environ 12 kWh/kg d’énergie, contre seulement 0,25 à 0,3 kWh/kg pour les meilleures batteries lithium-ion actuelles – soit environ 40 fois moins. Pour une autonomie comparable à un avion thermique, il faudrait emporter des batteries 40 fois plus lourdes, ce qui est impossible. Les progrès en batteries à semi-conducteurs et en batteries lithium-soufre pourraient changer la donne, mais la rupture technologique n’est pas encore atteinte.\n\nPiège fréquent : Il existe des pilotes formés pour les avions électriques (même formation que pour les autres). La réglementation évolue rapidement. Le manque de pilotes n’est pas le frein principal.\n\nÀ retenir : Avions électriques = limités par la densité énergétique des batteries (trop lourdes pour trop peu d’énergie). C’est le verrou technologique majeur de l’aviation électrique.",
+      "expl_id": 4004,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-14",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "Cet avion est biplace. En examinant la photo, quelle est la configuration des places des pilotes ?",
+      "image": "data/images/cda2026-q14.png",
+      "choices": {
+        "A": "côte à côte",
+        "B": "en tandem",
+        "C": "en push-pull",
+        "D": "vis-à-vis"
+      },
+      "answer": "B",
+      "explanation": "La photo (avion numéroté 674) montre un fuselage étroit avec une verrière longue et deux postes de pilotage disposés l’un derrière l’autre : c’est la configuration en tandem. C’est typique des avions d’entraînement militaires (Alphajet, Fouga Magister) et de certains biplaces de voltige. La configuration côte à côte (les deux pilotes assis l’un à côté de l’autre) est plus courante sur les avions de tourisme (Cessna 172, Robin DR400).\n\nPiège fréquent : Tandem = l’un derrière l’autre (comme un tandem vélo). Côte à côte = l’un à côté de l’autre. Push-pull = moteurs en opposition avant/arrière (pas des places).\n\nÀ retenir : Tandem = sièges l’un derrière l’autre. Côte à côte = sièges l’un à côté de l’autre. La configuration se reconnaît à la forme et la longueur de la verrière.",
+      "expl_id": 4005,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-15",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "Pourquoi le carburant durable d'aviation (CDA), en anglais sustainable aviation fuel (SAF), pollue-t-il moins que le kérosène classique ?",
+      "image": null,
+      "choices": {
+        "A": "Parce qu'ils sont plus légers que le kérosène",
+        "B": "Parce qu'ils coûtent moins cher à produire",
+        "C": "Parce qu'ils sont fabriqués à partir de plantes ou de déchets recyclés, ce qui réduit les émissions de CO2",
+        "D": "Parce qu'ils permettent aux avions de voler plus haut"
+      },
+      "answer": "C",
+      "explanation": "Les SAF (Sustainable Aviation Fuels), ou CDA en français, sont des carburants aéronautiques produits à partir de matières premières renouvelables : déchets agricoles, huiles de cuisson usagées, déchets municipaux, biomasse, voire CO2 capturé dans l’atmosphère. La combustion produit autant de CO2 que le kérosène, mais le bilan carbone global est bien inférieur car le carbone brûlé était préalablement capté dans l’atmosphère par les plantes ou les organismes biologiques. On parle de « neutralité carbone » sur le cycle complet. Les SAF peuvent réduire les émissions nettes de CO2 jusqu’à 80 % par rapport au kérosène fossile.\n\nPiège fréquent : Les SAF ne sont pas plus légers que le kérosène – leur densité est similaire. Leur avantage est uniquement d’ordre environnemental (bilan carbone), pas physique.\n\nÀ retenir : SAF / CDA = carburants d’origine végétale ou de déchets. Moins de CO2 sur le cycle de vie complet (jusqu’à -80 %). Même énergie par litre que le kérosène classique.",
+      "expl_id": 4006,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-16",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "Parmi les instruments de bord suivants, lequel fonctionne en utilisant le champ magnétique ?",
+      "image": null,
+      "choices": {
+        "A": "Le compas",
+        "B": "L'horizon artificiel",
+        "C": "Le conservateur de cap",
+        "D": "L'altimètre"
+      },
+      "answer": "A",
+      "explanation": "Le compas magnétique est l’instrument le plus simple et le plus fiable de l’avion – il n’a pas besoin d’alimentation électrique. Il utilise une aiguille aimantée qui s’aligne naturellement dans le sens du champ magnétique terrestre. Il indique le cap magnétique de l’avion. Ses inconvénients : il est sujet aux erreurs de virage (accélération, retard), à la déclinaison magnétique (différence entre nord magnétique et nord géographique), et aux perturbations des masses métalliques à bord (déviation). L’horizon artificiel utilise un gyroscope. L’altimètre utilise la pression statique.\n\nPiège fréquent : Le conservateur de cap (DI ou HSI) utilise aussi un gyroscope et doit être recalé régulièrement sur le compas magnétique. Seul le compas lui-même est directement magnétique.\n\nÀ retenir : Compas = champ magnétique terrestre. Horizon artificiel + conservateur de cap = gyroscopes. Altimètre + variomètre = pression statique.",
+      "expl_id": 4007,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-17",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "Cet avion est propulsé par 2 turboréacteurs, lesquels sont chacun constitués de :",
+      "image": null,
+      "choices": {
+        "A": "tuyère et bielle",
+        "B": "turbine et vilebrequin",
+        "C": "chambre de combustion et piston",
+        "D": "tuyère et turbine"
+      },
+      "answer": "D",
+      "explanation": "Un turboréacteur comprend en réalité cinq éléments principaux : entrée d’air, compresseur, chambre de combustion, turbine et tuyère. La turbine entraîne le compresseur (éléments rotatifs couplés). La tuyère accélère les gaz brûlés pour créer la poussée par réaction. Parmi les propositions de la question, seule « tuyère et turbine » est correcte dans ce contexte. Les autres options (bielle, vilebrequin, piston) sont des éléments de moteurs à pistons (thermiques), pas de turboréacteurs.\n\nPiège fréquent : Bielle, vilebrequin et piston = moteur à pistons (comme une voiture). Tuyère, turbine, compresseur = turboréacteur. Ne pas confondre les deux familles de moteurs.\n\nÀ retenir : Turboréacteur = entrée d’air + compresseur + chambre de combustion + turbine + tuyère. La turbine entraîne le compresseur. La tuyère crée la poussée.",
+      "expl_id": 4008,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-18",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "Pour quelle raison un autogire est muni d'un moteur entraînant une hélice ?",
+      "image": null,
+      "choices": {
+        "A": "Pour ajouter de la puissance au rotor",
+        "B": "En secours, en cas de panne sur le moteur entraînant le rotor",
+        "C": "Pour permettre les manœuvres au sol",
+        "D": "Pour assurer la propulsion, le rotor sera ensuite entraîné par le vent relatif"
+      },
+      "answer": "D",
+      "explanation": "L’autogire (inventé par Juan de la Cierva dans les années 1920) est un aéronef hybride fascinant. Contrairement à l’hélicoptère où le rotor est entraîné par le moteur pour la sustentation ET la propulsion, dans l’autogire les rôles sont séparés : une hélice classique assure la propulsion (avancer), tandis que le rotor – libre de toute liaison mécanique avec le moteur – tourne automatiquement sous l’effet du vent relatif créé par l’avancement (autorotation). Cette autorotation naturelle génère la sustentation. Avantage : si le moteur tombe en panne, le rotor continue de tourner et l’autogire descend doucement (pas de risque de décrochage).\n\nPiège fréquent : Dans un autogire, le moteur/hélice sert uniquement à la propulsion (avancer), jamais à entraîner le rotor. Le rotor est auto-entraîné par le vent relatif – d’où le terme « autogire ».\n\nÀ retenir : Autogire = hélice (propulsion, moteur) + rotor en autorotation libre (sustentation, vent relatif). Différent de l’hélicoptère où le moteur entraîne le rotor.",
+      "expl_id": 4009,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-19",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "Cette machine est équipée :",
+      "image": "data/images/cda2026-q19.png",
+      "choices": {
+        "A": "d'un train classique et d'ailes hautes",
+        "B": "d'un train tricycle et d'ailes hautes",
+        "C": "d'un train classique et d'ailes basses",
+        "D": "d'un train tricycle et d'ailes basses"
+      },
+      "answer": "D",
+      "explanation": "La photo montre un avion léger moderne (type avion de tourisme ou d’entraînement). On y observe deux éléments caractéristiques : un train tricycle (deux roues principales derrière le CG + roulette de nez à l’avant, bien visible) et des ailes basses (l’aile est fixée à la partie basse du fuselage, sous le poste de pilotage). Ces deux caractéristiques sont typiques des avions de tourisme modernes. Les ailes hautes (type Cessna 172) sont fixées au-dessus du fuselage.\n\nPiège fréquent : Bien identifier la position de l’aile (haute, médiane, basse) et le type de train (classique avec roulette arrière vs tricycle avec roulette avant). En regardant la photo, la roulette de nez est clairement visible à l’avant.\n\nÀ retenir : Train tricycle = roulette de nez à l’avant. Ailes basses = aile fixée sous le fuselage. Ailes hautes = aile fixée au-dessus du fuselage (Cessna 172, ATR…).",
+      "expl_id": 4010,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "cda-2026-20",
+      "theme": "aeronefs",
+      "year": 2026,
+      "question": "Quel instrument utilise la pression totale ?",
+      "image": null,
+      "choices": {
+        "A": "Horizon artificiel",
+        "B": "Variomètre",
+        "C": "Altimètre",
+        "D": "Anémomètre"
+      },
+      "answer": "D",
+      "explanation": "L’anémomètre (ou indicateur de vitesse, badin) mesure la vitesse air. Pour ce faire, il compare la pression totale (captée par le tube de Pitot, face au vent) et la pression statique (captée par les prises statiques). La différence = pression dynamique, qui est proportionnelle au carré de la vitesse (V² × ρ / 2). L’altimètre utilise uniquement la pression statique. Le variomètre utilise la variation de pression statique dans le temps. L’horizon artificiel utilise un gyroscope.\n\nPiège fréquent : L’altimètre utilise la pression statique seule (pas la totale). L’anémomètre utilise les deux (totale – statique = dynamique). Bien distinguer les deux instruments et leurs sources de pression.\n\nÀ retenir : Anémomètre = pression totale (Pitot) – pression statique = pression dynamique → vitesse. Altimètre = pression statique seule → altitude.",
+      "expl_id": 4011,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-01",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "Le pied (ft) correspond à une distance de :",
+      "image": null,
+      "choices": {
+        "A": "0,3048 m",
+        "B": "1 609 m",
+        "C": "1 852 m",
+        "D": "0,3048 cm"
+      },
+      "answer": "A",
+      "explanation": "Le pied (foot, abrégé ft) est l’unité d’altitude standard en aviation internationale. 1 pied = 0,3048 m exactement (définition internationale). Pour les conversions pratiques, on retient souvent que 1 000 ft ≈ 300 m, ou plus précisément que 1 000 ft = 304,8 m. Le FL100 (Flight Level 100) correspond donc à 10 000 ft ≈ 3 048 m. En France, les altitudes de croisière sont exprimées en pieds, conformément aux standards OACI.\n\nPiège fréquent : 1 609 m correspond à 1 mile terrestre (statute mile). 1 852 m correspond à 1 mille nautique (NM). Ne pas confondre pied, mile et mille nautique.\n\nÀ retenir : 1 ft = 0,3048 m. 1 000 ft ≈ 300 m. 1 NM = 1 852 m. 1 mile terrestre = 1 609 m.",
+      "expl_id": 4012,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-02",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "Un aéronef vole pendant 6 minutes à une vitesse sol de 120 kt. Quelle distance a-t-il parcourue ?",
+      "image": null,
+      "choices": {
+        "A": "42 NM",
+        "B": "32 NM",
+        "C": "22 NM",
+        "D": "12 NM"
+      },
+      "answer": "D",
+      "explanation": "Distance = vitesse × temps. La vitesse est en kt (nœuds = NM/h) et le temps en heures. 6 minutes = 6/60 = 0,1 heure. Distance = 120 kt × 0,1 h = 12 NM. Astuce pratique : à 120 kt, l’avion parcourt 2 NM par minute (120 / 60 = 2). En 6 minutes, il fait donc 6 × 2 = 12 NM. Cette règle du « 2 NM par minute » à 120 kt est très utile pour les calculs rapides en navigation.\n\nPiège fréquent : Attention aux unités de temps : 6 minutes ≠ 6 heures. Le calcul 120 × 6 = 720 NM serait faux. Il faut convertir les minutes en fractions d’heure.\n\nÀ retenir : Distance (NM) = vitesse (kt) × temps (h). À 120 kt = 2 NM/min. À 60 kt = 1 NM/min. Ces règles simplifient les calculs de navigation.",
+      "expl_id": 4013,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-03",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "Que peut-on dire de la vitesse sol (Vs) par vent de face ?",
+      "image": null,
+      "choices": {
+        "A": "Elle est supérieure à la vitesse propre (Vp) de l'aéronef",
+        "B": "Elle est inférieure à la vitesse propre (Vp) de l'aéronef",
+        "C": "Elle est égale à la vitesse propre (Vp) de l'aéronef",
+        "D": "Elle est égale à la vitesse propre mais opposée à la route suivie"
+      },
+      "answer": "B",
+      "explanation": "La vitesse propre (VP ou TAS) est la vitesse de l’avion par rapport à la masse d’air. La vitesse sol (Vs ou GS) est la vitesse de l’avion par rapport au sol. Avec un vent de face (vent en sens contraire au déplacement), l’avion avance moins vite sur le sol qu’il ne se déplace dans l’air : Vs = VP – vent de face. Si un avion vole à 120 kt avec 20 kt de vent de face, sa vitesse sol est de 100 kt. C’est pourquoi le vent de face rallonge les temps de vol mais est favorable au décollage et à l’atterrissage.\n\nPiège fréquent : En vent arrière, c’est l’inverse : Vs > VP. Le vent s’ajoute à la vitesse propre. Vs = VP + vent arrière. Le vent arrière raccourcit les temps de vol mais est moins favorable au décollage.\n\nÀ retenir : Vent de face : Vs < VP (ralentit sur le sol). Vent arrière : Vs > VP (accélère sur le sol). Vent de travers : Vs ≈ VP (dérive latérale).",
+      "expl_id": 4014,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-04",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "Qu'est-ce que l'effet tunnel ?",
+      "image": null,
+      "choices": {
+        "A": "Un phénomène météorologique dû à un couloir de nuages",
+        "B": "La concentration du pilote sur un nombre limité d'informations au cours de l'observation",
+        "C": "Le fait pour un aéronef d'être pris dans deux couches nuageuses",
+        "D": "Un phénomène lié au passage de l'aéronef près d'un relief"
+      },
+      "answer": "B",
+      "explanation": "L’effet tunnel (ou « tunneling ») est un phénomène de facteur humain où le pilote se concentre excessivement sur un seul instrument, une seule information ou une seule tâche, au détriment de la surveillance globale du vol. Par exemple, un pilote fixé sur son altimètre en approche peut négliger de regarder la piste ou les autres aéronefs. C’est une cause d’accidents bien documentée. La conscience situationnelle (percevoir et comprendre son environnement) est l’antidote principal à l’effet tunnel.\n\nPiège fréquent : L’effet tunnel n’est pas un phénomène météorologique – c’est un phénomène de facteur humain et de psychologie du pilote. Ne pas confondre avec un couloir de nuages ou un corridor aérien.\n\nÀ retenir : Effet tunnel = concentration excessive sur un seul élément → perte de conscience situationnelle. Remède : scan régulier de tous les instruments et de l’environnement extérieur.",
+      "expl_id": 4015,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-05",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "Un NOTAM est :",
+      "image": null,
+      "choices": {
+        "A": "une notification qui mentionne l'état ou la modification d'une installation, d'un service ou d'une procédure",
+        "B": "une procédure d'aviation",
+        "C": "une zone d'interdiction militaire",
+        "D": "l'ensemble des conditions météorologiques nécessaires au vol VFR"
+      },
+      "answer": "A",
+      "explanation": "Un NOTAM (Notice to Air Missions, anciennement Notice to Airmen) est un avis officiel diffusé par les autorités aéronautiques pour informer les pilotes de changements temporaires ou permanents affectant la navigation aérienne. Un NOTAM peut signaler : une piste fermée, un équipement radio hors service, un feux d’obstacles allumé, une zone de parachutage active, un exercice militaire, une activité de drone dans un secteur, etc. Les pilotes doivent consulter les NOTAM avant chaque vol dans le cadre de leur préparation.\n\nPiège fréquent : Un NOTAM n’est pas un manuel de procédures propre à chaque machine (c’est l’AFM/POH). Il ne définit pas non plus les conditions météo VFR (c’est le VAC et les minimums réglementaires).\n\nÀ retenir : NOTAM = Notice to Air Missions. Avis temporaire ou permanent sur l’état des infrastructures, services ou dangers affectant la navigation aérienne.",
+      "expl_id": 4016,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-06",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "L'EASA est :",
+      "image": null,
+      "choices": {
+        "A": "l'Agence Européenne de Sécurité Aéronautique",
+        "B": "l'Agence Européenne de l'Aéronautique et du Spatial",
+        "C": "l'Agence Européenne des Assureurs Aéronautiques",
+        "D": "l'Établissement Affecté à la Sûreté Aérienne"
+      },
+      "answer": "A",
+      "explanation": "L’EASA (European Union Aviation Safety Agency) est l’agence de l’Union européenne chargée de la sécurité de l’aviation civile en Europe. Elle établit les règles de navigabilité des aéronefs, les licences des pilotes, les exigences de maintenance, les procédures de certification des aéronefs pour les 27 pays membres. Elle est l’homologue européen de la FAA américaine (Federal Aviation Administration). Son siège est à Cologne, en Allemagne.\n\nPiège fréquent : Ne pas confondre EASA (Europe) et OACI (mondial). L’OACI est l’Organisation de l’Aviation Civile Internationale, dépendant de l’ONU, qui établit les standards mondiaux – mais sans pouvoir coercitif direct. L’EASA traduit ces standards en règlements contraignants pour l’Europe.\n\nÀ retenir : EASA = Agence Européenne de Sécurité Aéronautique (siège à Cologne). OACI = Organisation mondiale (ONU). DGAC = autorité nationale française.",
+      "expl_id": 4017,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-07",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "Pour la sécurité des vols, la qualité qu'il faut avoir en priorité est :",
+      "image": null,
+      "choices": {
+        "A": "une bonne connaissance de soi, de ses limites et de sa machine",
+        "B": "une grande habileté de pilotage",
+        "C": "un grand nombre d'heures de pilotage",
+        "D": "une bonne connaissance de la réglementation"
+      },
+      "answer": "A",
+      "explanation": "En facteur humain, la sécurité des vols repose avant tout sur la connaissance de soi : savoir ce qu’on sait faire et ce qu’on ne sait pas faire, identifier ses limites physiques (fatigue, stress, maladie) et psychologiques (pression sociale, prise de risque). Un pilote expérimenté mais conscient de ses limites est plus sûr qu’un pilote habituellement doué qui s’entête dans une situation dégradée. La réglementation et les heures de vol comptent moins que cette conscience lucide de ses capacités réelles du moment.\n\nPiège fréquent : Avoir « beaucoup d’heures de pilotage » ou une « grande habileté » ne garantit pas la sécurité si le pilote ignore ses limites du moment. L’accident est souvent lié à une surestimation de ses capacités.\n\nÀ retenir : Sécurité prioritaire = connaissance de soi, de ses limites, de sa machine. Conscience situationnelle + humilité = les deux piliers du pilote sûr.",
+      "expl_id": 4018,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-08",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "L'altitude maximale autorisée pour le vol d'un drone opéré en catégorie ouverte, hors proximité d'un aérodrome ou d'une zone particulière, est de :",
+      "image": null,
+      "choices": {
+        "A": "120 m",
+        "B": "150 m",
+        "C": "200 m",
+        "D": "250 m"
+      },
+      "answer": "A",
+      "explanation": "Selon le règlement européen EU 2019/947 sur les drones, la catégorie ouverte correspond aux vols de drones à faible risque. Hors zone géographique particulière et hors proximité d’aérodrome, l’altitude maximale autorisée est de 120 mètres au-dessus de la surface (ou de l’obstacle le plus proche dans un rayon de 50 m). Ce règlement est harmonisé pour tous les pays membres de l’UE depuis janvier 2021. Au-delà de 120 m, un drone entre dans un espace aérien réglementé et nécessite une autorisation spécifique.\n\nPiège fréquent : La valeur de 120 m (et non 150 m) est à mémoriser avec précision – c’est le seuil réglementaire exact du règlement européen. Des exceptions existent (zones particulières, aérodromes) mais la règle générale est bien 120 m.\n\nÀ retenir : Drone catégorie ouverte hors zone particulière = 120 m maximum au-dessus du sol. Règlement européen EU 2019/947.",
+      "expl_id": 4019,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-09",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "À partir des toutes dernières informations météorologiques, votre instructeur vous indique qu'il faut suivre un cap inférieur à la route. Vous en déduisez que :",
+      "image": null,
+      "choices": {
+        "A": "le vent vient de la gauche",
+        "B": "le vent est de face",
+        "C": "le vent est arrière",
+        "D": "le vent vient de la droite"
+      },
+      "answer": "A",
+      "explanation": "Voler à un cap inférieur à la route signifie que l’avion pointe légèrement à gauche de la direction désirée. Si on pointe à gauche, c’est pour compenser une dérive vers la droite causée par un vent qui pousse vers la droite – donc un vent venant de la gauche. Règle générale : cap < route → le vent vient de la gauche (on corrige à gauche pour aller vers la droite). Cap > route → le vent vient de la droite.\n\nPiège fréquent : Ce raisonnement est contre-intuitif au premier abord. Si on volait « droit dans la direction désirée », le vent de gauche nous pousserait vers la droite et on manquerait la destination. En pointant à gauche (cap inférieur), on compense cette dérive.\n\nÀ retenir : Cap < route (pointer à gauche) → vent vient de la gauche. Cap > route (pointer à droite) → vent vient de la droite.",
+      "expl_id": 4020,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-10",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "Vous êtes en vent arrière pour la 12 (QFU 120°), la route à suivre est :",
+      "image": null,
+      "choices": {
+        "A": "300°",
+        "B": "120°",
+        "C": "210°",
+        "D": "030°"
+      },
+      "answer": "A",
+      "explanation": "Le QFU 120° signifie que la piste est orientée à 120° (magnétique). Pour faire face au vent et atterrir sur cette piste, on décollage/atterrit dans le sens 120°. Le vent arrière est le segment du circuit d’atterrissage qui se fait dans le sens inverse – c’est-à-dire à 120° + 180° = 300°. En vent arrière, l’avion vole dos au vent, parallèlement à l’axe de la piste, pour se positionner en vue d’un virage base puis finale.\n\nPiège fréquent : Ne pas confondre QFU (orientation de la piste) et le cap en vent arrière. Le vent arrière se fait toujours en sens inverse (+ 180°) par rapport à l’axe d’atterrissage. 120 + 180 = 300°.\n\nÀ retenir : Vent arrière = QFU + 180°. QFU 12 (120°) → vent arrière à 300°. QFU 24 (240°) → vent arrière à 060°.",
+      "expl_id": 4021,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-11",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "Le REX est :",
+      "image": null,
+      "choices": {
+        "A": "un dispositif de détresse",
+        "B": "une procédure permettant de prendre en compte le retour d'expérience",
+        "C": "un rappel à la loi",
+        "D": "un organisme de contrôle"
+      },
+      "answer": "B",
+      "explanation": "Le REX (Retour d’Expérience) est une démarche systématique de collecte, d’analyse et de capitalisation des enseignements tirés des incidents et accidents aéronautiques. Il permet d’identifier les causes profondes des dysfonctionnements et de prendre des mesures préventives pour éviter leur récurrence. En aviation, le REX est fondamental : chaque incident signalé (même mineur) contribue à améliorer la sécurité globale du secteur. Les compagnies aériennes, les constructeurs et les autorités (BEA, EASA) utilisent le REX de façon systématique.\n\nPiège fréquent : Le REX n’est pas un dispositif de détresse ni une sanction disciplinaire – c’est une démarche d’amélioration continue. En France, le BEA (Bureau d’Enquêtes et d’Analyses) mène les enquêtes de sécurité indépendamment des procédures judiciaires.\n\nÀ retenir : REX = Retour d’EXpérience. Démarche de capitalisation des leçons tirées des incidents pour améliorer la sécurité future.",
+      "expl_id": 4022,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-12",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "La responsabilité de l'entretien d'un ULM est règlementairement assurée par :",
+      "image": null,
+      "choices": {
+        "A": "le propriétaire",
+        "B": "un organisme agréé",
+        "C": "le constructeur",
+        "D": "l'aéro-mécanicien du club"
+      },
+      "answer": "A",
+      "explanation": "En France, l’entretien des ULM (Ultraléger Motorisé) relève de la responsabilité réglementaire du propriétaire. C’est une spécificité importante des ULM par rapport aux avions certifiés : il n’est pas obligatoire de faire appel à un atelier agréé pour l’entretien courant. Le propriétaire peut lui-même effectuer les travaux s’il en a la compétence. En revanche, pour les avions certifiés (catégorie normale, utilitaire, etc.), la maintenance doit être assurée par des organismes agréés selon la réglementation PART-145.\n\nPiège fréquent : Pour les avions certifiés, c’est l’organisme agréé (non le propriétaire) qui est responsable. La règle diffère selon la catégorie d’aéronef : ULM ≠ avion certifié.\n\nÀ retenir : Entretien ULM = responsabilité du propriétaire. Entretien avion certifié = organisme agréé PART-145 obligatoire.",
+      "expl_id": 4023,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-13",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "Le code standard d'un transpondeur en VFR en l'absence d'instruction du contrôle est :",
+      "image": null,
+      "choices": {
+        "A": "le 7000",
+        "B": "le 7700",
+        "C": "le 7600",
+        "D": "le 7500"
+      },
+      "answer": "A",
+      "explanation": "En vol VFR (Vol à Vue) en France et en Europe, sans instruction spécifique du contrôle aérien, le pilote règle son transpondeur sur le code 7000. C’est le code VFR standard européen. Ce code permet aux radars de suivre l’aéronef et de l’identifier comme un vol VFR. D’autres codes ont des significations spéciales : 7700 = détresse (urgence), 7600 = panne radio, 7500 = intervention illicite (piraterie). Ces trois codes sont à connaître absolument.\n\nPiège fréquent : Aux États-Unis, le code VFR standard est 1200. En Europe, c’est 7000. Les codes spéciaux (7700, 7600, 7500) sont universels. Attention : afficher accidentellement 7500 ou 7700 peut déclencher une intervention des secours.\n\nÀ retenir : VFR sans instruction = 7000. Détresse = 7700. Panne radio = 7600. Piraterie = 7500. Mémo : « 7700 = 7 détresses ».",
+      "expl_id": 4024,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-14",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "Les conditions les plus pénalisantes en termes de distance de décollage sont :",
+      "image": null,
+      "choices": {
+        "A": "temps froid en plaine",
+        "B": "temps chaud en plaine",
+        "C": "temps froid et en altitude",
+        "D": "temps chaud et en altitude"
+      },
+      "answer": "D",
+      "explanation": "La distance de décollage dépend directement de la densité de l’air. Un air moins dense fournit moins de portance (l’aile doit aller plus vite pour décoller) et moins d’efficacité du moteur/hélice. La densité diminue quand la température augmente et quand l’altitude augmente. Les conditions les plus pénalisantes combinent donc les deux facteurs : temps chaud (air dilaté, moins dense) et en altitude (air raréfié). Un aérodrome en montagne par forte chaleur peut allonger la distance de décollage de manière considérable – c’est une cause d’accidents.\n\nPiège fréquent : Le froid dense l’air et améliore les performances au décollage. « Temps froid en plaine » serait les conditions les plus favorables. « Temps chaud en altitude » sont les pires.\n\nÀ retenir : Performances décollage ↓ quand densité air ↓. Densité air ↓ quand T° ↑ ou altitude ↑. Pires conditions = chaud + altitude élevée.",
+      "expl_id": 4025,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-15",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "L'OACI est un organisme chargé d'établir le cadre réglementaire de la sécurité de l'aviation civile :",
+      "image": null,
+      "choices": {
+        "A": "uniquement au niveau de la France",
+        "B": "sous la responsabilité du ministère des transports",
+        "C": "au niveau mondial",
+        "D": "en Europe uniquement"
+      },
+      "answer": "C",
+      "explanation": "L’OACI (Organisation de l’Aviation Civile Internationale, en anglais ICAO) est une agence spécialisée de l’ONU fondée en 1944 par la Convention de Chicago. Elle réunit 193 États membres et établit les standards et pratiques recommandées (SARPs) pour l’aviation civile internationale à l’échelle mondiale : sécurité, navigation aérienne, aéroports, protection de l’environnement, facilitation des voyages internationaux. Son siège est à Montréal, Canada.\n\nPiège fréquent : L’OACI fixe des standards mais n’a pas de pouvoir réglementaire direct – ce sont les États membres qui transposent les SARPs dans leur droit national. En Europe, c’est l’EASA qui traduit les normes OACI en règlements contraignants.\n\nÀ retenir : OACI = agence ONU, standards mondiaux de l’aviation civile, siège à Montréal. 193 membres. EASA = application en Europe. DGAC = application en France.",
+      "expl_id": 4026,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-16",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "Le transpondeur qui équipe votre avion permet :",
+      "image": null,
+      "choices": {
+        "A": "d'identifier et de suivre un vol à l'aide d'un radar au sol",
+        "B": "d'effectuer un vol sans visibilité",
+        "C": "la pratique du VFR en haute altitude",
+        "D": "de recevoir des informations météo en vol (VOLMET)"
+      },
+      "answer": "A",
+      "explanation": "Le transpondeur est un émetteur-récepteur qui répond aux interrogations des radars secondaires de surveillance (SSR). Quand le radar interroge l’avion, le transpondeur répond avec son code (squawk) et son altitude – permettant au contrôleur de suivre l’aéronef sur son écran radar avec son identité et son niveau. Le mode A indique le code, le mode C ajoute l’altitude, le mode S (moderne) permet aussi la transmission automatique des données de vol (ADS-B). C’est un outil fondamental de la surveillance du trafic aérien.\n\nPiège fréquent : Le transpondeur ne permet pas de recevoir des infos météo VOLMET (c’est la radio VHF). Il ne permet pas non plus de voler sans visibilité (c’est l’IFR et les instruments de navigation).\n\nÀ retenir : Transpondeur = répondeur radar. Permet au contrôle de voir l’avion sur son écran avec son code et son altitude. Modes A (code), C (altitude), S (données avancées).",
+      "expl_id": 4027,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-17",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "De manière générale, dans une procédure d'atterrissage, l'ordre est :",
+      "image": null,
+      "choices": {
+        "A": "vent arrière, base, finale",
+        "B": "vent de face, base, finale",
+        "C": "vent traversier, finale",
+        "D": "vent arrière, finale"
+      },
+      "answer": "A",
+      "explanation": "Le circuit d’atterrissage standard (ou circuit de piste) est un hippodrome autour de l’aérodrome. Après le décollage, l’avion monte en vent traversier, puis en vent arrière (dos au vent, parallèle à la piste), vire en base (perpendiculaire à la piste, vers la piste), puis s’aligne en finale (face au vent, dans l’axe de la piste, descente vers l’atterrissage). Ce circuit est standard dans le monde entier et permet à plusieurs avions de se succéder en sécurité autour d’un aérodrome.\n\nPiège fréquent : L’ordre est toujours : vent arrière → base → finale. Il ne faut pas confondre avec « vent traversier » (segment après le décollage et avant le vent arrière, parfois omis dans la question). La finale est toujours le dernier segment avant l’atterrissage.\n\nÀ retenir : Circuit d’atterrissage = vent traversier → vent arrière → base → finale → atterrissage. Toujours face au vent en finale.",
+      "expl_id": 4028,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-18",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "Les numéros pour désigner les pistes sont :",
+      "image": null,
+      "choices": {
+        "A": "choisis par le maire de la ville qui a implanté l'aérodrome",
+        "B": "choisis par le directeur des aérodromes",
+        "C": "les dizaines arrondies de l'orientation magnétique de la piste",
+        "D": "la longueur de la piste pour le chiffre le plus au nord, la largeur pour celui le plus au sud"
+      },
+      "answer": "C",
+      "explanation": "Le numéro d’une piste correspond aux dizaines arrondies de son orientation magnétique. Une piste orientée à 120° magnétique sera numérotée « 12 » (on supprime le dernier chiffre). Son extrémité opposée, à 300°, sera numérotée « 30 ». Une piste orientée à 047° sera numérotée « 05 ». Les numéros vont de 01 à 36. Si deux pistes parallèles ont la même orientation, on ajoute L (gauche), R (droite) ou C (centrale). Les numéros sont peints en grandes lettres sur le seuil de piste.\n\nPiège fréquent : Le numéro de piste utilise le cap magnétique (pas géographique/vrai). Il est arrondi aux dizaines, pas donné en degrés précis. Une piste 12 est orientée approximativement entre 115° et 124° magnétiques.\n\nÀ retenir : Numéro de piste = cap magnétique / 10 (dizaines arrondies). Piste 12 = 120°. Piste 30 = 300° (extrémité opposée de la piste 12).",
+      "expl_id": 4029,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-19",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "Pour voler en France, les certificats que doit obligatoirement posséder un avion certifié sont :",
+      "image": null,
+      "choices": {
+        "A": "la licence de station d'aéronef (LSA)",
+        "B": "l'habilitation de radiotéléphonie en langue française",
+        "C": "la facture d'achat de l'avion",
+        "D": "les certificats de navigabilité (CEN) et d'examen de navigabilité (CDN)"
+      },
+      "answer": "D",
+      "explanation": "Tout avion certifié en France doit posséder deux documents essentiels. Le CEN (Certificat de Navigabilité) est délivré à la réception de l’avion neuf et atteste qu’il est conforme à son type approuvé. Le CDN (Certificat de Navigabilité de type ou examen de navigabilité) est renouvelé périodiquement (généralement tous les ans) après inspection et atteste que l’avion est maintenu en état de navigabilité. Ces deux documents doivent être à bord lors de chaque vol. Si l’un est périmé ou absent, l’avion ne peut pas voler légalement.\n\nPiège fréquent : La « licence de station d’aéronef » (LSA) concerne la radio embarquée, pas la navigabilité. La « facture d’achat » n’a aucune valeur réglementaire pour le vol.\n\nÀ retenir : Avion certifié = CEN (à vie, délivré neuf) + CDN (renouvelé périodiquement). Ces documents + la carte d’immatriculation + le manuel de vol doivent être à bord.",
+      "expl_id": 4030,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "nrs-2026-20",
+      "theme": "navigation",
+      "year": 2026,
+      "question": "Quelle est la correspondance d'un mille nautique (NM) dans le système métrique ?",
+      "image": null,
+      "choices": {
+        "A": "1 528 m",
+        "B": "0,8 km²",
+        "C": "1,852 km",
+        "D": "1 609 m"
+      },
+      "answer": "C",
+      "explanation": "Le mille nautique (NM ou nm) est l’unité de distance standard en navigation aérienne et maritime internationale. 1 NM = 1 852 m = 1,852 km exactement. Cette valeur n’est pas arbitraire : elle correspond à la longueur d’une minute d’arc sur un grand cercle terrestre (1/60 de degré de latitude). C’est pourquoi les cartes aéronautiques et les règles de navigation utilisent naturellement cette unité. 1 NM/h = 1 nœud (kt).\n\nPiège fréquent : 1 609 m = 1 mile terrestre (statute mile), unité utilisée aux États-Unis pour les distances routières mais pas en aviation internationale. 1 852 m = 1 NM. Ne pas inverser.\n\nÀ retenir : 1 NM = 1 852 m = 1,852 km. 1 kt = 1 NM/h. 1 NM = 1 minute d’arc sur un grand cercle terrestre.",
+      "expl_id": 4031,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-01",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "Lors de la première traversée de l'Atlantique en 1927, Charles Lindbergh se pose :",
+      "image": null,
+      "choices": {
+        "A": "à Pontoise",
+        "B": "à Étampes",
+        "C": "à Orly",
+        "D": "au Bourget"
+      },
+      "answer": "D",
+      "explanation": "Le 21 mai 1927, Charles Lindbergh atterrit au Bourget (aéroport au nord-est de Paris) à bord du Spirit of St. Louis, après 33 heures 30 de vol depuis Roosevelt Field (New York). C’est le premier vol transatlantique en solitaire et sans escale de l’histoire. Lindbergh est accueilli par une foule estimée à 100 000 personnes.\n\nPiège fréquent : Ne pas confondre avec la traversée de l’Atlantique Nord par Alcock et Brown en 1919 (premier vol transatlantique, mais avec deux pilotes et atterrissage en Irlande). Lindbergh = seul, sans escale, New York → Le Bourget.\n\nÀ retenir : Lindbergh – Spirit of St. Louis – Roosevelt Field → Le Bourget – 21 mai 1927 – 33h30 de vol solo sans escale.",
+      "expl_id": 4032,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-02",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "Octave Chanute est :",
+      "image": null,
+      "choices": {
+        "A": "le premier directeur de l'Aéropostale",
+        "B": "le premier président d'Airbus",
+        "C": "un ingénieur américain d'origine française pionnier de l'aviation",
+        "D": "le premier « ministre de l'air »"
+      },
+      "answer": "C",
+      "explanation": "Octave Chanute (1832-1910) est un ingénieur civil franco-américain qui joua un rôle crucial dans les débuts de l’aviation. Il construisit et expérimenta des planeurs biplans à la fin du XIXe siècle, et entretint une correspondance décisive avec les frères Wright. Son ouvrage Progress in Flying Machines (1894) synthétisa les connaissances aéronautiques de l’époque et inspira de nombreux pionniers.\n\nPiège fréquent : Chanute est ingénieur (pas pilote), américain (né à Paris mais naturalisé), et spécialisé dans les planeurs biplans (pas les ballons ni les avions à moteur). Son rôle fut surtout celui de théoricien et de mentor.\n\nÀ retenir : Chanute = ingénieur américain, planeurs biplans fin XIXe, mentor des frères Wright, auteur de Progress in Flying Machines (1894).",
+      "expl_id": 4033,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-03",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "Peu de temps après le vol d'un ballon à air chaud, le physicien Jacques Charles réalise le premier vol d'un :",
+      "image": null,
+      "choices": {
+        "A": "cerf-volant",
+        "B": "planeur à ailes battantes",
+        "C": "dirigeable",
+        "D": "ballon à gaz (autre que l'air)"
+      },
+      "answer": "D",
+      "explanation": "Il existe deux grandes familles de ballons libres. Le ballon à air chaud (montgolfière) brûle du propane pour chauffer l’air intérieur, qui se dilate et devient moins dense que l’air extérieur. Le ballon à gaz contient un gaz intrinsèquement plus léger que l’air – historiquement de l’hydrogène (inflammable), aujourd’hui de l’hélium (inerte, plus sûr). Les premiers vols habités des frères Montgolfier (1783) étaient à air chaud ; la même année, Jacques Charles vola avec un ballon à hydrogène.\n\nPiège fréquent : Montgolfière ≠ ballon à gaz. La montgolfière chauffe de l’air ; le ballon à gaz utilise un gaz plus léger que l’air (H₂ ou He). Les deux sont des aérostats (engins plus légers que l’air, LTA), mais leur principe de sustentation diffère.\n\nÀ retenir : Ballon à gaz = hydrogène ou hélium. Montgolfière = air chaud. Aérostat = tout engin LTA (Lighter Than Air). Charles = ballon à gaz (1783). Montgolfier = air chaud (1783).",
+      "expl_id": 4034,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-04",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "Au cours de la Première Guerre mondiale, la vitesse moyenne des avions de chasse sera multipliée par :",
+      "image": null,
+      "choices": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "answer": "A",
+      "explanation": "La vitesse du son dépend uniquement de la température, pas de la pression ni de la densité. Au niveau de la mer (ISA +15°C), elle vaut environ 340 m/s (1 225 km/h). À la tropopause (~11 000 m, ISA -56,5°C), elle vaut environ 295 m/s (1 062 km/h). Comme la température diminue avec l’altitude dans la troposphère (gradient de -2°C/1 000 ft), la vitesse du son diminue aussi. Cette variation a une importance directe pour le nombre de Mach (rapport vitesse avion / vitesse du son locale).\n\nPiège fréquent : La vitesse du son ne dépend pas de la pression ou de la densité, uniquement de la température. À altitude égale mais températures différentes (jour/nuit, été/hiver), la vitesse du son change. Formule : c ≈ 340 × √(T/288) m/s, où T est en Kelvin.\n\nÀ retenir : Vitesse du son = 340 m/s à +15°C (sol, ISA). Diminue avec la température → diminue avec l’altitude dans la troposphère. À la tropopause : ~295 m/s. Mach 1 = vitesse du son locale.",
+      "expl_id": 4035,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-05",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "Le 7 décembre 1941, les Japonais déclarent la guerre aux États-Unis en attaquant la base de Pearl Harbor au moyen de :",
+      "image": null,
+      "choices": {
+        "A": "bombardiers à très long rayon d'action",
+        "B": "bombardiers ravitaillés en vol",
+        "C": "hydravions armés de bombes",
+        "D": "chasseurs et bombardiers lancés depuis des porte-avions"
+      },
+      "answer": "D",
+      "explanation": "Un porte-avions est un navire de guerre conçu pour servir de base d’opérations aériennes en mer. Il embarque des avions de combat, des hélicoptères et tous les équipements nécessaires à leur maintenance et armement. Son avantage stratégique décisif est sa mobilité : il peut se positionner à portée de n’importe quelle côte du monde, projetant une puissance aérienne sans dépendre d’une base terrestre alliée. Le Charles de Gaulle est l’unique porte-avions français, à propulsion nucléaire.\n\nPiège fréquent : Ne pas le confondre avec un navire de transport ou un ravitailleur. Sa caractéristique définissante est sa piste d’envol avec catapulte (comme sur le Charles de Gaulle) ou tremplin ski-jump (marines britannique, russe, indienne) permettant aux avions de décoller en mer.\n\nÀ retenir : Porte-avions = base aérienne mobile. France : Charles de Gaulle (propulsion nucléaire, catapulte à vapeur, port de Toulon). Le seul porte-avions nucléaire hors USA.",
+      "expl_id": 4036,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-06",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "Wernher Von Braun est le père du programme spatial américain ayant amené un homme sur la Lune, il est également à l'origine de :",
+      "image": null,
+      "choices": {
+        "A": "l'avion Messerschmitt 262",
+        "B": "l'arme de représailles V2",
+        "C": "l'avion-fusée Me163",
+        "D": "le lanceur Soyouz"
+      },
+      "answer": "B",
+      "explanation": "Le V2 (Vergeltungswaffe 2, « arme de représailles ») est le premier missile balistique de l’histoire, développé par l’Allemagne nazie sous la direction de Wernher von Braun. Opérationnel à partir de septembre 1944, il atteignait des altitudes de 80-90 km avec une portée de 320 km. Après la guerre, von Braun fut recruté par les États-Unis (opération Paperclip) et devint le père de la fusée Saturn V, qui emmena les astronautes d’Apollo 11 sur la Lune en 1969.\n\nPiège fréquent : V1 ≠ V2. Le V1 est une bombe volante à moteur pulse-jet (guidage gyroscopique, aile fixe). Le V2 est un vrai missile balistique à propulsion liquide, ancêtre direct des fusées spatiales modernes. Von Braun travailla sur le V2, pas sur le V1.\n\nÀ retenir : V2 = premier missile balistique (Allemagne 1944), Wernher von Braun. Ancêtre des fusées spatiales. Von Braun → NASA → Saturn V → Apollo 11.",
+      "expl_id": 4037,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-07",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "Les premières compétitions aériennes avant la Première Guerre mondiale ont été soutenues par de grands donateurs comme :",
+      "image": null,
+      "choices": {
+        "A": "Michelin",
+        "B": "Dassault",
+        "C": "Chanel",
+        "D": "Lacoste"
+      },
+      "answer": "A",
+      "explanation": "La Coupe Michelin fut créée en 1908 par les frères André et Édouard Michelin pour stimuler le développement de l’aviation civile. Elle récompensait les meilleures performances de distance et d’endurance. Ces trophées jouèrent un rôle moteur dans l’essor de l’aviation française de la Belle Époque. La société Michelin, célèbre pour ses pneumatiques, s’intéressa très tôt à l’automobile et à l’aviation comme vecteurs d’innovation technique.\n\nPiège fréquent : Plusieurs coupes aéronautiques historiques à distinguer : Gordon Bennett (vitesse, avions), Schneider (vitesse, hydravions), Michelin (distance et endurance). La coupe Michelin est liée à l’industriel français du pneumatique, créée en 1908.\n\nÀ retenir : Coupe Michelin = 1908, frères Michelin (fabricant de pneus), encourage distance et endurance en vol. Rôle clé dans l’essor de l’aviation française des pionniers.",
+      "expl_id": 4038,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-08",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "Dans les années 1930, les Allemands deviennent les leaders mondiaux dans la construction des planeurs. Ce succès est dû en grande partie :",
+      "image": null,
+      "choices": {
+        "A": "à une absence totale d'approvisionnement en carburant",
+        "B": "à leur industrie du balsa",
+        "C": "à l'interdiction qui leur est imposée de constituer une aviation militaire motorisée après la guerre 14-18",
+        "D": "aux polymères qu'ils utilisent pour alléger les surfaces des voilures"
+      },
+      "answer": "C",
+      "explanation": "Le traité de Versailles (28 juin 1919) imposa à l’Allemagne l’interdiction totale de l’aviation militaire. La Luftstreitkräfte (aviation militaire impériale) fut dissoute et ses appareils détruits ou livrés aux Alliés. Cette clause fut largement contournée pendant les années 1920-1930 : formation secrète de pilotes militaires en URSS (accords de Rapallo) et développement sous couverture civile. La Luftwaffe fut recréée officiellement en 1935 par Hitler, en violation ouverte du traité.\n\nPiège fréquent : Le traité interdisait l’aviation militaire, pas l’aviation civile. L’Allemagne put développer une industrie aéronautique civile (Junkers, Dornier, Heinkel) qui servit de vivier technique et industriel pour la remilitarisation ultérieure.\n\nÀ retenir : Versailles 1919 = interdiction de l’aviation militaire allemande. Luftwaffe recréée en 1935 (Hitler). Contournement via aviation civile et entraînement secret en URSS dans les années 1920.",
+      "expl_id": 4039,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-09",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "Parmi ces avions, celui qui est à décollage vertical est :",
+      "image": null,
+      "choices": {
+        "A": "le F117",
+        "B": "l'Harrier",
+        "C": "le Mirage",
+        "D": "le Tornado"
+      },
+      "answer": "B",
+      "explanation": "Le Hawker Siddeley Harrier est un avion de chasse britannique entré en service en 1969, premier avion de combat opérationnel capable de décollage et atterrissage verticaux (VTOL – Vertical Take-Off and Landing). Il utilise des tuyères orientables (moteur Pegasus) qui dévient le jet vers le bas pour le vol stationnaire, puis vers l’arrière pour le vol conventionnel. Le Harrier fut notamment engagé avec succès lors de la guerre des Malouines (1982, marine britannique).\n\nPiège fréquent : VTOL ≠ hélicoptère. Le Harrier est un avion à voilure fixe capable de vol stationnaire grâce à des tuyères orientables. Son concept a été repris par le F-35B américain (VTOL) et le Yak-38 soviétique. Ne pas confondre avec STOL (décollage court).\n\nÀ retenir : Harrier = premier avion de combat VTOL opérationnel (1969, UK). Tuyères orientables Pegasus. Malouines 1982. Concept repris par le F-35B (USA) et le Yak-38 (URSS).",
+      "expl_id": 4040,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-10",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "Le Tigre est un hélicoptère :",
+      "image": null,
+      "choices": {
+        "A": "américain, complémentaire de l'Apache",
+        "B": "soviétique, symbole de la Guerre froide",
+        "C": "européen, de transport de troupes",
+        "D": "franco-allemand, capable d'effectuer un looping"
+      },
+      "answer": "D",
+      "explanation": "Le Tigre (Tiger en allemand) est un hélicoptère de combat conçu et produit conjointement par la France (Aérospatiale, devenue Airbus Helicopters) et l’Allemagne (MBB, également intégrée dans Airbus Helicopters). Le programme fut lancé dans les années 1980 et l’appareil entra en service en 2005. Il équipe l’armée de terre française (HAP/HAD) et la Bundeswehr allemande (UHT), ainsi que l’Australie et l’Espagne.\n\nPiège fréquent : Le NH90 est aussi un programme multinational européen (OTAN) mais c’est un hélicoptère de transport, pas un appareil d’attaque comme le Tiger. Le Tigre est un hélicoptère de combat antichar et d’appui feu.\n\nÀ retenir : Tiger/Tigre = hélicoptère d’attaque franco-allemand (Airbus Helicopters). En service depuis 2005. France (HAP/HAD) + Allemagne (UHT). Symbole de la coopération de défense européenne.",
+      "expl_id": 4041,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-11",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "La fusée Ariane :",
+      "image": null,
+      "choices": {
+        "A": "a mis sur orbite le satellite français Astérix",
+        "B": "a amené Armstrong sur la Lune",
+        "C": "est un lanceur européen basé à Kourou",
+        "D": "est liée au programme Apollo"
+      },
+      "answer": "C",
+      "explanation": "Le Centre Spatial Guyanais (CSG) de Kourou, en Guyane française (département d’outre-mer, Amérique du Sud), est la base de lancement européenne depuis 1968. Sa situation géographique est idéale : à 5,2° de latitude nord, il est proche de l’équateur. Les fusées bénéficient de la vitesse de rotation de la Terre (~465 m/s à l’équateur) pour rejoindre les orbites géostationnaires avec moins de carburant. La famille Ariane (d’Ariane 1 à Ariane 6) est développée par l’ESA et ArianeGroup.\n\nPiège fréquent : Kourou est en Guyane française (Amérique du Sud), département français – ne pas confondre avec Baïkonour (Kazakhstan, Russie) ni Cape Canaveral (Floride, USA). La Guyane étant française, l’Europe y a sa base de lancement souveraine.\n\nÀ retenir : Ariane = lanceurs européens ESA/ArianeGroup. Base de lancement : Kourou, Guyane française (5°N). Avantage équatorial = économie de carburant pour les orbites GEO.",
+      "expl_id": 4042,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-12",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "Lors de la Première Guerre mondiale, le Fokker DR1 de l'as allemand Manfred Von Richthofen était :",
+      "image": null,
+      "choices": {
+        "A": "un monoplan",
+        "B": "un biplan",
+        "C": "un triplan",
+        "D": "un avion à « empennage canard »"
+      },
+      "answer": "C",
+      "explanation": "Le Fokker Dr.I (Dreidecker = triplan en allemand) est un avion de chasse allemand de la Première Guerre mondiale, caractérisé par ses trois surfaces portantes superposées. Cette configuration offrait une excellente manoeuvrabilité et un fort taux de montée, au prix d’une vitesse maximale plus limitée. Il est indissociable du Baron rouge – Manfred von Richthofen – l’as de l’aviation le plus célèbre de la Grande Guerre avec 80 victoires aériennes homologuées. Von Richthofen fut abattu le 21 avril 1918.\n\nPiège fréquent : Triplan = trois ailes (≠ biplan = deux ailes). Le Fokker Dr.I est allemand (pas français ni britannique). Le surnom « Baron rouge » vient de la couleur rouge vif de son appareil, pas de sa noblesse (bien qu’il fût effectivement baron).\n\nÀ retenir : Fokker Dr.I = triplan allemand WWI. Baron rouge = Manfred von Richthofen, 80 victoires. Dr. = Dreidecker. Abattu le 21 avril 1918. Trois ailes = manoeuvrabilité supérieure.",
+      "expl_id": 4043,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-13",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "Quelle est la première spationaute française ?",
+      "image": null,
+      "choices": {
+        "A": "Jacqueline Auriol",
+        "B": "Claudie Haigneré",
+        "C": "Sophie Adenot",
+        "D": "Adrienne Bolland"
+      },
+      "answer": "B",
+      "explanation": "Claudie Haigneré (née en 1957) est médecin rhumatologue et astronaute CNES/ESA. Elle est la première femme française dans l’espace, lors de la mission Cassiopée en août 1996 à bord de la station Mir (programme franco-russe Aragatz). Elle effectua un second vol en 2001 vers l’ISS lors de la mission Andromède. Parallèlement à sa carrière scientifique, elle fut ministre déléguée à la Recherche et aux Nouvelles Technologies (2002-2004).\n\nPiège fréquent : Ne pas confondre avec Jean-Loup Chrétien (premier Français dans l’espace en 1982) ni avec Thomas Pesquet (récent, Alpha et Proxima). Claudie Haigneré est la première femme française dans l’espace, pas le premier Français tout court.\n\nÀ retenir : Claudie Haigneré = 1re femme française dans l’espace (août 1996, mission Cassiopée, station Mir). Médecin, astronaute ESA, ancienne ministre. Second vol vers l’ISS en 2001.",
+      "expl_id": 4044,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-14",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "Parmi ces fusées, celle qui a inspiré Hergé pour les aventures de Tintin « Objectif Lune » et « On a marché sur la Lune » est la fusée :",
+      "image": null,
+      "choices": {
+        "A": "V1",
+        "B": "Ariane",
+        "C": "V2",
+        "D": "Space X"
+      },
+      "answer": "C",
+      "explanation": "Objectif Lune (1953) et On a marché sur la Lune (1954) sont les deux albums de Tintin consacrés à la conquête lunaire, imaginés par Hergé quinze ans avant qu’Armstrong pose le pied sur la Lune (juillet 1969). La fusée rouge et blanche est devenue une icône de la culture populaire. Ces albums sont remarquables pour leur rigueur scientifique : scaphandres pressurisés, apesanteur, combinaisons spatiales, tout est représenté avec un réalisme impressionnant pour l’époque.\n\nPiège fréquent : Les deux albums forment un diptyque indissociable. Objectif Lune couvre la préparation et le voyage aller ; On a marché sur la Lune traite du séjour lunaire et du retour. La fusée est rouge et blanche. Le professeur Tournesol est le savant génial à l’origine du projet.\n\nÀ retenir : Tintin sur la Lune = Objectif Lune + On a marché sur la Lune (Hergé, 1953-1954). Quinze ans avant Apollo 11. Fusée rouge et blanche. Rigueur scientifique remarquable.",
+      "expl_id": 4045,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-15",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "Qui a effectué la première boucle à bord de son Blériot XI en 1913 et qui préfigurait l'art de l'acrobatie aérienne ?",
+      "image": null,
+      "choices": {
+        "A": "Charles Lindbergh",
+        "B": "Louis Blériot",
+        "C": "Adolphe Pégoud",
+        "D": "Roland Garros"
+      },
+      "answer": "C",
+      "explanation": "Adolphe Pégoud (1889-1915) est un aviateur français qui réalisa le premier looping complet en avion le 21 septembre 1913 sur un Blériot XI, devant 10 000 spectateurs à Juvisy-sur-Orge. Il fut aussi le premier à sauter en parachute depuis un avion en vol (quelques jours auparavant). Durant la Première Guerre mondiale, il devint le premier as de l’aviation française (6 victoires), avant d’être abattu en combat aérien le 31 août 1915.\n\nPiège fréquent : Pégoud cumule deux premières en 1913 : premier saut en parachute depuis un avion ET premier looping. Ne pas confondre ces deux exploits. Il fut aussi le premier as de l’aviation française lors de la WWI.\n\nÀ retenir : Pégoud = premier looping (21 sept. 1913, Blériot XI, Juvisy) + premier saut en parachute depuis un avion. Premier as français WWI (6 victoires). Mort au combat en 1915.",
+      "expl_id": 4046,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-16",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "En 1930, le développement de l'Aéropostale amène Jean Mermoz, aux commandes de l'hydravion Latécoère 28, à traverser pour la première fois :",
+      "image": null,
+      "choices": {
+        "A": "le Pacifique",
+        "B": "l'Atlantique nord",
+        "C": "l'Atlantique sud",
+        "D": "la Cordillère des Andes"
+      },
+      "answer": "C",
+      "explanation": "Le 1er mai 1930, Jean Mermoz (1901-1936) réalise la première traversée aérienne postale de l’Atlantique Sud à bord de l’hydravion Comte de La Vaulx, de Saint-Louis du Sénégal à Natal (Brésil) en 21 heures. Cette liaison, préparée pour l’Aéropostale, permettait d’acheminer le courrier entre l’Europe et l’Amérique du Sud en quelques jours au lieu de semaines par bateau. Mermoz disparaît le 7 décembre 1936 au-dessus de l’Atlantique Sud, à bord du Croix du Sud.\n\nPiège fréquent : Atlantique Nord ≠ Atlantique Sud. Mermoz traverse l’Atlantique Sud (Dakar/Saint-Louis → Natal, Brésil). Lindbergh avait traversé l’Atlantique Nord en 1927 (New York → Paris). Les deux traversées sont historiques mais distinctes.\n\nÀ retenir : Mermoz = Atlantique Sud (1er mai 1930), Saint-Louis/Sénégal → Natal/Brésil, 21h, hydravion Comte de La Vaulx. Aéropostale. Disparaît sur le Croix du Sud en 1936.",
+      "expl_id": 4047,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-17",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "Quelle est la nationalité du premier homme dans l'espace ?",
+      "image": null,
+      "choices": {
+        "A": "Soviétique",
+        "B": "Américaine",
+        "C": "Française",
+        "D": "Anglaise"
+      },
+      "answer": "A",
+      "explanation": "Le 12 avril 1961, le cosmonaute soviétique Youri Gagarine devient le premier être humain dans l’espace, à bord du vaisseau Vostok 1. Son vol dura 1 heure 48 minutes, le temps d’un tour complet de la Terre, à une altitude maximale de 327 km. Cette performance de l’URSS, en pleine Guerre Froide, provoqua un choc aux États-Unis et accéléra la décision de Kennedy de lancer le programme Apollo. Le 12 avril est aujourd’hui la Journée mondiale de l’aviation et de la cosmonautique.\n\nPiège fréquent : Gagarine = premier humain dans l’espace (1961, URSS). Neil Armstrong = premier homme sur la Lune (21 juillet 1969, USA). Alan Shepard = premier Américain dans l’espace (mai 1961, un mois après Gagarine). Trois événements distincts, trois noms à ne pas confondre.\n\nÀ retenir : Gagarine = premier humain dans l’espace (12 avril 1961, URSS, Vostok 1, 1h48, 327 km). Armstrong = premier sur la Lune (21 juillet 1969, Apollo 11). Le 12 avril = Journée mondiale de l’aviation et cosmonautique.",
+      "expl_id": 4048,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-18",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "Entre quelles années s'est déroulé le tour du monde de Solar Impulse ?",
+      "image": "data/images/his2026-q18.png",
+      "choices": {
+        "A": "Entre 2015 et 2016",
+        "B": "Entre 2005 et 2006",
+        "C": "Entre 1995 et 1996",
+        "D": "Entre 1985 et 1986"
+      },
+      "answer": "A",
+      "explanation": "Solar Impulse 2, piloté par les Suisses Bertrand Piccard et André Borschberg en alternance, accomplit le premier tour du monde en avion à énergie solaire entre mars 2015 et juillet 2016 (depuis et vers Abou Dhabi). L’avion, entièrement électrique, était couvert de 17 248 cellules photovoltaïques. Avec 72 m d’envergure (celle d’un Boeing 747) pour seulement 2 300 kg, il démontra la faisabilité technique des vols longue durée à énergie renouvelable.\n\nPiège fréquent : Le tour du monde s’étendit sur plus d’un an avec 17 escales (pas un vol non-stop). Bertrand Piccard est le même aventurier qui réalisa le premier tour du monde en ballon sans escale en 1999 (Breitling Orbiter 3). Solar Impulse 1 était le prototype ; Solar Impulse 2 fit le tour du monde.\n\nÀ retenir : Solar Impulse 2 = premier tour du monde en avion solaire, mars 2015 – juillet 2016, Piccard + Borschberg. 72 m d’envergure, 2 300 kg, 17 248 cellules photovoltaïques, 17 étapes.",
+      "expl_id": 4049,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-19",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "Quel pays a mis sur orbite le premier satellite ?",
+      "image": null,
+      "choices": {
+        "A": "Les États-Unis d'Amérique",
+        "B": "La France",
+        "C": "L'Union Soviétique",
+        "D": "La Grande-Bretagne"
+      },
+      "answer": "C",
+      "explanation": "Le 4 octobre 1957, l’URSS place Spoutnik 1 en orbite depuis Baïkonour, devenant le premier pays à lancer un satellite artificiel. Cette sphère métallique de 58 cm de diamètre et 83 kg émettait un signal radio identifiable pendant 21 jours. L’événement déclencha la « course à l’espace » et provoqua un choc stratégique aux États-Unis, aboutissant à la création de la NASA en 1958 et, à terme, au programme Apollo.\n\nPiège fréquent : Spoutnik 1 = URSS (pas USA). Les États-Unis lancèrent leur premier satellite Explorer 1 le 1er février 1958, quatre mois après Spoutnik. Ne pas confondre Spoutnik (satellite) et Vostok 1 (vaisseau habité de Gagarine, 1961).\n\nÀ retenir : Spoutnik 1 = 4 octobre 1957, URSS, premier satellite artificiel. 58 cm, 83 kg, orbite basse. Déclencheur de la course à l’espace. NASA créée en 1958 en réponse.",
+      "expl_id": 4050,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "his-2026-20",
+      "theme": "histoire",
+      "year": 2026,
+      "question": "La première traversée de la Manche avec un aéronef a été réalisée :",
+      "image": null,
+      "choices": {
+        "A": "en 1785 par Jean-Pierre Blanchard et John Jeffries",
+        "B": "en 1852 par Henry Giffard",
+        "C": "en 1901 par Alberto Santos-Dumont",
+        "D": "en 1909 par Louis Blériot"
+      },
+      "answer": "A",
+      "explanation": "Le 7 janvier 1785, le Français Jean-Pierre Blanchard et l’Américain John Jeffries réalisent la première traversée de la Manche en ballon à hydrogène, de Douvres (Angleterre) à la forêt de Guînes (France), en environ 2h30. Jean-Pierre Blanchard fut l’un des plus grands aéronautes du XVIIIe siècle. Note : la justification dans la grille de correction mentionne par erreur Louis Blériot – il s’agit d’une confusion avec la première traversée de la Manche en avion (Blériot, 25 juillet 1909). La bonne réponse pour 1785 est bien Blanchard et Jeffries.\n\nPiège fréquent : Deux traversées de la Manche distinctes à connaître : Blanchard + Jeffries (1785, ballon à hydrogène, Douvres → Guînes) et Louis Blériot (25 juillet 1909, avion Blériot XI, Calais → Douvres). Deux premières historiques, deux dates, deux moyens différents.\n\nÀ retenir : 1785 = Blanchard + Jeffries = ballon à hydrogène = Douvres → Guînes. 1909 = Blériot = avion = Calais → Douvres. Les deux sont au programme BIA histoire de l’aéronautique.",
+      "expl_id": 4051,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-01",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "En anglais, quel est le terme employé pour désigner la gouverne de direction ?",
+      "image": null,
+      "choices": {
+        "A": "Flaps",
+        "B": "Rudder",
+        "C": "Tail",
+        "D": "Direction system"
+      },
+      "answer": "B",
+      "explanation": "Le rudder est la gouverne de direction, montée sur le plan vertical de l’empennage (fin). Il contrôle les mouvements en lacet (yaw). À ne pas confondre avec l’elevator (gouverne de profondeur, empennage horizontal) ni avec les ailerons (roll). Le terme « flap » désigne les volets hypersustentateurs. « Direction system » n’est pas une dénomination standard.\n\nPiège fréquent : « Tail » désigne l’empennage en général (la queue de l’avion), pas la gouverne de direction spécifiquement. Rudder = gouverne de direction uniquement.\n\nÀ retenir : Rudder = gouverne de direction (lacet/yaw). Elevator = gouverne de profondeur (tangage/pitch). Ailerons = gouvernes de gauchissement (roulis/roll).",
+      "expl_id": 4052,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-02",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "Que comprenez-vous dans ce message concernant une piste : « snow removal is in progress runway one seven » ?",
+      "image": null,
+      "choices": {
+        "A": "La piste 17 est en cours de déneigement",
+        "B": "Le déneigement de la piste 17 a fait des progrès",
+        "C": "La neige a progressé sur la couverture de la piste 17",
+        "D": "La piste 17 est à présent déneigée"
+      },
+      "answer": "A",
+      "explanation": "« Snow removal is in progress » = le déneigement est en cours. « Runway one seven » = piste 17 (les pistes sont désignées par leur cap magnétique arrondi à la dizaine, divisé par dix : 170° → piste 17). Le message indique donc que le déneigement de la piste 17 est actuellement en cours, ce qui signifie que cette piste n’est pas encore disponible ou doit être traitée avec précaution.\n\nPiège fréquent : « In progress » = en cours (et pas « a progressé » ou « est terminé »). La structure « snow removal is in progress » est une construction passive progressive anglaise standard signifiant l’action en train de se dérouler au moment présent.\n\nÀ retenir : « In progress » = en cours. « Runway one seven » = piste 17. « Snow removal » = déneigement. Formule courante dans les ATIS et messages ATC hivernaux.",
+      "expl_id": 4053,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-03",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "En anglais, le terme « runway » désigne :",
+      "image": null,
+      "choices": {
+        "A": "un anneau de vitesse",
+        "B": "un passage rapide",
+        "C": "une piste",
+        "D": "une voie de circulation (taxiway)"
+      },
+      "answer": "C",
+      "explanation": "Runway est l’un des termes fondamentaux de la phraséologie aéronautique anglaise. Il désigne la piste d’un aérodrome, la surface pavée sur laquelle les avions décollent et atterrissent. On l’utilise dans des expressions comme « runway in use » (piste en service), « cleared for takeoff runway two six » (autorisé au décollage piste 26), « runway clear » (piste libre).\n\nPiège fréquent : « Taxiway » = voie de circulation (pour rouler jusqu’à la piste). « Apron » = aire de stationnement. « Runway » = uniquement la piste de décollage/atterrissage, jamais une voie de circulation.\n\nÀ retenir : Runway = piste. Taxiway = voie de circulation. Apron/tarmac = aire de stationnement. Tower = tour de contrôle. Ces quatre termes sont essentiels au BIA anglais.",
+      "expl_id": 4054,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-04",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "Le message radio suivant : « Air France one one six, please contact tower one one eight decimal one », signifie :",
+      "image": null,
+      "choices": {
+        "A": "le vol Air France 118 doit contacter la tour sur la fréquence 116,1",
+        "B": "le vol Air France 116 doit contacter la tour sur la fréquence 118,1",
+        "C": "le vol Air France 116 doit contourner la tour au cap 118 dans une minute",
+        "D": "le vol Air France 116 a un contact avec la tour"
+      },
+      "answer": "B",
+      "explanation": "Décryptage du message : « Air France one one six » = Air France 116 (indicatif du vol). « Please contact tower » = veuillez contacter la tour de contrôle. « One one eight decimal one » = 118,1 MHz (la fréquence radio). En phraséologie anglaise, les fréquences sont lues chiffre par chiffre avec « decimal » pour la virgule. 118,1 se lit « one one eight decimal one ».\n\nPiège fréquent : « One one six » = 116 (indicatif du vol, pas une fréquence). « One one eight decimal one » = 118,1 MHz (la fréquence). Ne pas confondre le numéro de vol et la fréquence dans le même message.\n\nÀ retenir : « Contact tower [fréquence] » = changez de fréquence et appelez la tour. « Decimal » = virgule dans les fréquences. Fréquences VHF aéro = entre 118,0 et 136,975 MHz.",
+      "expl_id": 4055,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-05",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "La traduction de « Aligné piste 25, prêt au décollage » s'écrit :",
+      "image": null,
+      "choices": {
+        "A": "holding short runway five, ready for take off",
+        "B": "clear for take off on runway five",
+        "C": "straight runway two five clear for take off",
+        "D": "lined up runway two five, ready for take off"
+      },
+      "answer": "D",
+      "explanation": "« Lined up » signifie « aligné sur la piste » (l’avion est positionné sur l’axe de la piste, prêt à décoller). « Runway two five » = piste 25. « Ready for take off » = prêt au décollage. Cette formule est le compte rendu standard d’un pilote qui vient de s’aligner sur la piste en attendant l’autorisation de décollage. La réponse A (« holding short ») signifie « en attente avant la piste », ce qui est différent.\n\nPiège fréquent : « Holding short » = en attente avant le seuil de piste (l’avion n’est pas encore sur la piste). « Lined up » = l’avion est aligné sur la piste. « Cleared for take off » = autorisation de décollage donnée par le contrôle (formule ATC, pas pilote).\n\nÀ retenir : Lined up = aligné sur la piste. Holding short = en attente avant la piste. Ready for take off = prêt au décollage (pilote → contrôle). Cleared for take off = autorisé au décollage (contrôle → pilote).",
+      "expl_id": 4056,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-06",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "Choose the good proposition for « glider » :",
+      "image": null,
+      "choices": {
+        "A": "c'est un dispositif permettant d'empêcher le givrage du carburateur",
+        "B": "c'est un dispositif d'atterrissage aux instruments",
+        "C": "c'est une commande de vol",
+        "D": "c'est un planeur"
+      },
+      "answer": "D",
+      "explanation": "Un glider est un planeur, c’est-à-dire un aéronef à voilure fixe sans moteur (ou avec un moteur d’appoint escamotable pour les motoplaneurs). Il vole en exploitant les courants ascendants thermiques et dynamiques. « To glide » = planer, descendre en vol plané. Le terme « sailplane » est aussi utilisé pour les planeurs de haute performance.\n\nPiège fréquent : Ne pas confondre glider (planeur) avec « glide slope » (plan de descente ILS) ni avec « gliding ratio » (finesse). « Glider pilot » = pilote de planeur. Les pilotes de planeurs ont leur propre licence (SPL – Sailplane Pilot Licence).\n\nÀ retenir : Glider = planeur. To glide = planer / voler en vol plané. Glide ratio = finesse (rapport distance/altitude perdue). Motorglider = motoplaneur.",
+      "expl_id": 4057,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-07",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "Les aérofreins sont appelés :",
+      "image": null,
+      "choices": {
+        "A": "airflow controlers",
+        "B": "windbrakes",
+        "C": "airbrakes / spoilers",
+        "D": "windbrakes"
+      },
+      "answer": "C",
+      "explanation": "Les aérofreins (ou déporteurs) se nomment airbrakes ou spoilers en anglais. Ce sont des surfaces mobiles qui, déployées, augmentent la traînée et/ou détruisent la portance (d’où « spoiler » = perturbateur). Sur les avions de ligne, les spoilers sont utilisés à l’atterrissage pour freiner et plaquer l’avion au sol. Sur les planeurs, les aérofreins contrôlent la pente de descente. « Wingbrakes » et « windbrakes » ne sont pas des termes aéronautiques standard.\n\nPiège fréquent : Airbrakes ≠ brakes (freins de roues = wheel brakes). Les airbrakes agissent sur l’air (aérodynamique), les wheel brakes agissent sur les roues (mécanique). Les deux sont utilisés conjointement à l’atterrissage.\n\nÀ retenir : Airbrakes / spoilers = aérofreins. Flaps = volets hypersustentateurs. Slats = becs de bord d’attaque. Wheel brakes = freins de roues. Thrust reversers = inverseurs de poussée.",
+      "expl_id": 4058,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-08",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "L'axe sur lequel l'avion monte ou descend s'appelle :",
+      "image": null,
+      "choices": {
+        "A": "rolling",
+        "B": "pitching",
+        "C": "banking",
+        "D": "yawing"
+      },
+      "answer": "B",
+      "explanation": "Les trois axes de rotation d’un avion sont fondamentaux. Le tangage (nez qui monte ou descend) = pitch / pitching, contrôlé par l’elevator. Le roulis (inclinaison latérale) = roll / rolling, contrôlé par les ailerons. Le lacet (rotation autour de l’axe vertical) = yaw / yawing, contrôlé par le rudder. Ces trois axes sont perpendiculaires entre eux et se croisent au centre de gravité de l’avion.\n\nPiège fréquent : « Rolling » = roulis (inclinaison ailes gauche/droite, pas le mouvement de nez). « Yawing » = lacet (rotation autour de l’axe vertical). « Banking » est parfois utilisé comme synonyme de rolling en anglais familier, mais l’axe officiel est « roll axis ».\n\nÀ retenir : Pitch = tangage (nez haut/bas, axe transversal Y). Roll = roulis (inclinaison latérale, axe longitudinal X). Yaw = lacet (rotation cap, axe vertical Z). Elevator → pitch. Ailerons → roll. Rudder → yaw.",
+      "expl_id": 4059,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-09",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "Les « strobe lights » sont :",
+      "image": null,
+      "choices": {
+        "A": "les feux de brouillard",
+        "B": "les feux d'atterrissage",
+        "C": "les feux de navigation",
+        "D": "les feux à éclat"
+      },
+      "answer": "D",
+      "explanation": "Les strobe lights sont les feux à éclat à haute intensité (feux stroboscopiques), montés aux extrémités des ailes et parfois à la queue. Ils émettent des éclats lumineux intenses et intermittents, visibles de très loin, permettant l’identification visuelle de l’avion en vol. Ils sont allumés dès l’entrée sur la piste et éteints à la sortie. Les « navigation lights » (feux de position) sont les feux fixes vert (droite), rouge (gauche) et blanc (queue).\n\nPiège fréquent : Landing lights = projecteurs d’atterrissage (faisceaux puissants orientés vers l’avant). Navigation lights = feux de position fixes (rouge, vert, blanc). Strobe lights = feux à éclat intermittents (très haute visibilité). Trois types de feux distincts.\n\nÀ retenir : Strobe lights = feux à éclat (stroboscopiques, intermittents, haute intensité). Navigation lights = feux de position (rouge gauche, vert droite, blanc arrière). Landing lights = phares d’atterrissage.",
+      "expl_id": 4060,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-10",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "L'anémomètre est appelé :",
+      "image": null,
+      "choices": {
+        "A": "speedmaster",
+        "B": "airspeed indicator",
+        "C": "speedtachymeter",
+        "D": "vertical speed indicator"
+      },
+      "answer": "B",
+      "explanation": "L’airspeed indicator (ASI) est l’instrument qui mesure la vitesse de l’avion par rapport à la masse d’air (vitesse indiquée, IAS). Il fonctionne en comparant la pression totale (tube de Pitot) et la pression statique. C’est l’un des trois instruments du « triangle de base » avec l’altimètre et le variomètre. « Vertical speed indicator » = variomètre (taux de montée/descente). « Speedmaster » et « speedtachymeter » ne sont pas des termes aéronautiques.\n\nPiège fréquent : ASI mesure la vitesse AIR (IAS), pas la vitesse sol (GS – Ground Speed). Par vent de face, la vitesse sol est inférieure à la vitesse air. C’est la vitesse air qui conditionne la portance et les limites structurales de l’avion.\n\nÀ retenir : Airspeed Indicator (ASI) = anémomètre = vitesse air (IAS). Altimeter = altimètre. Variometer / VSI (Vertical Speed Indicator) = variomètre. Compass = compas / boussole.",
+      "expl_id": 4061,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-11",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "Les tourbillons marginaux sont réduits par l'utilisation de :",
+      "image": null,
+      "choices": {
+        "A": "tailets",
+        "B": "winglets",
+        "C": "slats",
+        "D": "stabilions"
+      },
+      "answer": "B",
+      "explanation": "Les winglets (appelés aussi « sharklets » sur Airbus) sont des extensions verticales ou inclinées placées aux extrémités des ailes. Ils réduisent les tourbillons marginaux (vortex de bout d’aile) générés par la différence de pression entre l’intrados et l’extrados. En limitant ces tourbillons, les winglets diminuent la traînée induite et améliorent la finesse de l’avion, ce qui réduit la consommation de carburant de 3 à 5% sur les longs courriers.\n\nPiège fréquent : « Winglets » ne sont pas des volets ni des aérofreins. Ce sont des extensions passives (sans commande de vol) dont la seule fonction est de réduire les vortex de bout d’aile et donc la traînée induite. « Slats » = becs de bord d’attaque (hypersustentation).\n\nÀ retenir : Winglets = réducteurs de tourbillons marginaux (vortex de bout d’aile). Réduction de traînée induite = économie carburant 3-5%. Présents sur Boeing 737 MAX, Airbus A320neo, A350, etc.",
+      "expl_id": 4062,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-12",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "Le terme « steerable nose wheel » désigne :",
+      "image": null,
+      "choices": {
+        "A": "une roulette de nez fixe",
+        "B": "une roulette de queue orientable",
+        "C": "une roulette de nez orientable",
+        "D": "le pneu avant orientable"
+      },
+      "answer": "C",
+      "explanation": "Décryptage terme par terme : « nose » = nez (avant de l’avion). « Wheel » = roue / roulette. « Steerable » = orientable, qui peut être dirigé. La roulette de nez orientable (nose wheel steering) permet de diriger l’avion lors des déplacements au sol (roulage). Elle est commandée par les palonniers dans le cockpit. Sans ce système, la direction au sol serait assurée uniquement par le freinage différentiel des roues principales.\n\nPiège fréquent : « Nose wheel » = roulette de nez (train tricycle). « Tail wheel » = roulette de queue (train classique/conventionnel). « Steerable » ≠ fixe (fixed). Une roulette de nez fixe ne permet pas la direction au sol.\n\nÀ retenir : Steerable = orientable. Nose = nez. Wheel = roue. Steerable nose wheel = roulette de nez orientable. Tail wheel = roulette de queue (avions à train classique).",
+      "expl_id": 4063,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-13",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "Le terme anglais employé pour désigner la gouverne de profondeur est :",
+      "image": null,
+      "choices": {
+        "A": "ailerons",
+        "B": "elevator",
+        "C": "flaps",
+        "D": "gear"
+      },
+      "answer": "B",
+      "explanation": "L’elevator (de l’anglais « to elevate » = élever) est la gouverne de profondeur, montée sur le plan horizontal de l’empennage. Elle contrôle le tangage (pitch) : nez en haut ou en bas. Les « ailerons » contrôlent le roulis (roll), montés sur les ailes. Les « flaps » sont les volets hypersustentateurs de bord de fuite. « Gear » désigne le train d’atterrissage (landing gear).\n\nPiège fréquent : Elevator ≠ aileron. L’elevator est à l’arrière (empennage horizontal) et commande le tangage. Les ailerons sont sur les ailes et commandent le roulis. « Flaps » sont aussi sur les ailes mais ne commandent pas un axe de rotation – ils modifient la portance.\n\nÀ retenir : Elevator = gouverne de profondeur (tangage). Ailerons = gouvernes de gauchissement (roulis). Rudder = gouverne de direction (lacet). Flaps = volets hypersustentateurs (pas une gouverne de vol).",
+      "expl_id": 4064,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-14",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "En anglais aéronautique, le terme « clearance » signifie :",
+      "image": null,
+      "choices": {
+        "A": "nettoyage d'une piste",
+        "B": "autorisation",
+        "C": "ciel dégagé",
+        "D": "éclairage d'une piste"
+      },
+      "answer": "B",
+      "explanation": "En phraséologie aéronautique, clearance signifie autorisation donnée par le contrôle aérien. « Cleared for take off » = autorisé au décollage. « Cleared to land » = autorisé à atterrir. « Cleared through controlled airspace » = autorisé à traverser l’espace aérien contrôlé. « IFR clearance » = autorisation de vol aux instruments. Le terme vient de « to clear » = libérer, dégager, autoriser le passage.\n\nPiège fréquent : Clearance ≠ « nettoyage » (qui se dit « cleaning » ou « sweeping »). En dehors de l’aéronautique, « clearance » peut signifier liquidation (soldes) ou habilitation de sécurité – mais en phraséologie radio, c’est toujours une autorisation.\n\nÀ retenir : Clearance = autorisation ATC. « Cleared for… » = « autorisé à… ». C’est le mot-clé qui précède toute autorisation dans la phraséologie OACI. Sans clearance = sans autorisation = interdit.",
+      "expl_id": 4065,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-15",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "Il est fréquent que lors d'échanges avec les organismes de contrôle aérien, les membres d'équipage répondent « wilco », ceci signifie :",
+      "image": null,
+      "choices": {
+        "A": "demande de changement de fréquence",
+        "B": "votre message a été compris et sera exécuté",
+        "C": "nous allons nous diriger vers le point de report WILCO (qui existe sur tous les aéroports internationaux)",
+        "D": "merci de répéter votre message"
+      },
+      "answer": "B",
+      "explanation": "Wilco est une contraction de « will comply » (je vais me conformer, j’exécute). C’est un accusé de réception qui confirme non seulement que le message a été reçu, mais aussi que les instructions seront suivies. En phraséologie OACI, « Roger » signifie simplement « message bien reçu » (sans engagement d’exécution), tandis que « Wilco » = « reçu ET je l’exécute ». À n’utiliser que pour des instructions ATC, pas pour des informations.\n\nPiège fréquent : Roger ≠ Wilco. Roger = « j’ai bien reçu votre message » (confirmation de réception). Wilco = « reçu ET j’exécute » (confirmation d’exécution). Dire « Roger Wilco » est un pléonasme – en pratique les pilotes disent l’un ou l’autre.\n\nÀ retenir : Wilco = « will comply » = reçu, j’exécute. Roger = reçu (sans engagement). Affirm = oui. Negative = non. Say again = répétez. Ces cinq termes sont la base de la phraséologie radio OACI.",
+      "expl_id": 4066,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-16",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "En anglais, l'expression « prêt au décollage, piste 12 » se dit :",
+      "image": null,
+      "choices": {
+        "A": "stand by to take off runway one two",
+        "B": "holding short take off runway twelve",
+        "C": "ready for take off runway one two",
+        "D": "clear for take off runway twelve"
+      },
+      "answer": "C",
+      "explanation": "« Ready for take off » = prêt au décollage. « Runway twelve » = piste 12. Cette formule est le compte rendu du pilote qui demande ou confirme sa disponibilité pour le décollage. « Stand by to take off » signifierait « attendez avant de décoller » (instruction du contrôle). « Holding short » = en attente avant la piste (l’avion n’est pas encore en position). « Cleared for take off » = autorisation de décollage (vient du contrôle, pas du pilote).\n\nPiège fréquent : « Cleared for take off » = le contrôle autorise le décollage (pas le pilote qui se déclare prêt). « Ready for take off » = le pilote se déclare prêt (demande ou confirmation). Direction du message inverse selon la formule.\n\nÀ retenir : Ready for take off = prêt au décollage (pilote → contrôle). Cleared for take off = autorisé au décollage (contrôle → pilote). Holding short runway = en attente avant piste. Lined up = aligné sur piste.",
+      "expl_id": 4067,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-17",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "Le terme permettant de désigner un vent de travers est :",
+      "image": null,
+      "choices": {
+        "A": "back wind",
+        "B": "side wind",
+        "C": "crosswind",
+        "D": "horizontal gust"
+      },
+      "answer": "C",
+      "explanation": "Le crosswind est le vent de travers, c’est-à-dire un vent dont la direction est perpendiculaire (ou oblique) à l’axe de la piste. Il est particulièrement difficile à gérer lors des décollages et atterrissages car il tend à déporter l’avion latéralement. Chaque avion a une composante vent de travers maximale démontrable (demo crosswind limit). « Headwind » = vent de face. « Tailwind » = vent arrière. « Side wind » n’est pas une expression standard de la phraséologie OACI.\n\nPiège fréquent : « Side wind » n’est pas une expression standard OACI (même si compréhensible). Le terme officiel est « crosswind ». « Back wind » n’existe pas en aéronautique. « Horizontal gust » désigne une rafale horizontale (pas une direction).\n\nÀ retenir : Crosswind = vent de travers. Headwind = vent de face (favorable au décollage/atterrissage). Tailwind = vent arrière (défavorable). Windshear = cisaillement de vent.",
+      "expl_id": 4068,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-18",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "En anglais, le terme « Maximum Take Off Weight » signifie :",
+      "image": null,
+      "choices": {
+        "A": "masse maximale à vide de l'avion",
+        "B": "masse maximale au décollage",
+        "C": "masse maximale embarquée par l'avion pour pouvoir décoller",
+        "D": "poids maximal supportable par la piste au moment du décollage"
+      },
+      "answer": "B",
+      "explanation": "Le MTOW (Maximum Take-Off Weight, ou MTOM en masse – Maximum Take-Off Mass) est la masse maximale certifiée pour le décollage. C’est une limitation structurale et aérodynamique : au-delà de cette valeur, l’avion ne peut garantir ses performances de décollage ni la résistance de sa structure. Pour un Airbus A320, le MTOW est d’environ 78,2 tonnes. « Maximum Ramp Weight » est la masse maximale au sol (légèrement supérieure, inclut le carburant taxi).\n\nPiège fréquent : MTOW ≠ masse à vide (OEW – Operating Empty Weight). MTOW = masse maximale AU décollage (plein carburant + passagers + fret + équipage). C’est une limite absolue certifiée par les autorités aériennes.\n\nÀ retenir : MTOW = Maximum Take-Off Weight = masse maximale au décollage. OEW = Operating Empty Weight = masse à vide. MLW = Maximum Landing Weight = masse maximale à l’atterrissage (souvent inférieure au MTOW).",
+      "expl_id": 4069,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-19",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "Les 3 axes autour desquels un avion peut se mouvoir sont les axes de roulis, tangage et lacet. En anglais et dans l'ordre, il s'agit de :",
+      "image": null,
+      "choices": {
+        "A": "pitch, yaw, roll",
+        "B": "roll, tangy, turn",
+        "C": "roll, pitch, yaw",
+        "D": "roll, hill, turn"
+      },
+      "answer": "C",
+      "explanation": "Les trois axes de rotation d’un avion : roll = roulis (axe longitudinal, ailes qui s’inclinent, commandé par les ailerons). Pitch = tangage (axe transversal, nez qui monte ou descend, commandé par l’elevator). Yaw = lacet (axe vertical, nez qui tourne à gauche ou droite, commandé par le rudder). Cette terminologie triptyque est universelle en aéronautique internationale.\n\nPiège fréquent : L’ordre canonique est roll-pitch-yaw (pas pitch-roll-yaw). « Tang, tango » n’existent pas comme termes d’axe. « Hill, turn » non plus. Seule la combinaison roll-pitch-yaw est correcte.\n\nÀ retenir : Roll = roulis (ailerons). Pitch = tangage (elevator). Yaw = lacet (rudder). Mémo : RPY (Roll, Pitch, Yaw). Les gouvernes correspondantes : ailerons → roll, elevator → pitch, rudder → yaw.",
+      "expl_id": 4070,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
+    },
+    {
+      "id": "ang-2026-20",
+      "theme": "anglais",
+      "year": 2026,
+      "question": "Pendant un essai radio, la tour de contrôle vous répond : « Loud and clear ». Cela signifie que :",
+      "image": null,
+      "choices": {
+        "A": "le volume de votre radio est trop élevé",
+        "B": "il est clair que votre radio ne fonctionne pas",
+        "C": "votre émission radio est hachée",
+        "D": "la tour de contrôle vous reçoit cinq sur cinq"
+      },
+      "answer": "D",
+      "explanation": "« Loud and clear » = cinq sur cinq (fort et clair). C’est la réponse à un essai radio (radio check) indiquant que le signal est reçu avec une intensité maximale et une intelligibilité parfaite. L’échelle de lisibilité radio va de 1 à 5 : 5/5 = signal fort et parfaitement intelligible. En français, la formulation équivalente lors d’un essai radio est « cinq sur cinq » ou « fort et clair ». La formule anglaise complète est « I read you five by five ».\n\nPiège fréquent : « Loud and clear » n’indique PAS que le volume est trop fort – au contraire, c’est la meilleure réponse possible à un essai radio. Si le volume était trop fort et déformé, la réponse serait « strong but unreadable » ou « five by one ».\n\nÀ retenir : Loud and clear = 5/5 = cinq sur cinq (fort et clair, meilleure réception). Radio check = essai radio (formule pour vérifier la liaison). « How do you read me? » = « Quel est votre niveau de réception ? »",
+      "expl_id": 4071,
+      "source": "BIA 2026 — corrigé vérifié horizonbia.com"
     }
   ]
 }
